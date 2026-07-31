@@ -50,7 +50,8 @@ def _boletim_para_evento(boletim: BoletimEvento, indice: int) -> Evento:
 
     municipio = localizacao["municipio"]
     estado = localizacao["estado"]
-    latitude, longitude = geocodificar(municipio, estado)
+    bairro_ou_zona = localizacao.get("bairro_ou_zona")
+    latitude, longitude = geocodificar(municipio, estado, bairro_ou_zona)
 
     severidade = _severidade_heuristica(boletim.titulo, boletim.resumo)
     data_ocorrencia = _parsear_data(boletim.data_texto)
@@ -82,32 +83,14 @@ def _evento_para_feature(evento: Evento) -> dict:
     }
 
 
-def _carregar_historico() -> list[dict]:
-    if not DATA_PATH.exists():
-        return []
-    try:
-        with open(DATA_PATH, encoding="utf-8") as f:
-            geojson_existente = json.load(f)
-        return geojson_existente.get("features", [])
-    except (json.JSONDecodeError, OSError) as e:
-        logger.warning(
-            "Não foi possível ler o histórico existente em %s (%s). Iniciando do zero.",
-            DATA_PATH,
-            e,
-        )
-        return []
-
-
 def gerar_eventos_reais() -> dict:
     logger.info("Iniciando pipeline de geração de eventos reais")
 
-    features_existentes = _carregar_historico()
-    urls_existentes = {
-        feature["properties"]["url"]
-        for feature in features_existentes
-        if feature.get("properties", {}).get("url")
-    }
-    logger.info("Eventos já existentes no histórico: %d", len(features_existentes))
+    # O histórico gerado antes da extração de bairro/zona tem todas as coordenadas
+    # concentradas no centro do Rio (fallback genérico), então não faz sentido mesclar
+    # com ele. Descartamos o eventos_reais.geojson existente e reprocessamos todos os
+    # boletins do zero com a nova extração de localização.
+    urls_existentes: set[str] = set()
 
     boletins = coletar_boletins()
     climaticos = filtrar_eventos_climaticos(boletins)
@@ -131,21 +114,15 @@ def gerar_eventos_reais() -> dict:
             continue
 
     logger.info(
-        "Novos eventos: %d | Duplicados (já existiam): %d | Falhas: %d",
+        "Novos eventos: %d | Duplicados (nesta mesma execução): %d | Falhas: %d",
         len(novos_eventos),
         duplicados,
         falhas,
     )
 
-    novas_features = [_evento_para_feature(evento) for evento in novos_eventos]
-    features_combinadas = features_existentes + novas_features
+    features_combinadas = [_evento_para_feature(evento) for evento in novos_eventos]
 
-    logger.info(
-        "Histórico final: %d existentes + %d novos = %d eventos salvos",
-        len(features_existentes),
-        len(novas_features),
-        len(features_combinadas),
-    )
+    logger.info("Histórico final (reprocessado do zero): %d eventos salvos", len(features_combinadas))
 
     geojson = {"type": "FeatureCollection", "features": features_combinadas}
 

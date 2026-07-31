@@ -137,17 +137,24 @@ Resiliência da cidade do Rio de Janeiro).
 Título: {titulo}
 Descrição: {resumo}
 
-Extraia o município e o estado (UF) mencionados no texto.
+Extraia o município, o estado (UF) e, se possível, o bairro ou zona mencionados no texto.
 
 Responda APENAS em JSON, no formato:
-{{"municipio": "...", "estado": "..."}}
+{{"municipio": "...", "estado": "...", "bairro_ou_zona": "..." ou null}}
 
 Regras:
-- Se o texto mencionar um bairro, zona (ex: "Zona Oeste", "Zona Sul") ou região da
-  cidade do Rio de Janeiro, o município é "Rio de Janeiro" e o estado é "RJ".
-- Se o texto não mencionar nenhuma cidade específica, responda
-  {{"municipio": "Rio de Janeiro", "estado": "RJ"}}, pois a fonte é focada na
-  cidade do Rio de Janeiro.
+- Se o texto mencionar uma zona da cidade (ex: "Zona Oeste", "Zona Sul", "Zona Norte",
+  "Zona Central" ou "Centro"), capture essa zona em "bairro_ou_zona".
+- Se o texto mencionar um bairro específico (ex: "Recreio", "Tijuca", "Copacabana",
+  "Barra da Tijuca"), capture o bairro em vez da zona em "bairro_ou_zona" — o bairro é
+  mais preciso para geolocalização do que a zona.
+- Se o texto mencionar um bairro, zona ou região da cidade do Rio de Janeiro, o
+  município é "Rio de Janeiro" e o estado é "RJ".
+- Se o texto não mencionar nenhuma cidade específica, responda com
+  "municipio": "Rio de Janeiro" e "estado": "RJ", pois a fonte é focada na cidade
+  do Rio de Janeiro.
+- Se o texto não mencionar nenhum bairro ou zona específico, responda
+  "bairro_ou_zona": null. Nunca invente um bairro ou zona que não esteja no texto.
 - Nunca invente uma cidade que não esteja implícita no texto."""
 
     try:
@@ -161,11 +168,12 @@ Regras:
 
         municipio = dados.get("municipio") or "Rio de Janeiro"
         estado = dados.get("estado") or "RJ"
+        bairro_ou_zona = dados.get("bairro_ou_zona") or None
 
-        return {"municipio": municipio, "estado": estado}
+        return {"municipio": municipio, "estado": estado, "bairro_ou_zona": bairro_ou_zona}
     except Exception as e:
         logger.error("Erro ao extrair localização com Gemini: %s", e)
-        return {"municipio": "Rio de Janeiro", "estado": "RJ"}
+        return {"municipio": "Rio de Janeiro", "estado": "RJ", "bairro_ou_zona": None}
 
 
 if __name__ == "__main__":

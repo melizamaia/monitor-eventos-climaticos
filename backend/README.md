@@ -30,20 +30,36 @@ app/
 ├── scrapers/
 │   └── cor_rio_scraper.py
 ├── processing/
+│   ├── geocoding.py
+│   └── pipeline.py
 ├── ai/
 │   └── gemini_client.py
 ├── models/
 │   └── evento.py
 └── data/
-    └── eventos_mock.geojson
+    ├── eventos_mock.geojson
+    └── eventos_reais.geojson
 ```
+
+## Coleta de dados (COR-Rio)
+
+A coleta é feita com um cliente HTTP simples (`requests`), consumindo a REST API
+pública do WordPress do COR-Rio (`https://cor.rio/wp-json/wp/v2/posts`), filtrando
+por categorias relevantes (`Previsão do Tempo`, `Alagamentos`, `Estágios`).
+
+> **Nota técnica:** a página `/boletins/` do site não tem paginação real — o post
+> type "boletim" tem apenas 2 posts em toda a história do site, e
+> `/boletins/page/2/` retorna 404. O conteúdo de eventos climáticos está, na
+> prática, no blog geral do site, exposto via API JSON com paginação nativa e
+> confiável. Isso tornou desnecessária a automação de navegador (Selenium) para
+> esta coleta.
 
 ## Status atual
 
-- [x] Endpoint `/eventos` servindo dados mockados
-- [x] Scraper COR-Rio (Selenium)
-- [x] Cliente Gemini (resumo + classificação)
-- [ ] Pipeline pandas/geopandas ligando scraper -> IA -> GeoJSON real
+- [x] Coleta de boletins via REST API do WordPress (COR-Rio)
+- [x] Classificação e extração de localização (município/estado/bairro-zona) via Gemini
+- [x] Geocoding por bairro/zona (Nominatim), com fallback para o centro do Rio
+- [x] Pipeline ligando coleta -> IA -> geocoding -> GeoJSON real, servido pela API
 - [ ] SQLite como storage (v1.1)
 
 ## Variáveis de ambiente necessárias

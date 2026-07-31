@@ -22,21 +22,27 @@ _geolocator = Nominatim(user_agent=USER_AGENT)
 _cache: dict[str, tuple[float, float]] = {}
 
 
-def geocodificar(municipio: str, estado: str) -> tuple[float, float]:
-    chave = f"{municipio.strip().lower()}, {estado.strip().lower()}"
+def geocodificar(
+    municipio: str, estado: str, bairro_ou_zona: str | None = None
+) -> tuple[float, float]:
+    chave = f"{(bairro_ou_zona or '').strip().lower()}, {municipio.strip().lower()}, {estado.strip().lower()}"
 
     if chave in _cache:
         return _cache[chave]
 
+    if bairro_ou_zona:
+        query = f"{bairro_ou_zona}, {municipio}, {estado}, Brasil"
+    else:
+        query = f"{municipio}, {estado}, Brasil"
+
     try:
-        localizacao = _geolocator.geocode(f"{municipio}, {estado}, Brasil", timeout=10)
+        localizacao = _geolocator.geocode(query, timeout=10)
         time.sleep(1)  # respeita o limite de uso justo do Nominatim (1 req/s)
 
         if localizacao is None:
             logger.warning(
-                "Não foi possível geocodificar '%s, %s'. Usando coordenadas padrão do Rio de Janeiro.",
-                municipio,
-                estado,
+                "Não foi possível geocodificar '%s'. Usando coordenadas padrão do Rio de Janeiro.",
+                query,
             )
             coordenadas = COORDENADAS_PADRAO
         else:
@@ -44,9 +50,8 @@ def geocodificar(municipio: str, estado: str) -> tuple[float, float]:
 
     except GeopyError as e:
         logger.warning(
-            "Erro ao geocodificar '%s, %s': %s. Usando coordenadas padrão do Rio de Janeiro.",
-            municipio,
-            estado,
+            "Erro ao geocodificar '%s': %s. Usando coordenadas padrão do Rio de Janeiro.",
+            query,
             e,
         )
         coordenadas = COORDENADAS_PADRAO
