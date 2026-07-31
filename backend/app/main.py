@@ -21,13 +21,16 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-DATA_PATH = Path(__file__).parent / "data" / "eventos_mock.geojson"
+DATA_DIR = Path(__file__).parent / "data"
+DATA_PATH_REAL = DATA_DIR / "eventos_reais.geojson"
+DATA_PATH_MOCK = DATA_DIR / "eventos_mock.geojson"
 
 
 def carregar_eventos() -> dict:
-    if not DATA_PATH.exists():
+    caminho = DATA_PATH_REAL if DATA_PATH_REAL.exists() else DATA_PATH_MOCK
+    if not caminho.exists():
         raise HTTPException(status_code=404, detail="Arquivo de eventos não encontrado")
-    with open(DATA_PATH, encoding="utf-8") as f:
+    with open(caminho, encoding="utf-8") as f:
         return json.load(f)
 
 

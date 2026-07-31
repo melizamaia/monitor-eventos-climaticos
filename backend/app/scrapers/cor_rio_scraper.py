@@ -1,31 +1,59 @@
 """
-Scraper RPA (Selenium) do COR-Rio — Centro de Operações e Resiliência.
-Fonte: https://cor.rio/boletins/
+Cliente do COR-Rio — Centro de Operações e Resiliência.
+Fonte: REST API do WordPress (https://cor.rio/wp-json/wp/v2/posts).
+
+Antes este módulo usava Selenium para raspar a página /boletins/, mas o
+post type "boletim" tem apenas 2 posts em toda a história do site, e
+/boletins/page/2/ retorna 404 (não há paginação real ali). O conteúdo
+real de eventos climáticos vive no blog geral do site, em categorias
+específicas ("Previsão do Tempo", "Estágios", "Alagamentos") que somam
+milhares de posts e são atualizadas diariamente. A REST API do WordPress
+expõe esse conteúdo diretamente em JSON, com paginação nativa e confiável
+(parâmetros page/per_page), então não é mais necessário automatizar um
+navegador para esta coleta.
 """
 
 from __future__ import annotations
 
 import logging
+import re
 import time
 from dataclasses import asdict, dataclass
 
-from selenium import webdriver
-from selenium.common.exceptions import TimeoutException
-from selenium.webdriver.chrome.options import Options
-from selenium.webdriver.common.by import By
-from selenium.webdriver.support import expected_conditions as EC
-from selenium.webdriver.support.ui import WebDriverWait
+import requests
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s")
 logger = logging.getLogger(__name__)
 
-URL_BOLETINS = "https://cor.rio/boletins/"
+BASE_URL = "https://cor.rio/wp-json/wp/v2/posts"
+
+# IDs das categorias do WordPress relacionadas a eventos climáticos.
+# Ver GET https://cor.rio/wp-json/wp/v2/categories
+CATEGORIAS_CLIMA = {
+    29: "Previsão do Tempo",
+    32: "Alagamentos",
+    44: "Estágios",
+}
 
 PALAVRAS_CHAVE_CLIMA = [
     "chuva", "chuvas", "temporal", "ventania", "vento forte", "rajada",
     "tornado", "granizo", "alagamento", "enchente", "inundação",
     "deslizamento", "risco de temporal", "estágio de mobilização",
+    "estágio", "calor extremo", "onda de calor", "protocolo de calor",
 ]
+
+# O Alerta Rio publica boletins diários de previsão do tempo que sempre
+# citam "chuva", mesmo quando a mensagem é justamente que NÃO vai chover
+# (ex.: "sem previsão de chuva"). Sem isso, ~60% dos boletins de rotina
+# seriam tratados como eventos climáticos. Removemos essas menções
+# negadas antes de checar as palavras-chave, mas mantemos qualquer outro
+# sinal positivo (ex.: "ventos fortes") que apareça no mesmo texto.
+PADRAO_CHUVA_NEGADA = re.compile(
+    r"(sem|n[ãa]o\s+h[áa])\s+"
+    r"(previs[ãa]o\s+de\s+|possibilidade\s+de\s+|ocorr[êe]ncia\s+de\s+)?"
+    r"chuvas?",
+    re.IGNORECASE,
+)
 
 
 @dataclass
@@ -38,77 +66,86 @@ class BoletimEvento:
 
     def menciona_evento_climatico(self) -> bool:
         texto = f"{self.titulo} {self.resumo}".lower()
+        texto = PADRAO_CHUVA_NEGADA.sub(" ", texto)
         return any(palavra in texto for palavra in PALAVRAS_CHAVE_CLIMA)
 
 
-def _criar_driver(headless: bool = True) -> webdriver.Chrome:
-    options = Options()
-    if headless:
-        options.add_argument("--headless=new")
-    options.add_argument("--no-sandbox")
-    options.add_argument("--disable-dev-shm-usage")
-    options.add_argument("--disable-gpu")
-    options.add_argument("--window-size=1920,1080")
-    options.add_argument(
-        "user-agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 "
-        "(KHTML, like Gecko) Chrome/126.0 Safari/537.36"
-    )
-
-    # Selenium 4 já inclui o "Selenium Manager", que baixa e gerencia
-    # automaticamente a versão correta do ChromeDriver para o Chrome/Chromium
-    # instalado na máquina — não é preciso indicar um Service manualmente.
-    return webdriver.Chrome(options=options)
+def _limpar_html(texto: str) -> str:
+    return re.sub(r"<[^>]+>", " ", texto or "").strip()
 
 
-def coletar_boletins(max_boletins: int = 30, headless: bool = True) -> list[BoletimEvento]:
-    driver = _criar_driver(headless=headless)
+def _buscar_pagina(categoria_id: int, pagina: int, por_pagina: int) -> list[dict]:
+    params = {
+        "categories": categoria_id,
+        "page": pagina,
+        "per_page": por_pagina,
+        "orderby": "date",
+        "order": "desc",
+    }
+    resposta = requests.get(BASE_URL, params=params, timeout=15)
+    if resposta.status_code == 400:
+        # WordPress retorna 400 quando a página solicitada excede o total
+        # disponível — sinal de que a paginação acabou.
+        return []
+    resposta.raise_for_status()
+    return resposta.json()
+
+
+def coletar_boletins(max_boletins: int = 30, max_paginas: int = 5) -> list[BoletimEvento]:
     boletins: list[BoletimEvento] = []
+    urls_vistas: set[str] = set()
+    por_pagina = 10
 
-    try:
-        logger.info("Acessando %s", URL_BOLETINS)
-        driver.get(URL_BOLETINS)
+    # Cada categoria tem seu próprio orçamento de max_boletins. Sem isso,
+    # "Previsão do Tempo" (milhares de posts) esgotaria o limite global
+    # antes mesmo de "Estágios" ou "Alagamentos" (dezenas de posts, mas
+    # sinais muito mais fortes de evento real) serem consultadas.
+    for categoria_id, nome_categoria in CATEGORIAS_CLIMA.items():
+        coletados_da_categoria = 0
 
-        wait = WebDriverWait(driver, 15)
-        wait.until(EC.presence_of_element_located((By.TAG_NAME, "article")))
-        time.sleep(1)
+        for pagina in range(1, max_paginas + 1):
+            if coletados_da_categoria >= max_boletins:
+                break
 
-        artigos = driver.find_elements(By.TAG_NAME, "article")
-        logger.info("Encontrados %d elementos <article> na página", len(artigos))
+            if pagina > 1:
+                time.sleep(1.5)
 
-        for artigo in artigos[:max_boletins]:
             try:
-                link_el = artigo.find_element(By.CSS_SELECTOR, "h2 a, h3 a")
-                titulo = link_el.text.strip()
-                url = link_el.get_attribute("href")
+                posts = _buscar_pagina(categoria_id, pagina, por_pagina)
+            except requests.RequestException as e:
+                logger.error(
+                    "Erro ao acessar página %d da categoria '%s': %s", pagina, nome_categoria, e
+                )
+                break
 
-                try:
-                    data_texto = artigo.find_element(
-                        By.CSS_SELECTOR, "time, .elementor-post-date, .post-date"
-                    ).text.strip()
-                except Exception:
-                    data_texto = ""
+            if not posts:
+                logger.info(
+                    "Categoria '%s': fim da paginação na página %d.", nome_categoria, pagina
+                )
+                break
 
-                try:
-                    resumo = artigo.find_element(
-                        By.CSS_SELECTOR, "p, .elementor-post__excerpt"
-                    ).text.strip()
-                except Exception:
-                    resumo = ""
+            logger.info("Categoria '%s', página %d: %d posts", nome_categoria, pagina, len(posts))
 
-                if not titulo or not url:
+            for post in posts:
+                url = post.get("link", "")
+                if not url or url in urls_vistas:
                     continue
 
+                titulo = _limpar_html(post.get("title", {}).get("rendered", ""))
+                resumo = _limpar_html(post.get("excerpt", {}).get("rendered", ""))
+                data_texto = post.get("date", "")
+
+                if not titulo:
+                    continue
+
+                urls_vistas.add(url)
                 boletins.append(
                     BoletimEvento(titulo=titulo, data_texto=data_texto, url=url, resumo=resumo)
                 )
-            except Exception as e:
-                logger.warning("Falha ao extrair um boletim: %s", e)
-                continue
+                coletados_da_categoria += 1
 
-    except TimeoutException:
-        logger.error("Timeout esperando a página carregar. O layout do site pode ter mudado.")
-    finally:
-        driver.quit()
+                if coletados_da_categoria >= max_boletins:
+                    break
 
     logger.info("Total de boletins coletados: %d", len(boletins))
     return boletins

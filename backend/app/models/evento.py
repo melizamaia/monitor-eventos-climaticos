@@ -36,6 +36,9 @@ class Evento(BaseModel):
     longitude: float
     data_ocorrencia: datetime
     descricao: str = Field(..., description="Descrição textual do evento, se disponível")
+    url: str | None = Field(
+        default=None, description="URL do boletim de origem, usada como chave de deduplicação"
+    )
 
     class Config:
         json_schema_extra = {
@@ -50,5 +53,6 @@ class Evento(BaseModel):
                 "longitude": -43.1729,
                 "data_ocorrencia": "2026-07-28T14:30:00",
                 "descricao": "Rajadas de vento de até 100 km/h associadas a frente fria",
+                "url": "https://cor.rio/boletins/exemplo/",
             }
         }

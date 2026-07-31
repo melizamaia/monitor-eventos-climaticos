@@ -3,7 +3,7 @@ fastapi==0.115.0
 uvicorn[standard]==0.30.6
 
 # --- RPA / Scraping ---
-selenium==4.24.0
+requests==2.34.2
 
 # --- Tratamento de dados ---
 pandas==2.2.2

@@ -8,6 +8,7 @@ from __future__ import annotations
 import json
 import logging
 import os
+import time
 
 from dotenv import load_dotenv
 from google import genai
@@ -17,9 +18,22 @@ load_dotenv()
 
 logger = logging.getLogger(__name__)
 
-logger = logging.getLogger(__name__)
-
 MODELO_PADRAO = "gemini-3.5-flash-lite"
+
+# Tier gratuito do gemini-3.5-flash-lite permite 15 requisições/minuto.
+# Espaçamos as chamadas em ~4s para não estourar a cota e degradar a
+# classificação para os valores de fallback.
+_INTERVALO_MINIMO_ENTRE_CHAMADAS = 4.5
+_ultima_chamada = 0.0
+
+
+def _respeitar_limite_de_taxa() -> None:
+    global _ultima_chamada
+    agora = time.monotonic()
+    espera = _INTERVALO_MINIMO_ENTRE_CHAMADAS - (agora - _ultima_chamada)
+    if espera > 0:
+        time.sleep(espera)
+    _ultima_chamada = time.monotonic()
 
 TIPOS_EVENTO_VALIDOS = [
     "chuva_intensa", "vento_forte", "tornado", "granizo",
@@ -66,6 +80,7 @@ Boletins:
 Resumo:"""
 
     try:
+        _respeitar_limite_de_taxa()
         resposta = cliente.models.generate_content(model=MODELO_PADRAO, contents=prompt)
         return resposta.text.strip()
     except Exception as e:
@@ -91,6 +106,7 @@ Use "nao_identificada" para causa_provavel se o texto não permitir inferir a ca
 com segurança. Não invente informação que não esteja no texto."""
 
     try:
+        _respeitar_limite_de_taxa()
         resposta = cliente.models.generate_content(
             model=MODELO_PADRAO,
             contents=prompt,
@@ -110,6 +126,46 @@ com segurança. Não invente informação que não esteja no texto."""
     except Exception as e:
         logger.error("Erro ao classificar evento com Gemini: %s", e)
         return {"tipo": "outro", "causa_provavel": "nao_identificada"}
+
+
+def extrair_localizacao(titulo: str, resumo: str) -> dict:
+    cliente = _criar_cliente()
+
+    prompt = f"""Leia o boletim abaixo, emitido pelo COR-Rio (Centro de Operações e
+Resiliência da cidade do Rio de Janeiro).
+
+Título: {titulo}
+Descrição: {resumo}
+
+Extraia o município e o estado (UF) mencionados no texto.
+
+Responda APENAS em JSON, no formato:
+{{"municipio": "...", "estado": "..."}}
+
+Regras:
+- Se o texto mencionar um bairro, zona (ex: "Zona Oeste", "Zona Sul") ou região da
+  cidade do Rio de Janeiro, o município é "Rio de Janeiro" e o estado é "RJ".
+- Se o texto não mencionar nenhuma cidade específica, responda
+  {{"municipio": "Rio de Janeiro", "estado": "RJ"}}, pois a fonte é focada na
+  cidade do Rio de Janeiro.
+- Nunca invente uma cidade que não esteja implícita no texto."""
+
+    try:
+        _respeitar_limite_de_taxa()
+        resposta = cliente.models.generate_content(
+            model=MODELO_PADRAO,
+            contents=prompt,
+            config=types.GenerateContentConfig(response_mime_type="application/json"),
+        )
+        dados = json.loads(resposta.text)
+
+        municipio = dados.get("municipio") or "Rio de Janeiro"
+        estado = dados.get("estado") or "RJ"
+
+        return {"municipio": municipio, "estado": estado}
+    except Exception as e:
+        logger.error("Erro ao extrair localização com Gemini: %s", e)
+        return {"municipio": "Rio de Janeiro", "estado": "RJ"}
 
 
 if __name__ == "__main__":

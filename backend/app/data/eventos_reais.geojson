@@ -1,0 +1,908 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2093727,
+          -22.9110137
+        ]
+      },
+      "properties": {
+        "id": "cor-rio-2026-07-30-001",
+        "fonte": "COR-Rio",
+        "tipo": "outro",
+        "severidade": "baixa",
+        "municipio": "Rio de Janeiro",
+        "estado": "RJ",
+        "data_ocorrencia": "2026-07-30T16:45:09",
+        "descricao": "De acordo com o Alerta Rio, a previsão do tempo para a noite desta quinta-feira (30/07) é de céu nublado a parcialmente nublado, com ocorrência de chuvisco/chuva fraca isolada, e ventos moderados. Ao longo do dia, ventos úmidos oriundos do oceano influenciaram o tempo na cidade. Assim, o céu esteve parcialmente nublado a nublado e [&hellip;]",
+        "url": "https://cor.rio/noite-desta-quinta-feira-30-07-tem-previsao-de-ventos-moderados-e-chuvisco-chuva-fraca-no-rio-confira/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2093727,
+          -22.9110137
+        ]
+      },
+      "properties": {
+        "id": "cor-rio-2026-07-30-002",
+        "fonte": "COR-Rio",
+        "tipo": "outro",
+        "severidade": "baixa",
+        "municipio": "Rio de Janeiro",
+        "estado": "RJ",
+        "data_ocorrencia": "2026-07-30T05:19:20",
+        "descricao": "Segundo o Alerta Rio, nesta quinta-feira (30/7), a entrada de ventos úmidos vindos do oceano influenciará o tempo na cidade do Rio. A previsão é de céu parcialmente nublado a nublado e chuvisco/chuva fraca isolada a partir da noite. Os ventos estarão predominantemente moderados e as temperaturas apresentarão declínio, com mínima prevista de 17°C e [&hellip;]",
+        "url": "https://cor.rio/quinta-feira-30-7-com-previsao-de-chuvisco-chuva-fraca-isolada-e-ventos-moderados-na-cidade-do-rio/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2093727,
+          -22.9110137
+        ]
+      },
+      "properties": {
+        "id": "cor-rio-2026-07-29-003",
+        "fonte": "COR-Rio",
+        "tipo": "vento_forte",
+        "severidade": "baixa",
+        "municipio": "Rio de Janeiro",
+        "estado": "RJ",
+        "data_ocorrencia": "2026-07-29T18:37:07",
+        "descricao": "Segundo o Alerta Rio, o final desta quarta-feira (29/07), no município do Rio, será de céu parcialmente nublado e não há previsão de chuva. Os ventos estarão moderados, com rajadas fortes. Recomendações em caso de vento forte: Não fique embaixo de árvores e coberturas metálicas; Evite esportes ao ar livre; Não passe sob cabos elétricos, [&hellip;]",
+        "url": "https://cor.rio/previsao-quarta-feira-29-07-2026/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2093727,
+          -22.9110137
+        ]
+      },
+      "properties": {
+        "id": "cor-rio-2026-07-29-004",
+        "fonte": "COR-Rio",
+        "tipo": "vento_forte",
+        "severidade": "baixa",
+        "municipio": "Rio de Janeiro",
+        "estado": "RJ",
+        "data_ocorrencia": "2026-07-29T16:56:24",
+        "descricao": "(Última atualização &#8211; 30/07/2026 &#8211; 18h48) O Centro de Operações e Resiliência da Prefeitura do Rio (COR-Rio) informa que o município permanece em Estágio 2 nesta quinta-feira (30/07) por conta de ocorrências que ainda estão em andamento pela cidade, provocadas pelos fortes ventos que atingiram o município durante a tarde de quarta-feira (29). Com pronta [&hellip;]",
+        "url": "https://cor.rio/municipio-do-rio-entrou-no-estagio-2-as-16h50-desta-quarta-feira-29-07-2026/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2093727,
+          -22.9110137
+        ]
+      },
+      "properties": {
+        "id": "cor-rio-2026-07-29-005",
+        "fonte": "COR-Rio",
+        "tipo": "outro",
+        "severidade": "baixa",
+        "municipio": "Rio de Janeiro",
+        "estado": "RJ",
+        "data_ocorrencia": "2026-07-29T05:10:37",
+        "descricao": "Segundo o Alerta Rio, nesta quarta-feira (29/7),  as condições do tempo seguem sem mudanças significativas na cidade do Rio de Janeiro devido à permanência da atuação de um sistema de alta pressão no oceano. O céu irá variar entre claro e parcialmente nublado e não há previsão de chuva. Os ventos estarão moderados com rajadas [&hellip;]",
+        "url": "https://cor.rio/quarta-feira-29-7-sera-de-ceu-claro-a-parcialmente-nublado-e-sem-previsao-de-chuva-na-cidade-do-rio/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2093727,
+          -22.9110137
+        ]
+      },
+      "properties": {
+        "id": "cor-rio-2026-07-27-006",
+        "fonte": "COR-Rio",
+        "tipo": "outro",
+        "severidade": "baixa",
+        "municipio": "Rio de Janeiro",
+        "estado": "RJ",
+        "data_ocorrencia": "2026-07-27T17:04:36",
+        "descricao": "Segundo o Alerta Rio, neste final de tarde e noite de segunda-feira (27/7) o tempo seguirá estável na cidade do Rio. Assim, a previsão é de céu claro a parcialmente nublado, ventos fracos a moderados e sem ocorrência de chuva. Ao longo do dia não houve registro de chuva e as temperaturas ficaram estáveis, com [&hellip;]",
+        "url": "https://cor.rio/segunda-feira-27-7-tera-noite-sem-chuva-e-com-ventos-fracos-a-moderados-confira-os-proximos-dias/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2093727,
+          -22.9110137
+        ]
+      },
+      "properties": {
+        "id": "cor-rio-2026-07-26-007",
+        "fonte": "COR-Rio",
+        "tipo": "outro",
+        "severidade": "baixa",
+        "municipio": "Rio de Janeiro",
+        "estado": "RJ",
+        "data_ocorrencia": "2026-07-26T05:10:02",
+        "descricao": "Segundo o Alerta Rio, neste domingo (26/7), a entrada de ventos úmidos vindos do oceano influenciará o tempo na cidade do Rio. A previsão é de céu nublado a parcialmente nublado e chuvisco/chuva fraca isolada durante a manhã. Os ventos estarão fracos a moderados e as temperaturas permanecerão estáveis, com mínima prevista de 16°C e [&hellip;]",
+        "url": "https://cor.rio/domingo-26-7-com-possibilidade-de-chuvisco-chuva-fraca-durante-a-manha-na-cidade-do-rio/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2093727,
+          -22.9110137
+        ]
+      },
+      "properties": {
+        "id": "cor-rio-2026-07-25-008",
+        "fonte": "COR-Rio",
+        "tipo": "outro",
+        "severidade": "baixa",
+        "municipio": "Rio de Janeiro",
+        "estado": "RJ",
+        "data_ocorrencia": "2026-07-25T16:23:14",
+        "descricao": "Segundo o Alerta Rio, o final de tarde e a noite deste sábado (25/07), no município do Rio, serão de céu nublado e há previsão de chuvisco/chuva fraca, isolada. Os ventos estarão fracos a moderados. Neste sábado, o tempo na cidade do Rio foi influenciado por áreas de instabilidade associadas a um sistema de baixa [&hellip;]",
+        "url": "https://cor.rio/previsao-sabado-25-07-2026/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2093727,
+          -22.9110137
+        ]
+      },
+      "properties": {
+        "id": "cor-rio-2026-07-25-009",
+        "fonte": "COR-Rio",
+        "tipo": "outro",
+        "severidade": "baixa",
+        "municipio": "Rio de Janeiro",
+        "estado": "RJ",
+        "data_ocorrencia": "2026-07-25T05:20:14",
+        "descricao": "Segundo o Alerta Rio, neste sábado (25/7), áreas de instabilidade associadas ao deslocamento de um sistema de baixa pressão na costa da região Sudeste influenciarão o tempo na cidade do Rio. Há previsão de predomínio de céu nublado e chuva fraca isolada a qualquer momento. Os ventos estarão fracos a moderados e as temperaturas estáveis, [&hellip;]",
+        "url": "https://cor.rio/sabado-25-7-sera-de-ceu-nublado-e-com-previsao-de-chuva-fraca-isolada-a-qualquer-momento-na-cidade-do-rio/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2093727,
+          -22.9110137
+        ]
+      },
+      "properties": {
+        "id": "cor-rio-2026-07-24-010",
+        "fonte": "COR-Rio",
+        "tipo": "chuva_intensa",
+        "severidade": "baixa",
+        "municipio": "Rio de Janeiro",
+        "estado": "RJ",
+        "data_ocorrencia": "2026-07-24T17:00:42",
+        "descricao": "Segundo o Sistema Alerta Rio, o tempo permanecerá instável na cidade do Rio de Janeiro neste fim de tarde e noite de sexta-feira (24/07). A previsão é de céu nublado a encoberto, ventos fracos a moderados e chuva fraca a moderada isolada, com possibilidade de pancadas rápidas e isoladas. Ao longo do dia, a passagem [&hellip;]",
+        "url": "https://cor.rio/noite-de-sexta-feira-24-07-2026/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2093727,
+          -22.9110137
+        ]
+      },
+      "properties": {
+        "id": "cor-rio-2026-07-24-011",
+        "fonte": "COR-Rio",
+        "tipo": "chuva_intensa",
+        "severidade": "baixa",
+        "municipio": "Rio de Janeiro",
+        "estado": "RJ",
+        "data_ocorrencia": "2026-07-24T05:24:09",
+        "descricao": "De acordo com o Sistema Alerta Rio, nesta sexta-feira (24/07), a atuação de uma frente fria, associada à formação de um sistema de baixa pressão, manterá o tempo instável na cidade do Rio. O céu permanecerá nublado a encoberto. No período da manhã, a chuva poderá ocorrer com intensidade fraca a moderada e, entre a [&hellip;]",
+        "url": "https://cor.rio/sexta-feira-24-7-com-possibilidade-de-chuva-e-queda-de-temperatura-na-cidade-do-rio/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2093727,
+          -22.9110137
+        ]
+      },
+      "properties": {
+        "id": "cor-rio-2026-07-23-012",
+        "fonte": "COR-Rio",
+        "tipo": "outro",
+        "severidade": "baixa",
+        "municipio": "Rio de Janeiro",
+        "estado": "RJ",
+        "data_ocorrencia": "2026-07-23T17:05:03",
+        "descricao": "Segundo o Sistema Alerta Rio, neste final de tarde e noite de quinta-feira (23/07), o deslocamento de uma frente fria influencia o tempo na cidade do Rio de Janeiro. Assim, a previsão é de céu nublado, ventos moderados e chuva fraca isolada a partir da noite. Ao longo do dia, houve aumento gradual da nebulosidade [&hellip;]",
+        "url": "https://cor.rio/noite-de-quinta-feira-23-07-2026/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2093727,
+          -22.9110137
+        ]
+      },
+      "properties": {
+        "id": "cor-rio-2026-07-23-013",
+        "fonte": "COR-Rio",
+        "tipo": "chuva_intensa",
+        "severidade": "baixa",
+        "municipio": "Rio de Janeiro",
+        "estado": "RJ",
+        "data_ocorrencia": "2026-07-23T05:16:32",
+        "descricao": "De acordo com o Sistema Alerta Rio, nesta quinta-feira (23/7), a chegada de uma frente fria no final do dia irá influenciar o tempo na cidade do Rio de Janeiro. Há previsão de céu parcialmente nublado passando a nublado e chuva fraca isolada a partir do final da noite. Os ventos estarão ocasionalmente moderados e [&hellip;]",
+        "url": "https://cor.rio/frente-fria-se-aproxima-do-rio-nesta-quinta-feira-23-7-e-ha-previsao-de-chuva-para-a-capital-fluminense/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2093727,
+          -22.9110137
+        ]
+      },
+      "properties": {
+        "id": "cor-rio-2025-08-11-014",
+        "fonte": "COR-Rio",
+        "tipo": "chuva_intensa",
+        "severidade": "baixa",
+        "municipio": "Rio de Janeiro",
+        "estado": "RJ",
+        "data_ocorrencia": "2025-08-11T07:01:42",
+        "descricao": "O Centro de Operações e Resiliência da Prefeitura do Rio (COR-Rio) informa que o município do Rio de Janeiro entrou no ESTÁGIO 2 às 6h55 deste sábado, dia 08 de novembro de 2025, devido a registros de chuva e vento forte. Previsão para a noite deste sábado: De acordo com o Sistema Alerta Rio, o [&hellip;]",
+        "url": "https://cor.rio/municipio-do-rio-entrou-em-estagio-2-neste-sabado-08-11-2025-veja-as-principais-ocorrencias-em-tempo-real/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2093727,
+          -22.9110137
+        ]
+      },
+      "properties": {
+        "id": "cor-rio-2025-11-04-015",
+        "fonte": "COR-Rio",
+        "tipo": "chuva_intensa",
+        "severidade": "baixa",
+        "municipio": "Rio de Janeiro",
+        "estado": "RJ",
+        "data_ocorrencia": "2025-11-04T16:31:05",
+        "descricao": "O Centro de Operações e Resiliência da Prefeitura do Rio (COR-Rio) informa que houve registro de chuva moderada em vários pontos da cidade na quinta-feira (10/04). Segundo o Sistema Alerta Rio, a Zona Oeste foi a região onde mais choveu nesta quinta-feira (10/04). Os maiores acumulados de chuva foram registrados nas estações pluviométricas do Recreio [&hellip;]",
+        "url": "https://cor.rio/acompanhe-as-ocorrencias-relacionadas-a-chuva-nesta-quinta-feira-10-04-na-cidade-do-rio-de-janeiro/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2093727,
+          -22.9110137
+        ]
+      },
+      "properties": {
+        "id": "cor-rio-2026-03-05-016",
+        "fonte": "COR-Rio",
+        "tipo": "outro",
+        "severidade": "baixa",
+        "municipio": "Rio de Janeiro",
+        "estado": "RJ",
+        "data_ocorrencia": "2026-03-05T21:01:32",
+        "descricao": "O Centro de Operações e Resiliência da Prefeitura do Rio (COR-Rio) informa que o município do Rio de Janeiro retornou ao ESTÁGIO 1 às 21h deste domingo, 03 de maio de 2026, após o término da operação especial para o evento Todo Mundo no Rio. SITUAÇÃO ATUAL: Vias de Copacabana, Lagoa Rodrigo de Freitas, Botafogo [&hellip;]",
+        "url": "https://cor.rio/municipio-do-rio-de-janeiro-retornou-ao-estagio-1-as-21h-deste-domingo-03-de-maio-de-2026/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2093727,
+          -22.9110137
+        ]
+      },
+      "properties": {
+        "id": "cor-rio-2026-02-05-017",
+        "fonte": "COR-Rio",
+        "tipo": "outro",
+        "severidade": "baixa",
+        "municipio": "Rio de Janeiro",
+        "estado": "RJ",
+        "data_ocorrencia": "2026-02-05T00:03:32",
+        "descricao": "O Centro de Operações e Resiliência da Prefeitura do Rio (COR-Rio) informa que o município do Rio de Janeiro entrou em ESTÁGIO 2 à 0h deste sábado, dia 2 de maio de 2026, devido às operações para o evento Todo Mundo no Rio, em Copacabana, Zona Sul do Rio.   Situação atual A Avenida Atlântica [&hellip;]",
+        "url": "https://cor.rio/municipio-do-rio-entrou-em-estagio-2-a-0h-deste-sabado-02-05-2026/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2093727,
+          -22.9110137
+        ]
+      },
+      "properties": {
+        "id": "cor-rio-2026-03-27-018",
+        "fonte": "COR-Rio",
+        "tipo": "outro",
+        "severidade": "alta",
+        "municipio": "Rio de Janeiro",
+        "estado": "RJ",
+        "data_ocorrencia": "2026-03-27T08:58:57",
+        "descricao": "O Centro de Operações e Resiliência da Prefeitura do Rio (COR-Rio) informa que a cidade retornou ao CALOR 1 às 09h00 desta sexta-feira, 27 de março de 2026, em função da ausência de previsão de Índices de Calor – IC (temperatura e umidade) extremo, muito alto ou alto nas próximas horas. Na quinta-feira (26/3), às [&hellip;]",
+        "url": "https://cor.rio/municipio-do-rio-retornou-ao-primeiro-nivel-do-protocolo-de-calor-calor-1-as-09h00-desta-sexta-feira-27-03-2026/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2093727,
+          -22.9110137
+        ]
+      },
+      "properties": {
+        "id": "cor-rio-2026-02-22-019",
+        "fonte": "COR-Rio",
+        "tipo": "chuva_intensa",
+        "severidade": "baixa",
+        "municipio": "Rio de Janeiro",
+        "estado": "RJ",
+        "data_ocorrencia": "2026-02-22T05:55:14",
+        "descricao": "De acordo com o Sistema Alerta Rio, o tempo na capital fluminense, neste domingo (22/02), será influenciado pela entrada de umidade do oceano em direção ao continente, em conjunto com áreas de instabilidade. O céu estará nublado a encoberto e há previsão de chuva fraca a moderada a qualquer momento, sendo em caráter de pancada [&hellip;]",
+        "url": "https://cor.rio/domingo-22-02-sera-de-tempo-instavel-na-capital-fluminense-com-previsao-de-chuva-a-qualquer-hora/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2093727,
+          -22.9110137
+        ]
+      },
+      "properties": {
+        "id": "cor-rio-2026-02-20-020",
+        "fonte": "COR-Rio",
+        "tipo": "chuva_intensa",
+        "severidade": "baixa",
+        "municipio": "Rio de Janeiro",
+        "estado": "RJ",
+        "data_ocorrencia": "2026-02-20T18:31:15",
+        "descricao": "O Centro de Operações e Resiliência da Prefeitura do Rio (COR-Rio) informa que o município do Rio de Janeiro entrou no ESTÁGIO 2 às 18h25 desta sexta-feira, dia 20 de fevereiro de 2026, devido à previsão de pancadas de chuva moderada/forte, podendo vir com raios. Situação atual: Segundo o Sistema Alerta Rio, núcleos de chuva [&hellip;]",
+        "url": "https://cor.rio/municipio-do-rio-entrou-no-estagio-2-as-18h25-desta-sexta-feira-20-02-2026/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2093727,
+          -22.9110137
+        ]
+      },
+      "properties": {
+        "id": "cor-rio-2026-12-02-021",
+        "fonte": "COR-Rio",
+        "tipo": "chuva_intensa",
+        "severidade": "baixa",
+        "municipio": "Rio de Janeiro",
+        "estado": "RJ",
+        "data_ocorrencia": "2026-12-02T21:45:25",
+        "descricao": "O Centro de Operações e Resiliência da Prefeitura do Rio (COR-Rio) informa que o município do Rio de Janeiro retornou ao ESTÁGIO 1 às 21h30 desta quarta-feira, dia 12 de fevereiro de 2026, devido à ausência de previsão de chuva moderada para as próximas horas. &nbsp; Situação atual: No momento, o Radar Meteorológico do Sumaré [&hellip;]",
+        "url": "https://cor.rio/municipio-do-rio-de-janeiro-retornou-ao-estagio-1-as-21h30-desta-quinta-feira-dia-12-de-fevereiro-de-2026/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2093727,
+          -22.9110137
+        ]
+      },
+      "properties": {
+        "id": "cor-rio-2026-10-02-022",
+        "fonte": "COR-Rio",
+        "tipo": "chuva_intensa",
+        "severidade": "baixa",
+        "municipio": "Rio de Janeiro",
+        "estado": "RJ",
+        "data_ocorrencia": "2026-10-02T00:18:23",
+        "descricao": "O Centro de Operações e Resiliência da Prefeitura do Rio (COR-Rio) informa que o município do Rio de Janeiro retornou ao ESTÁGIO 2 à 0h10 desta terça-feira, dia 10 de fevereiro de 2026, devido à redução dos acumulados de chuva e sem previsão de intensificação. Situação atual: Segundo o Alerta Rio, o Radar Meteorológico do [&hellip;]",
+        "url": "https://cor.rio/municipio-do-rio-de-janeiro-retornou-ao-estagio-2-a-0h10-desta-terca-feira-dia-10-de-fevereiro-de-2026/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2093727,
+          -22.9110137
+        ]
+      },
+      "properties": {
+        "id": "cor-rio-2026-07-02-023",
+        "fonte": "COR-Rio",
+        "tipo": "chuva_intensa",
+        "severidade": "baixa",
+        "municipio": "Rio de Janeiro",
+        "estado": "RJ",
+        "data_ocorrencia": "2026-07-02T16:02:48",
+        "descricao": "O Centro de Operações da Prefeitura do Rio informa que o município do Rio de Janeiro entrou no ESTÁGIO 2 às 16h00 deste sábado, dia 7 de fevereiro de 2026, devido ao registro de chuva forte em pelo menos duas estações meteorológicas do Sistema Alerta Rio. Núcleos de chuva chegam à Zona Norte do Rio [&hellip;]",
+        "url": "https://cor.rio/municipio-do-rio-de-janeiro-entrou-no-estagio-2-as-16h-deste-sabado-dia-7-de-fevereiro-de-2026/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2093727,
+          -22.9110137
+        ]
+      },
+      "properties": {
+        "id": "cor-rio-2026-04-02-024",
+        "fonte": "COR-Rio",
+        "tipo": "chuva_intensa",
+        "severidade": "baixa",
+        "municipio": "Rio de Janeiro",
+        "estado": "RJ",
+        "data_ocorrencia": "2026-04-02T03:00:24",
+        "descricao": "O Centro de Operações e Resiliência da Prefeitura do Rio (COR-Rio) informa que o município do Rio de Janeiro retornou ao ESTÁGIO 1 às 3h desta quarta-feira, dia 04 de fevereiro de 2026, devido à ausência de previsão de chuva moderada para as próximas horas. Situação atual: No momento, o Radar Meteorológico do Sumaré não [&hellip;]",
+        "url": "https://cor.rio/municipio-do-rio-de-janeiro-retornou-ao-estagio-1-as-3h-desta-quarta-feira-04-02-2026/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2093727,
+          -22.9110137
+        ]
+      },
+      "properties": {
+        "id": "cor-rio-2026-03-02-025",
+        "fonte": "COR-Rio",
+        "tipo": "chuva_intensa",
+        "severidade": "baixa",
+        "municipio": "Rio de Janeiro",
+        "estado": "RJ",
+        "data_ocorrencia": "2026-03-02T15:10:01",
+        "descricao": "***Atualizado às 20h10 O Centro de Operações e Resiliência da Prefeitura do Rio (COR-Rio) informa que o município do Rio de Janeiro entrou no ESTÁGIO 2 às 15h10 desta terça-feira, dia 3 de fevereiro de 2026, devido a um registro de chuva maior que 25mm/30min em pelo menos uma estação do Alerta Rio. Situação atual: [&hellip;]",
+        "url": "https://cor.rio/municipio-do-rio-entrou-no-estagio-2-as-15h10-desta-terca-feira-03-02-2026/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2093727,
+          -22.9110137
+        ]
+      },
+      "properties": {
+        "id": "cor-rio-2026-01-02-026",
+        "fonte": "COR-Rio",
+        "tipo": "chuva_intensa",
+        "severidade": "baixa",
+        "municipio": "Rio de Janeiro",
+        "estado": "RJ",
+        "data_ocorrencia": "2026-01-02T20:22:03",
+        "descricao": "O Centro de Operações e Resiliência da Prefeitura do Rio (COR-Rio) informa que o município do Rio de Janeiro entrou no ESTÁGIO 2 às 20h21 deste domingo, dia 01 de fevereiro de 2026, devido a registros de chuva e vento forte. &nbsp; Situação Atual: &nbsp; De acordo com o Sistema Alerta Rio, núcleos de chuva [&hellip;]",
+        "url": "https://cor.rio/municipio-do-rio-de-janeiro-entrou-em-estagio-2-as-20h21-deste-domingo-01-de-fevereiro-de-2026/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2093727,
+          -22.9110137
+        ]
+      },
+      "properties": {
+        "id": "cor-rio-2026-01-27-027",
+        "fonte": "COR-Rio",
+        "tipo": "chuva_intensa",
+        "severidade": "baixa",
+        "municipio": "Rio de Janeiro",
+        "estado": "RJ",
+        "data_ocorrencia": "2026-01-27T04:06:13",
+        "descricao": "O Centro de Operações e Resiliência da Prefeitura do Rio (COR-Rio) informa que o município do Rio de Janeiro retornou ao ESTÁGIO 1 às 4h desta terça-feira, dia 27 de janeiro de 2026, devido à ausência de previsão de chuva moderada para as próximas horas. Situação atual: No momento, o Radar Meteorológico do Sumaré não [&hellip;]",
+        "url": "https://cor.rio/municipio-do-rio-de-janeiro-retornou-ao-eestagio-1-as-4h-desta-terca-feira-27-01-2026/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2093727,
+          -22.9110137
+        ]
+      },
+      "properties": {
+        "id": "cor-rio-2026-01-16-028",
+        "fonte": "COR-Rio",
+        "tipo": "outro",
+        "severidade": "baixa",
+        "municipio": "Rio de Janeiro",
+        "estado": "RJ",
+        "data_ocorrencia": "2026-01-16T04:31:29",
+        "descricao": "A cidade do Rio de Janeiro atingiu o terceiro nível do Protocolo de Calor (CALOR 3) às 11h30 de sábado, 10 de janeiro de 2026. O Calor 3 caracteriza-se quando há registro de índices de calor alto (36ºC a 40ºC) com previsão de permanência ou aumento por, ao menos, três dias consecutivos. Segundo o Sistema [&hellip;]",
+        "url": "https://cor.rio/municipio-do-rio-de-janeiro-entrou-em-calor-3-as-11h30-deste-sabado-10-de-janeiro-de-2026/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2093727,
+          -22.9110137
+        ]
+      },
+      "properties": {
+        "id": "cor-rio-2026-05-01-029",
+        "fonte": "COR-Rio",
+        "tipo": "chuva_intensa",
+        "severidade": "baixa",
+        "municipio": "Rio de Janeiro",
+        "estado": "RJ",
+        "data_ocorrencia": "2026-05-01T20:18:00",
+        "descricao": "O Centro de Operações e Resiliência da Prefeitura do Rio (COR-Rio) informa que o município do Rio de Janeiro retornou ao ESTÁGIO 1 às 20h15 desta segunda-feira, dia 05 de janeiro de 2026, devido à ausência de previsão de chuva moderada para as próximas horas. Situação atual: O Sistema Alerta Rio informa o Radar Meteorológico [&hellip;]",
+        "url": "https://cor.rio/municipio-do-rio-de-janeiro-retornou-ao-estagio-1-as-20h15-desta-segunda-feira-05-de-janeiro-de-2026/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2093727,
+          -22.9110137
+        ]
+      },
+      "properties": {
+        "id": "cor-rio-2026-04-01-030",
+        "fonte": "COR-Rio",
+        "tipo": "chuva_intensa",
+        "severidade": "baixa",
+        "municipio": "Rio de Janeiro",
+        "estado": "RJ",
+        "data_ocorrencia": "2026-04-01T08:11:58",
+        "descricao": "O Centro de Operações e Resiliência da Prefeitura do Rio (COR-Rio) informa que o município do Rio de Janeiro entrou no ESTÁGIO 2 às 08h07 deste domingo, dia 04 de janeiro de 2026, devido a registros de chuva e vento forte na região do maciço da Tijuca. Matéria atualizada às 14h30* Situação Atual: De acordo [&hellip;]",
+        "url": "https://cor.rio/municipio-do-rio-de-janeiro-entrou-em-estagio-2-as-08h07-deste-domingo-04-de-janeiro-de-2026/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2093727,
+          -22.9110137
+        ]
+      },
+      "properties": {
+        "id": "cor-rio-2025-12-18-031",
+        "fonte": "COR-Rio",
+        "tipo": "chuva_intensa",
+        "severidade": "baixa",
+        "municipio": "Rio de Janeiro",
+        "estado": "RJ",
+        "data_ocorrencia": "2025-12-18T05:22:28",
+        "descricao": "O Centro de Operações da Prefeitura do Rio informa que o município do Rio de Janeiro retornou ao ESTÁGIO 1 às 05h22 desta quinta-feira, 18 de dezembro de 2025, devido à ausência de previsão de chuva moderada para as próximas horas. &nbsp; O Estágio 1 é o primeiro em uma escala de cinco e significa [&hellip;]",
+        "url": "https://cor.rio/municipio-do-rio-de-janeiro-retornou-ao-estagio-1-as-05h22-desta-sexta-feira-18-de-dezembro-de-2025/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2093727,
+          -22.9110137
+        ]
+      },
+      "properties": {
+        "id": "cor-rio-2025-12-17-032",
+        "fonte": "COR-Rio",
+        "tipo": "chuva_intensa",
+        "severidade": "baixa",
+        "municipio": "Rio de Janeiro",
+        "estado": "RJ",
+        "data_ocorrencia": "2025-12-17T06:45:15",
+        "descricao": "O Centro de Operações e Resiliência da Prefeitura do Rio (COR-Rio) informa que o município do Rio de Janeiro entrou no ESTÁGIO 2 às 6h45 desta quarta-feira, dia 17 de dezembro de 2025, devido a registros de chuva e vento forte. Situação Atual: De acordo com o Sistema Alerta Rio, entre 00h30 e 00h45, houve [&hellip;]",
+        "url": "https://cor.rio/municipio-do-rio-entrou-em-estagio-2-as-desta-quarta-feira-17-12-2025/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2093727,
+          -22.9110137
+        ]
+      },
+      "properties": {
+        "id": "cor-rio-2025-11-29-033",
+        "fonte": "COR-Rio",
+        "tipo": "chuva_intensa",
+        "severidade": "baixa",
+        "municipio": "Rio de Janeiro",
+        "estado": "RJ",
+        "data_ocorrencia": "2025-11-29T01:19:00",
+        "descricao": "O Centro de Operações da Prefeitura do Rio informa que o município do Rio de Janeiro retornou ao ESTÁGIO 1 às 01h15 deste sábado, 29 de novembro de 2025, devido à ausência de previsão de chuva moderada para as próximas horas. &nbsp; O Estágio 1 é o primeiro em uma escala de cinco e significa [&hellip;]",
+        "url": "https://cor.rio/municipio-do-rio-de-janeiro-retornou-ao-estagio-1-as-01h15-deste-sabado-29-de-novembro-de-2025/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2093727,
+          -22.9110137
+        ]
+      },
+      "properties": {
+        "id": "cor-rio-2025-11-28-034",
+        "fonte": "COR-Rio",
+        "tipo": "chuva_intensa",
+        "severidade": "baixa",
+        "municipio": "Rio de Janeiro",
+        "estado": "RJ",
+        "data_ocorrencia": "2025-11-28T20:32:46",
+        "descricao": "*Atualizado às 00h40 O Centro de Operações e Resiliência da Prefeitura do Rio (COR-Rio) informa que o município do Rio de Janeiro entrou no ESTÁGIO 2 às 20h32 desta sexta-feira, dia 28 de novembro de 2025, devido a registros de chuva forte em pelo menos duas estações. Situação atual: De acordo com o Sistema Alerta [&hellip;]",
+        "url": "https://cor.rio/municipio-do-rio-de-janeiro-entrou-em-estagio-2-as-20h32-desta-sexta-feira-28-11-2025/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2093727,
+          -22.9110137
+        ]
+      },
+      "properties": {
+        "id": "cor-rio-2025-09-11-035",
+        "fonte": "COR-Rio",
+        "tipo": "chuva_intensa",
+        "severidade": "baixa",
+        "municipio": "Rio de Janeiro",
+        "estado": "RJ",
+        "data_ocorrencia": "2025-09-11T14:59:41",
+        "descricao": "O Centro de Operações da Prefeitura do Rio informa que o município do Rio de Janeiro retornou ao ESTÁGIO 1 às 15h deste domingo, 09 de novembro de 2025, devido à ausência de previsão de chuva moderada para as próximas horas. O Estágio 1 é o primeiro em uma escala de cinco e significa que [&hellip;]",
+        "url": "https://cor.rio/municipio-do-rio-de-janeiro-retornou-ao-estagio-1-as-15h00-deste-domingo-09-de-novembro-de-2025/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2093727,
+          -22.9110137
+        ]
+      },
+      "properties": {
+        "id": "cor-rio-2025-10-29-036",
+        "fonte": "COR-Rio",
+        "tipo": "outro",
+        "severidade": "baixa",
+        "municipio": "Rio de Janeiro",
+        "estado": "RJ",
+        "data_ocorrencia": "2025-10-29T06:20:31",
+        "descricao": "O Centro de Operações da Prefeitura do Rio informa que o município do Rio de Janeiro retornou ao ESTÁGIO 1 às 6h desta quarta-feira, dia 29 de outubro de 2025. O Estágio 1 é o primeiro em uma escala de cinco e significa que não há ocorrências de grande impacto. Neste estágio, podem ocorrer pequenos [&hellip;]",
+        "url": "https://cor.rio/municipio-do-rio-retornou-ao-estagio-1-as-6h-desta-quarta-feira-29-10-2025/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2093727,
+          -22.9110137
+        ]
+      },
+      "properties": {
+        "id": "cor-rio-2025-08-07-037",
+        "fonte": "COR-Rio",
+        "tipo": "outro",
+        "severidade": "baixa",
+        "municipio": "Rio de Janeiro",
+        "estado": "RJ",
+        "data_ocorrencia": "2025-08-07T12:00:24",
+        "descricao": "O Centro de Operações e Resiliência da Prefeitura do Rio (COR-Rio) informa que o município do Rio de Janeiro retornou ao ESTÁGIO 1 às 12h desta terça-feira, dia 08 de julho de 2025, em função do encerramento dos eventos realizados na cidade para a Cúpula de Líderes do Brics e de encontros paralelos, que alteraram [&hellip;]",
+        "url": "https://cor.rio/municipio-do-rio-retornou-ao-estagio-1-as-12h-desta-terca-08-de-julho-de-2025-apos-a-cupula-do-brics-na-cidade/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2093727,
+          -22.9110137
+        ]
+      },
+      "properties": {
+        "id": "cor-rio-2025-06-07-038",
+        "fonte": "COR-Rio",
+        "tipo": "outro",
+        "severidade": "baixa",
+        "municipio": "Rio de Janeiro",
+        "estado": "RJ",
+        "data_ocorrencia": "2025-06-07T10:10:53",
+        "descricao": "O Centro de Operações e Resiliência da Prefeitura do Rio informa que o município do Rio de Janeiro permanece em ESTÁGIO 2 desde às 10h de domingo, dia 06 de julho de 2025, devido à reunião de Cúpula do Brics e eventos paralelos. A cidade recebe o grupo das maiores economias emergentes do mundo. Os [&hellip;]",
+        "url": "https://cor.rio/municipio-do-rio-entrou-em-estagio-2-as-10h-deste-domingo-06-07-2025/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2093727,
+          -22.9110137
+        ]
+      },
+      "properties": {
+        "id": "cor-rio-2025-10-06-039",
+        "fonte": "COR-Rio",
+        "tipo": "chuva_intensa",
+        "severidade": "baixa",
+        "municipio": "Rio de Janeiro",
+        "estado": "RJ",
+        "data_ocorrencia": "2025-10-06T15:08:12",
+        "descricao": "O Centro de Operações e Resiliência da Prefeitura do Rio (COR-Rio) informa que o município do Rio de Janeiro retornou ao ESTÁGIO 1 às 15h10 desta terça-feira, dia 10 de junho de 2025, após a liberação total do trânsito na Avenida Brasil e na Linha Vermelha, além de ausência de previsão de chuva moderada nas [&hellip;]",
+        "url": "https://cor.rio/municipio-do-rio-de-janeiro-retorna-ao-estagio-1-as-15h10-desta-terca-feira-10-de-junho-de-2025/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2093727,
+          -22.9110137
+        ]
+      },
+      "properties": {
+        "id": "cor-rio-2025-10-06-040",
+        "fonte": "COR-Rio",
+        "tipo": "outro",
+        "severidade": "baixa",
+        "municipio": "Rio de Janeiro",
+        "estado": "RJ",
+        "data_ocorrencia": "2025-10-06T06:57:58",
+        "descricao": "O Centro de Operações e Resiliência da Prefeitura do Rio (COR-Rio) informa que o município do Rio de Janeiro entrou no ESTÁGIO 2 às 06h50 desta terça-feira, dia 10 de Junho de 2025, em função de uma ocorrência policial que interditou a Avenida Brasil e a Linha Vermelha, nos dois sentidos, na altura de Vigário [&hellip;]",
+        "url": "https://cor.rio/municipio-do-rio-entrou-em-estagio-2-desde-as-06h50-de-terca-feira-10-06-acompanhe-os-impactos-pela-cidade/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2093727,
+          -22.9110137
+        ]
+      },
+      "properties": {
+        "id": "cor-rio-2025-04-20-041",
+        "fonte": "COR-Rio",
+        "tipo": "chuva_intensa",
+        "severidade": "baixa",
+        "municipio": "Rio de Janeiro",
+        "estado": "RJ",
+        "data_ocorrencia": "2025-04-20T14:35:34",
+        "descricao": "O Centro de Operações e Resiliência da Prefeitura do Rio (COR-Rio) informa que o município do Rio de Janeiro retornou ao ESTÁGIO 1 às 14h25 deste domingo, dia 20 de abril de 2025, devido à ausência de previsão de chuva moderada para as próximas horas. Situação atual: No momento, núcleos de chuva atuam na Região [&hellip;]",
+        "url": "https://cor.rio/municipio-do-rio-de-janeiro-retornou-ao-estagio-1-as-14h25-deste-domingo-20-de-abril-de-2025/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2093727,
+          -22.9110137
+        ]
+      },
+      "properties": {
+        "id": "cor-rio-2025-07-04-042",
+        "fonte": "COR-Rio",
+        "tipo": "outro",
+        "severidade": "baixa",
+        "municipio": "Rio de Janeiro",
+        "estado": "RJ",
+        "data_ocorrencia": "2025-07-04T16:55:09",
+        "descricao": "Município do Rio de Janeiro retornou ao Estágio 1 às 16h50 desta segunda-feira, 7 de abril de 2025 O Centro de Operações e Resiliência da Prefeitura do Rio (COR-Rio) informa que o município do Rio de Janeiro retornou ao ESTÁGIO 1 às 16h50 desta segunda-feira, dia 7 de abril de 2025, devido à ausência de [&hellip;]",
+        "url": "https://cor.rio/municipio-do-rio-de-janeiro-retornou-ao-estagio-1-as-16h50-desta-segunda-feira-7-de-abril-de-2025/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2093727,
+          -22.9110137
+        ]
+      },
+      "properties": {
+        "id": "cor-rio-2025-04-04-043",
+        "fonte": "COR-Rio",
+        "tipo": "chuva_intensa",
+        "severidade": "baixa",
+        "municipio": "Rio de Janeiro",
+        "estado": "RJ",
+        "data_ocorrencia": "2025-04-04T12:42:43",
+        "descricao": "O Centro de Operações e Resiliência da Prefeitura do Rio (COR-Rio) informa que o município do Rio de Janeiro permanece no ESTÁGIO 2 desde às 06h05 de sexta-feira, dia 04 de abril de 2025, devido ao registro de chuva forte durante a madrugada/manhã. O Estágio 2 é o segundo nível em uma escala de cinco [&hellip;]",
+        "url": "https://cor.rio/municipio-do-rio-de-janeiro-entrou-em-estagio-2-as-06h05-desta-sexta-feira-dia-04-04-2025/"
+      }
+    }
+  ]
+}
