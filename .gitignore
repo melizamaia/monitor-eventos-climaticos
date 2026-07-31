@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+*.egg-info/
+
+# Ambiente
+.env
+
+# Banco de dados local
+*.db
+*.sqlite3
+
+# Node / Angular
+node_modules/
+dist/
+.angular/
+
+# IDE
+.vscode/
+.idea/
+
+# SO
+.DS_Store

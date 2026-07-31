@@ -1,0 +1,47 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-43.1729, -22.9068] },
+      "properties": {
+        "id": "cemaden-2026-07-28-001",
+        "fonte": "CEMADEN",
+        "tipo": "vento_forte",
+        "severidade": "alta",
+        "municipio": "Rio de Janeiro",
+        "estado": "RJ",
+        "data_ocorrencia": "2026-07-28T14:30:00",
+        "descricao": "Rajadas de vento de até 100 km/h associadas a frente fria"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-46.6333, -23.5505] },
+      "properties": {
+        "id": "cemaden-2026-07-27-002",
+        "fonte": "CEMADEN",
+        "tipo": "chuva_intensa",
+        "severidade": "moderada",
+        "municipio": "São Paulo",
+        "estado": "SP",
+        "data_ocorrencia": "2026-07-27T09:15:00",
+        "descricao": "Acumulado de 60mm em 3 horas na zona sul"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-43.9542, -22.8305] },
+      "properties": {
+        "id": "cemaden-2026-07-26-003",
+        "fonte": "CEMADEN",
+        "tipo": "deslizamento",
+        "severidade": "extrema",
+        "municipio": "Petrópolis",
+        "estado": "RJ",
+        "data_ocorrencia": "2026-07-26T22:00:00",
+        "descricao": "Deslizamento de terra em encosta após chuva prolongada"
+      }
+    }
+  ]
+}
