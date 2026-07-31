@@ -35,10 +35,25 @@ CATEGORIAS_CLIMA = {
     44: "Estágios",
 }
 
+MESES_PT = {
+    "janeiro": 1, "fevereiro": 2, "março": 3, "marco": 3, "abril": 4,
+    "maio": 5, "junho": 6, "julho": 7, "agosto": 8, "setembro": 9,
+    "outubro": 10, "novembro": 11, "dezembro": 12,
+}
+
+# Boletins do COR-Rio costumam citar a data do evento por extenso no título ou
+# resumo (ex.: "dia 2 de maio de 2026"), que é a data que realmente importa —
+# diferente da data de publicação do post na API do WordPress, que pode ficar
+# defasada em relação ao evento que ela descreve.
+PADRAO_DATA_TEXTO = re.compile(
+    r"(?:dia\s+)?(\d{1,2})\s+de\s+(" + "|".join(MESES_PT) + r")\s+de\s+(\d{4})",
+    re.IGNORECASE,
+)
+
 PALAVRAS_CHAVE_CLIMA = [
     "chuva", "chuvas", "temporal", "ventania", "vento forte", "rajada",
-    "tornado", "granizo", "alagamento", "enchente", "inundação",
-    "deslizamento", "risco de temporal", "estágio de mobilização",
+    "vendaval", "apagão", "tornado", "granizo", "alagamento", "enchente",
+    "inundação", "deslizamento", "risco de temporal", "estágio de mobilização",
     "estágio", "calor extremo", "onda de calor", "protocolo de calor",
 ]
 
@@ -77,6 +92,23 @@ class BoletimEvento:
 
 def _limpar_html(texto: str) -> str:
     return re.sub(r"<[^>]+>", " ", texto or "").strip()
+
+
+def extrair_data_do_texto(titulo: str, resumo: str) -> str | None:
+    """Extrai a data do evento citada por extenso no título/resumo (ex.: "dia 2
+    de maio de 2026"). Retorna None quando o texto não menciona nenhuma data.
+    """
+    texto = f"{titulo} {resumo}"
+    match = PADRAO_DATA_TEXTO.search(texto)
+    if not match:
+        return None
+
+    dia, mes_nome, ano = match.groups()
+    mes = MESES_PT.get(mes_nome.lower())
+    if not mes:
+        return None
+
+    return f"{ano}-{mes:02d}-{int(dia):02d}"
 
 
 def _buscar_pagina(categoria_id: int, pagina: int, por_pagina: int) -> list[dict]:
@@ -138,7 +170,9 @@ def coletar_boletins(max_boletins: int = 30, max_paginas: int = 5) -> list[Bolet
 
                 titulo = _limpar_html(post.get("title", {}).get("rendered", ""))
                 resumo = _limpar_html(post.get("excerpt", {}).get("rendered", ""))
-                data_texto = post.get("date", "")
+                # Prioriza a data do evento citada no texto sobre a data de publicação
+                # do post, que pode não coincidir com a data do evento descrito.
+                data_texto = extrair_data_do_texto(titulo, resumo) or post.get("date", "")
 
                 if not titulo:
                     continue

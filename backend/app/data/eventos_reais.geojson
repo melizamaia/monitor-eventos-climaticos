@@ -11,9 +11,30 @@
         ]
       },
       "properties": {
-        "id": "cor-rio-2026-07-30-001",
+        "id": "cor-rio-2026-07-31-001",
         "fonte": "COR-Rio",
         "tipo": "outro",
+        "severidade": "baixa",
+        "municipio": "Rio de Janeiro",
+        "estado": "RJ",
+        "data_ocorrencia": "2026-07-31T05:14:41",
+        "descricao": "Segundo o Sistema Alerta Rio, nesta sexta-feira (31/7), a entrada de ventos úmidos do oceano permanecerá influenciando o tempo na cidade do Rio. A previsão é de céu nublado a parcialmente nublado e chuva fraca de forma rápida e isolada no início da manhã. Os ventos estarão moderados e as temperaturas estáveis, com mínima prevista [&hellip;]",
+        "url": "https://cor.rio/sexta-feira-31-7-sera-de-tempo-instavel-no-rio-com-possibilidade-de-chuva-fraca-em-pontos-isolados/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2093727,
+          -22.9110137
+        ]
+      },
+      "properties": {
+        "id": "cor-rio-2026-07-30-002",
+        "fonte": "COR-Rio",
+        "tipo": "vento_forte",
         "severidade": "baixa",
         "municipio": "Rio de Janeiro",
         "estado": "RJ",
@@ -32,7 +53,7 @@
         ]
       },
       "properties": {
-        "id": "cor-rio-2026-07-30-002",
+        "id": "cor-rio-2026-07-30-003",
         "fonte": "COR-Rio",
         "tipo": "outro",
         "severidade": "baixa",
@@ -53,7 +74,7 @@
         ]
       },
       "properties": {
-        "id": "cor-rio-2026-07-29-003",
+        "id": "cor-rio-2026-07-29-004",
         "fonte": "COR-Rio",
         "tipo": "vento_forte",
         "severidade": "baixa",
@@ -69,12 +90,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -43.2093727,
-          -22.9110137
+          -42.5325303,
+          -22.2800004
         ]
       },
       "properties": {
-        "id": "cor-rio-2026-07-29-004",
+        "id": "cor-rio-2026-07-29-005",
         "fonte": "COR-Rio",
         "tipo": "vento_forte",
         "severidade": "baixa",
@@ -95,7 +116,7 @@
         ]
       },
       "properties": {
-        "id": "cor-rio-2026-07-29-005",
+        "id": "cor-rio-2026-07-29-006",
         "fonte": "COR-Rio",
         "tipo": "outro",
         "severidade": "baixa",
@@ -116,7 +137,7 @@
         ]
       },
       "properties": {
-        "id": "cor-rio-2026-07-27-006",
+        "id": "cor-rio-2026-07-27-007",
         "fonte": "COR-Rio",
         "tipo": "outro",
         "severidade": "baixa",
@@ -137,7 +158,7 @@
         ]
       },
       "properties": {
-        "id": "cor-rio-2026-07-26-007",
+        "id": "cor-rio-2026-07-26-008",
         "fonte": "COR-Rio",
         "tipo": "outro",
         "severidade": "baixa",
@@ -158,7 +179,7 @@
         ]
       },
       "properties": {
-        "id": "cor-rio-2026-07-25-008",
+        "id": "cor-rio-2026-07-25-009",
         "fonte": "COR-Rio",
         "tipo": "outro",
         "severidade": "baixa",
@@ -179,7 +200,7 @@
         ]
       },
       "properties": {
-        "id": "cor-rio-2026-07-25-009",
+        "id": "cor-rio-2026-07-25-010",
         "fonte": "COR-Rio",
         "tipo": "outro",
         "severidade": "baixa",
@@ -200,7 +221,7 @@
         ]
       },
       "properties": {
-        "id": "cor-rio-2026-07-24-010",
+        "id": "cor-rio-2026-07-24-011",
         "fonte": "COR-Rio",
         "tipo": "chuva_intensa",
         "severidade": "baixa",
@@ -221,7 +242,7 @@
         ]
       },
       "properties": {
-        "id": "cor-rio-2026-07-24-011",
+        "id": "cor-rio-2026-07-24-012",
         "fonte": "COR-Rio",
         "tipo": "chuva_intensa",
         "severidade": "baixa",
@@ -242,7 +263,7 @@
         ]
       },
       "properties": {
-        "id": "cor-rio-2026-07-23-012",
+        "id": "cor-rio-2026-07-23-013",
         "fonte": "COR-Rio",
         "tipo": "outro",
         "severidade": "baixa",
@@ -263,7 +284,7 @@
         ]
       },
       "properties": {
-        "id": "cor-rio-2026-07-23-013",
+        "id": "cor-rio-2026-07-23-014",
         "fonte": "COR-Rio",
         "tipo": "chuva_intensa",
         "severidade": "baixa",
@@ -279,18 +300,18 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -42.5325303,
-          -22.2800004
+          -43.2093727,
+          -22.9110137
         ]
       },
       "properties": {
-        "id": "cor-rio-2025-08-11-014",
+        "id": "cor-rio-2025-11-08-015",
         "fonte": "COR-Rio",
         "tipo": "chuva_intensa",
         "severidade": "baixa",
         "municipio": "Rio de Janeiro",
         "estado": "RJ",
-        "data_ocorrencia": "2025-08-11T07:01:42",
+        "data_ocorrencia": "2025-11-08T00:00:00",
         "descricao": "O Centro de Operações e Resiliência da Prefeitura do Rio (COR-Rio) informa que o município do Rio de Janeiro entrou no ESTÁGIO 2 às 6h55 deste sábado, dia 08 de novembro de 2025, devido a registros de chuva e vento forte. Previsão para a noite deste sábado: De acordo com o Sistema Alerta Rio, o [&hellip;]",
         "url": "https://cor.rio/municipio-do-rio-entrou-em-estagio-2-neste-sabado-08-11-2025-veja-as-principais-ocorrencias-em-tempo-real/"
       }
@@ -305,13 +326,13 @@
         ]
       },
       "properties": {
-        "id": "cor-rio-2025-11-04-015",
+        "id": "cor-rio-2025-04-11-016",
         "fonte": "COR-Rio",
         "tipo": "chuva_intensa",
         "severidade": "baixa",
         "municipio": "Rio de Janeiro",
         "estado": "RJ",
-        "data_ocorrencia": "2025-11-04T16:31:05",
+        "data_ocorrencia": "2025-04-11T16:31:05",
         "descricao": "O Centro de Operações e Resiliência da Prefeitura do Rio (COR-Rio) informa que houve registro de chuva moderada em vários pontos da cidade na quinta-feira (10/04). Segundo o Sistema Alerta Rio, a Zona Oeste foi a região onde mais choveu nesta quinta-feira (10/04). Os maiores acumulados de chuva foram registrados nas estações pluviométricas do Recreio [&hellip;]",
         "url": "https://cor.rio/acompanhe-as-ocorrencias-relacionadas-a-chuva-nesta-quinta-feira-10-04-na-cidade-do-rio-de-janeiro/"
       }
@@ -326,13 +347,13 @@
         ]
       },
       "properties": {
-        "id": "cor-rio-2026-03-05-016",
+        "id": "cor-rio-2026-05-03-017",
         "fonte": "COR-Rio",
         "tipo": "outro",
         "severidade": "baixa",
         "municipio": "Rio de Janeiro",
         "estado": "RJ",
-        "data_ocorrencia": "2026-03-05T21:01:32",
+        "data_ocorrencia": "2026-05-03T00:00:00",
         "descricao": "O Centro de Operações e Resiliência da Prefeitura do Rio (COR-Rio) informa que o município do Rio de Janeiro retornou ao ESTÁGIO 1 às 21h deste domingo, 03 de maio de 2026, após o término da operação especial para o evento Todo Mundo no Rio. SITUAÇÃO ATUAL: Vias de Copacabana, Lagoa Rodrigo de Freitas, Botafogo [&hellip;]",
         "url": "https://cor.rio/municipio-do-rio-de-janeiro-retornou-ao-estagio-1-as-21h-deste-domingo-03-de-maio-de-2026/"
       }
@@ -347,13 +368,13 @@
         ]
       },
       "properties": {
-        "id": "cor-rio-2026-02-05-017",
+        "id": "cor-rio-2026-05-02-018",
         "fonte": "COR-Rio",
         "tipo": "outro",
         "severidade": "baixa",
         "municipio": "Rio de Janeiro",
         "estado": "RJ",
-        "data_ocorrencia": "2026-02-05T00:03:32",
+        "data_ocorrencia": "2026-05-02T00:00:00",
         "descricao": "O Centro de Operações e Resiliência da Prefeitura do Rio (COR-Rio) informa que o município do Rio de Janeiro entrou em ESTÁGIO 2 à 0h deste sábado, dia 2 de maio de 2026, devido às operações para o evento Todo Mundo no Rio, em Copacabana, Zona Sul do Rio.   Situação atual A Avenida Atlântica [&hellip;]",
         "url": "https://cor.rio/municipio-do-rio-entrou-em-estagio-2-a-0h-deste-sabado-02-05-2026/"
       }
@@ -363,18 +384,18 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -43.1830653,
-          -22.9043934
+          -42.5325303,
+          -22.2800004
         ]
       },
       "properties": {
-        "id": "cor-rio-2026-03-27-018",
+        "id": "cor-rio-2026-03-27-019",
         "fonte": "COR-Rio",
         "tipo": "outro",
         "severidade": "alta",
-        "municipio": "Rio",
+        "municipio": "Rio de Janeiro",
         "estado": "RJ",
-        "data_ocorrencia": "2026-03-27T08:58:57",
+        "data_ocorrencia": "2026-03-27T00:00:00",
         "descricao": "O Centro de Operações e Resiliência da Prefeitura do Rio (COR-Rio) informa que a cidade retornou ao CALOR 1 às 09h00 desta sexta-feira, 27 de março de 2026, em função da ausência de previsão de Índices de Calor – IC (temperatura e umidade) extremo, muito alto ou alto nas próximas horas. Na quinta-feira (26/3), às [&hellip;]",
         "url": "https://cor.rio/municipio-do-rio-retornou-ao-primeiro-nivel-do-protocolo-de-calor-calor-1-as-09h00-desta-sexta-feira-27-03-2026/"
       }
@@ -389,7 +410,7 @@
         ]
       },
       "properties": {
-        "id": "cor-rio-2026-02-22-019",
+        "id": "cor-rio-2026-02-22-020",
         "fonte": "COR-Rio",
         "tipo": "chuva_intensa",
         "severidade": "baixa",
@@ -410,13 +431,13 @@
         ]
       },
       "properties": {
-        "id": "cor-rio-2026-02-20-020",
+        "id": "cor-rio-2026-02-20-021",
         "fonte": "COR-Rio",
         "tipo": "chuva_intensa",
         "severidade": "baixa",
         "municipio": "Rio de Janeiro",
         "estado": "RJ",
-        "data_ocorrencia": "2026-02-20T18:31:15",
+        "data_ocorrencia": "2026-02-20T00:00:00",
         "descricao": "O Centro de Operações e Resiliência da Prefeitura do Rio (COR-Rio) informa que o município do Rio de Janeiro entrou no ESTÁGIO 2 às 18h25 desta sexta-feira, dia 20 de fevereiro de 2026, devido à previsão de pancadas de chuva moderada/forte, podendo vir com raios. Situação atual: Segundo o Sistema Alerta Rio, núcleos de chuva [&hellip;]",
         "url": "https://cor.rio/municipio-do-rio-entrou-no-estagio-2-as-18h25-desta-sexta-feira-20-02-2026/"
       }
@@ -431,13 +452,13 @@
         ]
       },
       "properties": {
-        "id": "cor-rio-2026-12-02-021",
+        "id": "cor-rio-2026-02-12-022",
         "fonte": "COR-Rio",
         "tipo": "chuva_intensa",
         "severidade": "baixa",
         "municipio": "Rio de Janeiro",
         "estado": "RJ",
-        "data_ocorrencia": "2026-12-02T21:45:25",
+        "data_ocorrencia": "2026-02-12T00:00:00",
         "descricao": "O Centro de Operações e Resiliência da Prefeitura do Rio (COR-Rio) informa que o município do Rio de Janeiro retornou ao ESTÁGIO 1 às 21h30 desta quarta-feira, dia 12 de fevereiro de 2026, devido à ausência de previsão de chuva moderada para as próximas horas. &nbsp; Situação atual: No momento, o Radar Meteorológico do Sumaré [&hellip;]",
         "url": "https://cor.rio/municipio-do-rio-de-janeiro-retornou-ao-estagio-1-as-21h30-desta-quinta-feira-dia-12-de-fevereiro-de-2026/"
       }
@@ -452,13 +473,13 @@
         ]
       },
       "properties": {
-        "id": "cor-rio-2026-10-02-022",
+        "id": "cor-rio-2026-02-10-023",
         "fonte": "COR-Rio",
         "tipo": "chuva_intensa",
         "severidade": "baixa",
         "municipio": "Rio de Janeiro",
         "estado": "RJ",
-        "data_ocorrencia": "2026-10-02T00:18:23",
+        "data_ocorrencia": "2026-02-10T00:00:00",
         "descricao": "O Centro de Operações e Resiliência da Prefeitura do Rio (COR-Rio) informa que o município do Rio de Janeiro retornou ao ESTÁGIO 2 à 0h10 desta terça-feira, dia 10 de fevereiro de 2026, devido à redução dos acumulados de chuva e sem previsão de intensificação. Situação atual: Segundo o Alerta Rio, o Radar Meteorológico do [&hellip;]",
         "url": "https://cor.rio/municipio-do-rio-de-janeiro-retornou-ao-estagio-2-a-0h10-desta-terca-feira-dia-10-de-fevereiro-de-2026/"
       }
@@ -473,13 +494,13 @@
         ]
       },
       "properties": {
-        "id": "cor-rio-2026-07-02-023",
+        "id": "cor-rio-2026-02-07-024",
         "fonte": "COR-Rio",
         "tipo": "chuva_intensa",
         "severidade": "baixa",
         "municipio": "Rio de Janeiro",
         "estado": "RJ",
-        "data_ocorrencia": "2026-07-02T16:02:48",
+        "data_ocorrencia": "2026-02-07T00:00:00",
         "descricao": "O Centro de Operações da Prefeitura do Rio informa que o município do Rio de Janeiro entrou no ESTÁGIO 2 às 16h00 deste sábado, dia 7 de fevereiro de 2026, devido ao registro de chuva forte em pelo menos duas estações meteorológicas do Sistema Alerta Rio. Núcleos de chuva chegam à Zona Norte do Rio [&hellip;]",
         "url": "https://cor.rio/municipio-do-rio-de-janeiro-entrou-no-estagio-2-as-16h-deste-sabado-dia-7-de-fevereiro-de-2026/"
       }
@@ -494,13 +515,13 @@
         ]
       },
       "properties": {
-        "id": "cor-rio-2026-04-02-024",
+        "id": "cor-rio-2026-02-04-025",
         "fonte": "COR-Rio",
         "tipo": "chuva_intensa",
         "severidade": "baixa",
         "municipio": "Rio de Janeiro",
         "estado": "RJ",
-        "data_ocorrencia": "2026-04-02T03:00:24",
+        "data_ocorrencia": "2026-02-04T00:00:00",
         "descricao": "O Centro de Operações e Resiliência da Prefeitura do Rio (COR-Rio) informa que o município do Rio de Janeiro retornou ao ESTÁGIO 1 às 3h desta quarta-feira, dia 04 de fevereiro de 2026, devido à ausência de previsão de chuva moderada para as próximas horas. Situação atual: No momento, o Radar Meteorológico do Sumaré não [&hellip;]",
         "url": "https://cor.rio/municipio-do-rio-de-janeiro-retornou-ao-estagio-1-as-3h-desta-quarta-feira-04-02-2026/"
       }
@@ -515,13 +536,13 @@
         ]
       },
       "properties": {
-        "id": "cor-rio-2026-03-02-025",
+        "id": "cor-rio-2026-02-03-026",
         "fonte": "COR-Rio",
         "tipo": "chuva_intensa",
         "severidade": "baixa",
         "municipio": "Rio de Janeiro",
         "estado": "RJ",
-        "data_ocorrencia": "2026-03-02T15:10:01",
+        "data_ocorrencia": "2026-02-03T00:00:00",
         "descricao": "***Atualizado às 20h10 O Centro de Operações e Resiliência da Prefeitura do Rio (COR-Rio) informa que o município do Rio de Janeiro entrou no ESTÁGIO 2 às 15h10 desta terça-feira, dia 3 de fevereiro de 2026, devido a um registro de chuva maior que 25mm/30min em pelo menos uma estação do Alerta Rio. Situação atual: [&hellip;]",
         "url": "https://cor.rio/municipio-do-rio-entrou-no-estagio-2-as-15h10-desta-terca-feira-03-02-2026/"
       }
@@ -536,13 +557,13 @@
         ]
       },
       "properties": {
-        "id": "cor-rio-2026-01-02-026",
+        "id": "cor-rio-2026-02-01-027",
         "fonte": "COR-Rio",
         "tipo": "chuva_intensa",
         "severidade": "baixa",
         "municipio": "Rio de Janeiro",
         "estado": "RJ",
-        "data_ocorrencia": "2026-01-02T20:22:03",
+        "data_ocorrencia": "2026-02-01T00:00:00",
         "descricao": "O Centro de Operações e Resiliência da Prefeitura do Rio (COR-Rio) informa que o município do Rio de Janeiro entrou no ESTÁGIO 2 às 20h21 deste domingo, dia 01 de fevereiro de 2026, devido a registros de chuva e vento forte. &nbsp; Situação Atual: &nbsp; De acordo com o Sistema Alerta Rio, núcleos de chuva [&hellip;]",
         "url": "https://cor.rio/municipio-do-rio-de-janeiro-entrou-em-estagio-2-as-20h21-deste-domingo-01-de-fevereiro-de-2026/"
       }
@@ -557,13 +578,13 @@
         ]
       },
       "properties": {
-        "id": "cor-rio-2026-01-27-027",
+        "id": "cor-rio-2026-01-27-028",
         "fonte": "COR-Rio",
         "tipo": "chuva_intensa",
         "severidade": "baixa",
         "municipio": "Rio de Janeiro",
         "estado": "RJ",
-        "data_ocorrencia": "2026-01-27T04:06:13",
+        "data_ocorrencia": "2026-01-27T00:00:00",
         "descricao": "O Centro de Operações e Resiliência da Prefeitura do Rio (COR-Rio) informa que o município do Rio de Janeiro retornou ao ESTÁGIO 1 às 4h desta terça-feira, dia 27 de janeiro de 2026, devido à ausência de previsão de chuva moderada para as próximas horas. Situação atual: No momento, o Radar Meteorológico do Sumaré não [&hellip;]",
         "url": "https://cor.rio/municipio-do-rio-de-janeiro-retornou-ao-eestagio-1-as-4h-desta-terca-feira-27-01-2026/"
       }
@@ -578,13 +599,13 @@
         ]
       },
       "properties": {
-        "id": "cor-rio-2026-01-16-028",
+        "id": "cor-rio-2026-01-16-029",
         "fonte": "COR-Rio",
         "tipo": "outro",
         "severidade": "baixa",
         "municipio": "Rio de Janeiro",
         "estado": "RJ",
-        "data_ocorrencia": "2026-01-16T04:31:29",
+        "data_ocorrencia": "2026-01-16T00:00:00",
         "descricao": "A cidade do Rio de Janeiro atingiu o terceiro nível do Protocolo de Calor (CALOR 3) às 11h30 de sábado, 10 de janeiro de 2026. O Calor 3 caracteriza-se quando há registro de índices de calor alto (36ºC a 40ºC) com previsão de permanência ou aumento por, ao menos, três dias consecutivos. Segundo o Sistema [&hellip;]",
         "url": "https://cor.rio/municipio-do-rio-de-janeiro-entrou-em-calor-3-as-11h30-deste-sabado-10-de-janeiro-de-2026/"
       }
@@ -594,18 +615,18 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -43.2093727,
-          -22.9110137
+          -42.5325303,
+          -22.2800004
         ]
       },
       "properties": {
-        "id": "cor-rio-2026-05-01-029",
+        "id": "cor-rio-2026-01-05-030",
         "fonte": "COR-Rio",
         "tipo": "chuva_intensa",
         "severidade": "baixa",
         "municipio": "Rio de Janeiro",
         "estado": "RJ",
-        "data_ocorrencia": "2026-05-01T20:18:00",
+        "data_ocorrencia": "2026-01-05T00:00:00",
         "descricao": "O Centro de Operações e Resiliência da Prefeitura do Rio (COR-Rio) informa que o município do Rio de Janeiro retornou ao ESTÁGIO 1 às 20h15 desta segunda-feira, dia 05 de janeiro de 2026, devido à ausência de previsão de chuva moderada para as próximas horas. Situação atual: O Sistema Alerta Rio informa o Radar Meteorológico [&hellip;]",
         "url": "https://cor.rio/municipio-do-rio-de-janeiro-retornou-ao-estagio-1-as-20h15-desta-segunda-feira-05-de-janeiro-de-2026/"
       }
@@ -615,18 +636,18 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -43.2489075,
-          -22.9949397
+          -43.2327165,
+          -22.9247351
         ]
       },
       "properties": {
-        "id": "cor-rio-2026-04-01-030",
+        "id": "cor-rio-2026-01-04-031",
         "fonte": "COR-Rio",
         "tipo": "chuva_intensa",
         "severidade": "baixa",
         "municipio": "Rio de Janeiro",
         "estado": "RJ",
-        "data_ocorrencia": "2026-04-01T08:11:58",
+        "data_ocorrencia": "2026-01-04T00:00:00",
         "descricao": "O Centro de Operações e Resiliência da Prefeitura do Rio (COR-Rio) informa que o município do Rio de Janeiro entrou no ESTÁGIO 2 às 08h07 deste domingo, dia 04 de janeiro de 2026, devido a registros de chuva e vento forte na região do maciço da Tijuca. Matéria atualizada às 14h30* Situação Atual: De acordo [&hellip;]",
         "url": "https://cor.rio/municipio-do-rio-de-janeiro-entrou-em-estagio-2-as-08h07-deste-domingo-04-de-janeiro-de-2026/"
       }
@@ -641,13 +662,13 @@
         ]
       },
       "properties": {
-        "id": "cor-rio-2025-12-18-031",
+        "id": "cor-rio-2025-12-18-032",
         "fonte": "COR-Rio",
         "tipo": "chuva_intensa",
         "severidade": "baixa",
         "municipio": "Rio de Janeiro",
         "estado": "RJ",
-        "data_ocorrencia": "2025-12-18T05:22:28",
+        "data_ocorrencia": "2025-12-18T00:00:00",
         "descricao": "O Centro de Operações da Prefeitura do Rio informa que o município do Rio de Janeiro retornou ao ESTÁGIO 1 às 05h22 desta quinta-feira, 18 de dezembro de 2025, devido à ausência de previsão de chuva moderada para as próximas horas. &nbsp; O Estágio 1 é o primeiro em uma escala de cinco e significa [&hellip;]",
         "url": "https://cor.rio/municipio-do-rio-de-janeiro-retornou-ao-estagio-1-as-05h22-desta-sexta-feira-18-de-dezembro-de-2025/"
       }
@@ -662,13 +683,13 @@
         ]
       },
       "properties": {
-        "id": "cor-rio-2025-12-17-032",
+        "id": "cor-rio-2025-02-17-033",
         "fonte": "COR-Rio",
         "tipo": "chuva_intensa",
         "severidade": "baixa",
         "municipio": "Rio de Janeiro",
         "estado": "RJ",
-        "data_ocorrencia": "2025-12-17T06:45:15",
+        "data_ocorrencia": "2025-02-17T00:00:00",
         "descricao": "O Centro de Operações e Resiliência da Prefeitura do Rio (COR-Rio) informa que o município do Rio de Janeiro entrou no ESTÁGIO 2 às 6h45 desta quarta-feira, dia 17 de dezembro de 2025, devido a registros de chuva e vento forte. Situação Atual: De acordo com o Sistema Alerta Rio, entre 00h30 e 00h45, houve [&hellip;]",
         "url": "https://cor.rio/municipio-do-rio-entrou-em-estagio-2-as-desta-quarta-feira-17-12-2025/"
       }
@@ -683,13 +704,13 @@
         ]
       },
       "properties": {
-        "id": "cor-rio-2025-11-29-033",
+        "id": "cor-rio-2025-11-29-034",
         "fonte": "COR-Rio",
         "tipo": "chuva_intensa",
         "severidade": "baixa",
         "municipio": "Rio de Janeiro",
         "estado": "RJ",
-        "data_ocorrencia": "2025-11-29T01:19:00",
+        "data_ocorrencia": "2025-11-29T00:00:00",
         "descricao": "O Centro de Operações da Prefeitura do Rio informa que o município do Rio de Janeiro retornou ao ESTÁGIO 1 às 01h15 deste sábado, 29 de novembro de 2025, devido à ausência de previsão de chuva moderada para as próximas horas. &nbsp; O Estágio 1 é o primeiro em uma escala de cinco e significa [&hellip;]",
         "url": "https://cor.rio/municipio-do-rio-de-janeiro-retornou-ao-estagio-1-as-01h15-deste-sabado-29-de-novembro-de-2025/"
       }
@@ -704,13 +725,13 @@
         ]
       },
       "properties": {
-        "id": "cor-rio-2025-11-28-034",
+        "id": "cor-rio-2025-11-28-035",
         "fonte": "COR-Rio",
         "tipo": "chuva_intensa",
         "severidade": "baixa",
         "municipio": "Rio de Janeiro",
         "estado": "RJ",
-        "data_ocorrencia": "2025-11-28T20:32:46",
+        "data_ocorrencia": "2025-11-28T00:00:00",
         "descricao": "*Atualizado às 00h40 O Centro de Operações e Resiliência da Prefeitura do Rio (COR-Rio) informa que o município do Rio de Janeiro entrou no ESTÁGIO 2 às 20h32 desta sexta-feira, dia 28 de novembro de 2025, devido a registros de chuva forte em pelo menos duas estações. Situação atual: De acordo com o Sistema Alerta [&hellip;]",
         "url": "https://cor.rio/municipio-do-rio-de-janeiro-entrou-em-estagio-2-as-20h32-desta-sexta-feira-28-11-2025/"
       }
@@ -725,13 +746,13 @@
         ]
       },
       "properties": {
-        "id": "cor-rio-2025-09-11-035",
+        "id": "cor-rio-2025-11-09-036",
         "fonte": "COR-Rio",
-        "tipo": "outro",
+        "tipo": "chuva_intensa",
         "severidade": "baixa",
         "municipio": "Rio de Janeiro",
         "estado": "RJ",
-        "data_ocorrencia": "2025-09-11T14:59:41",
+        "data_ocorrencia": "2025-11-09T00:00:00",
         "descricao": "O Centro de Operações da Prefeitura do Rio informa que o município do Rio de Janeiro retornou ao ESTÁGIO 1 às 15h deste domingo, 09 de novembro de 2025, devido à ausência de previsão de chuva moderada para as próximas horas. O Estágio 1 é o primeiro em uma escala de cinco e significa que [&hellip;]",
         "url": "https://cor.rio/municipio-do-rio-de-janeiro-retornou-ao-estagio-1-as-15h00-deste-domingo-09-de-novembro-de-2025/"
       }
@@ -746,13 +767,13 @@
         ]
       },
       "properties": {
-        "id": "cor-rio-2025-10-29-036",
+        "id": "cor-rio-2025-10-29-037",
         "fonte": "COR-Rio",
         "tipo": "outro",
         "severidade": "baixa",
         "municipio": "Rio de Janeiro",
         "estado": "RJ",
-        "data_ocorrencia": "2025-10-29T06:20:31",
+        "data_ocorrencia": "2025-10-29T00:00:00",
         "descricao": "O Centro de Operações da Prefeitura do Rio informa que o município do Rio de Janeiro retornou ao ESTÁGIO 1 às 6h desta quarta-feira, dia 29 de outubro de 2025. O Estágio 1 é o primeiro em uma escala de cinco e significa que não há ocorrências de grande impacto. Neste estágio, podem ocorrer pequenos [&hellip;]",
         "url": "https://cor.rio/municipio-do-rio-retornou-ao-estagio-1-as-6h-desta-quarta-feira-29-10-2025/"
       }
@@ -767,13 +788,13 @@
         ]
       },
       "properties": {
-        "id": "cor-rio-2025-08-07-037",
+        "id": "cor-rio-2025-07-08-038",
         "fonte": "COR-Rio",
         "tipo": "outro",
         "severidade": "baixa",
         "municipio": "Rio de Janeiro",
         "estado": "RJ",
-        "data_ocorrencia": "2025-08-07T12:00:24",
+        "data_ocorrencia": "2025-07-08T00:00:00",
         "descricao": "O Centro de Operações e Resiliência da Prefeitura do Rio (COR-Rio) informa que o município do Rio de Janeiro retornou ao ESTÁGIO 1 às 12h desta terça-feira, dia 08 de julho de 2025, em função do encerramento dos eventos realizados na cidade para a Cúpula de Líderes do Brics e de encontros paralelos, que alteraram [&hellip;]",
         "url": "https://cor.rio/municipio-do-rio-retornou-ao-estagio-1-as-12h-desta-terca-08-de-julho-de-2025-apos-a-cupula-do-brics-na-cidade/"
       }
@@ -788,13 +809,13 @@
         ]
       },
       "properties": {
-        "id": "cor-rio-2025-06-07-038",
+        "id": "cor-rio-2025-07-06-039",
         "fonte": "COR-Rio",
         "tipo": "outro",
         "severidade": "baixa",
         "municipio": "Rio de Janeiro",
         "estado": "RJ",
-        "data_ocorrencia": "2025-06-07T10:10:53",
+        "data_ocorrencia": "2025-07-06T00:00:00",
         "descricao": "O Centro de Operações e Resiliência da Prefeitura do Rio informa que o município do Rio de Janeiro permanece em ESTÁGIO 2 desde às 10h de domingo, dia 06 de julho de 2025, devido à reunião de Cúpula do Brics e eventos paralelos. A cidade recebe o grupo das maiores economias emergentes do mundo. Os [&hellip;]",
         "url": "https://cor.rio/municipio-do-rio-entrou-em-estagio-2-as-10h-deste-domingo-06-07-2025/"
       }
@@ -809,13 +830,13 @@
         ]
       },
       "properties": {
-        "id": "cor-rio-2025-10-06-039",
+        "id": "cor-rio-2025-06-10-040",
         "fonte": "COR-Rio",
         "tipo": "chuva_intensa",
         "severidade": "baixa",
         "municipio": "Rio de Janeiro",
         "estado": "RJ",
-        "data_ocorrencia": "2025-10-06T15:08:12",
+        "data_ocorrencia": "2025-06-10T00:00:00",
         "descricao": "O Centro de Operações e Resiliência da Prefeitura do Rio (COR-Rio) informa que o município do Rio de Janeiro retornou ao ESTÁGIO 1 às 15h10 desta terça-feira, dia 10 de junho de 2025, após a liberação total do trânsito na Avenida Brasil e na Linha Vermelha, além de ausência de previsão de chuva moderada nas [&hellip;]",
         "url": "https://cor.rio/municipio-do-rio-de-janeiro-retorna-ao-estagio-1-as-15h10-desta-terca-feira-10-de-junho-de-2025/"
       }
@@ -830,13 +851,13 @@
         ]
       },
       "properties": {
-        "id": "cor-rio-2025-10-06-040",
+        "id": "cor-rio-2025-06-10-041",
         "fonte": "COR-Rio",
         "tipo": "outro",
         "severidade": "baixa",
         "municipio": "Rio de Janeiro",
         "estado": "RJ",
-        "data_ocorrencia": "2025-10-06T06:57:58",
+        "data_ocorrencia": "2025-06-10T00:00:00",
         "descricao": "O Centro de Operações e Resiliência da Prefeitura do Rio (COR-Rio) informa que o município do Rio de Janeiro entrou no ESTÁGIO 2 às 06h50 desta terça-feira, dia 10 de Junho de 2025, em função de uma ocorrência policial que interditou a Avenida Brasil e a Linha Vermelha, nos dois sentidos, na altura de Vigário [&hellip;]",
         "url": "https://cor.rio/municipio-do-rio-entrou-em-estagio-2-desde-as-06h50-de-terca-feira-10-06-acompanhe-os-impactos-pela-cidade/"
       }
@@ -851,13 +872,13 @@
         ]
       },
       "properties": {
-        "id": "cor-rio-2025-04-20-041",
+        "id": "cor-rio-2025-04-20-042",
         "fonte": "COR-Rio",
         "tipo": "chuva_intensa",
         "severidade": "baixa",
         "municipio": "Rio de Janeiro",
         "estado": "RJ",
-        "data_ocorrencia": "2025-04-20T14:35:34",
+        "data_ocorrencia": "2025-04-20T00:00:00",
         "descricao": "O Centro de Operações e Resiliência da Prefeitura do Rio (COR-Rio) informa que o município do Rio de Janeiro retornou ao ESTÁGIO 1 às 14h25 deste domingo, dia 20 de abril de 2025, devido à ausência de previsão de chuva moderada para as próximas horas. Situação atual: No momento, núcleos de chuva atuam na Região [&hellip;]",
         "url": "https://cor.rio/municipio-do-rio-de-janeiro-retornou-ao-estagio-1-as-14h25-deste-domingo-20-de-abril-de-2025/"
       }
@@ -872,13 +893,13 @@
         ]
       },
       "properties": {
-        "id": "cor-rio-2025-07-04-042",
+        "id": "cor-rio-2025-04-07-043",
         "fonte": "COR-Rio",
         "tipo": "outro",
         "severidade": "baixa",
         "municipio": "Rio de Janeiro",
         "estado": "RJ",
-        "data_ocorrencia": "2025-07-04T16:55:09",
+        "data_ocorrencia": "2025-04-07T00:00:00",
         "descricao": "Município do Rio de Janeiro retornou ao Estágio 1 às 16h50 desta segunda-feira, 7 de abril de 2025 O Centro de Operações e Resiliência da Prefeitura do Rio (COR-Rio) informa que o município do Rio de Janeiro retornou ao ESTÁGIO 1 às 16h50 desta segunda-feira, dia 7 de abril de 2025, devido à ausência de [&hellip;]",
         "url": "https://cor.rio/municipio-do-rio-de-janeiro-retornou-ao-estagio-1-as-16h50-desta-segunda-feira-7-de-abril-de-2025/"
       }
@@ -893,15 +914,36 @@
         ]
       },
       "properties": {
-        "id": "cor-rio-2025-04-04-043",
+        "id": "cor-rio-2025-04-04-044",
         "fonte": "COR-Rio",
         "tipo": "chuva_intensa",
         "severidade": "baixa",
         "municipio": "Rio de Janeiro",
         "estado": "RJ",
-        "data_ocorrencia": "2025-04-04T12:42:43",
+        "data_ocorrencia": "2025-04-04T00:00:00",
         "descricao": "O Centro de Operações e Resiliência da Prefeitura do Rio (COR-Rio) informa que o município do Rio de Janeiro permanece no ESTÁGIO 2 desde às 06h05 de sexta-feira, dia 04 de abril de 2025, devido ao registro de chuva forte durante a madrugada/manhã. O Estágio 2 é o segundo nível em uma escala de cinco [&hellip;]",
         "url": "https://cor.rio/municipio-do-rio-de-janeiro-entrou-em-estagio-2-as-06h05-desta-sexta-feira-dia-04-04-2025/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.1806914,
+          -22.9107983
+        ]
+      },
+      "properties": {
+        "id": "inmet-2026-08-01-045",
+        "fonte": "INMET",
+        "tipo": "vento_forte",
+        "severidade": "moderada",
+        "municipio": "Metropolitana do Rio de Janeiro",
+        "estado": "RJ",
+        "data_ocorrencia": "2026-08-01T00:00:00",
+        "descricao": "INMET publica aviso iniciando em: 01/08/2026 00:00. Intensificação dos ventos nas regiões litorâneas, movimentando dunas de areia sobre construções na orla.",
+        "url": "https://apiprevmet3.inmet.gov.br/avisos/rss/55217"
       }
     },
     {
@@ -914,7 +956,70 @@
         ]
       },
       "properties": {
-        "id": "inmet-2026-07-30-044",
+        "id": "inmet-2026-08-01-046",
+        "fonte": "INMET",
+        "tipo": "outro",
+        "severidade": "moderada",
+        "municipio": "Rio de Janeiro",
+        "estado": "RJ",
+        "data_ocorrencia": "2026-08-01T11:00:00",
+        "descricao": "INMET publica aviso iniciando em: 01/08/2026 11:00. Umidade relativa do ar variando entre 30% e 20%. Baixo risco de incêndios florestais e à saúde.",
+        "url": "https://apiprevmet3.inmet.gov.br/avisos/rss/55214"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2093727,
+          -22.9110137
+        ]
+      },
+      "properties": {
+        "id": "inmet-2026-08-02-047",
+        "fonte": "INMET",
+        "tipo": "vento_forte",
+        "severidade": "moderada",
+        "municipio": "Rio de Janeiro",
+        "estado": "RJ",
+        "data_ocorrencia": "2026-08-02T00:00:00",
+        "descricao": "INMET publica aviso iniciando em: 02/08/2026 00:00. Intensificação dos ventos nas regiões litorâneas, movimentando dunas de areia sobre construções na orla.",
+        "url": "https://apiprevmet3.inmet.gov.br/avisos/rss/55204"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -46.4871461,
+          -23.5476525
+        ]
+      },
+      "properties": {
+        "id": "inmet-2026-08-02-048",
+        "fonte": "INMET",
+        "tipo": "outro",
+        "severidade": "moderada",
+        "municipio": "Metropolitana de São Paulo",
+        "estado": "SP",
+        "data_ocorrencia": "2026-08-02T10:30:00",
+        "descricao": "INMET publica aviso iniciando em: 02/08/2026 10:30. Umidade relativa do ar variando entre 30% e 20%. Baixo risco de incêndios florestais e à saúde.",
+        "url": "https://apiprevmet3.inmet.gov.br/avisos/rss/55202"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2093727,
+          -22.9110137
+        ]
+      },
+      "properties": {
+        "id": "inmet-2026-07-30-049",
         "fonte": "INMET",
         "tipo": "outro",
         "severidade": "moderada",
@@ -935,7 +1040,7 @@
         ]
       },
       "properties": {
-        "id": "inmet-2026-07-29-045",
+        "id": "inmet-2026-07-29-050",
         "fonte": "INMET",
         "tipo": "vento_forte",
         "severidade": "moderada",
@@ -956,7 +1061,7 @@
         ]
       },
       "properties": {
-        "id": "inmet-2026-07-29-046",
+        "id": "inmet-2026-07-29-051",
         "fonte": "INMET",
         "tipo": "vento_forte",
         "severidade": "alta",
@@ -972,17 +1077,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -43.2093727,
-          -22.9110137
+          -43.1729,
+          -22.9068
         ]
       },
       "properties": {
-        "id": "inmet-2026-07-29-047",
+        "id": "inmet-2026-07-29-052",
         "fonte": "INMET",
         "tipo": "chuva_intensa",
         "severidade": "moderada",
-        "municipio": "Rio de Janeiro",
-        "estado": "RJ",
+        "municipio": "Litoral Sul Paulista",
+        "estado": "SP",
         "data_ocorrencia": "2026-07-29T00:00:00",
         "descricao": "INMET publica aviso iniciando em: 29/07/2026 00:00. Chuva entre 20 e 30 mm/h ou até 50 mm/dia, ventos intensos (40-60 km/h), e queda de granizo. Baixo risco de corte de energia elétrica, estragos em plantações, queda de galhos de árvores e de alagamentos.",
         "url": "https://apiprevmet3.inmet.gov.br/avisos/rss/55176"
@@ -998,9 +1103,9 @@
         ]
       },
       "properties": {
-        "id": "inmet-2026-07-29-048",
+        "id": "inmet-2026-07-29-053",
         "fonte": "INMET",
-        "tipo": "outro",
+        "tipo": "vento_forte",
         "severidade": "alta",
         "municipio": "Rio de Janeiro",
         "estado": "RJ",
@@ -1014,17 +1119,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -43.2093727,
-          -22.9110137
+          -43.1729,
+          -22.9068
         ]
       },
       "properties": {
-        "id": "inmet-2026-07-28-049",
+        "id": "inmet-2026-07-28-054",
         "fonte": "INMET",
-        "tipo": "outro",
+        "tipo": "chuva_intensa",
         "severidade": "moderada",
-        "municipio": "Rio de Janeiro",
-        "estado": "RJ",
+        "municipio": "Litoral Sul Paulista",
+        "estado": "SP",
         "data_ocorrencia": "2026-07-28T10:00:00",
         "descricao": "INMET publica aviso iniciando em: 28/07/2026 10:00. Chuva entre 20 e 30 mm/h ou até 50 mm/dia, ventos intensos (40-60 km/h), e queda de granizo. Baixo risco de corte de energia elétrica, estragos em plantações, queda de galhos de árvores e de alagamentos.",
         "url": "https://apiprevmet3.inmet.gov.br/avisos/rss/55171"
@@ -1035,17 +1140,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -43.2093727,
-          -22.9110137
+          -43.1729,
+          -22.9068
         ]
       },
       "properties": {
-        "id": "inmet-2026-07-28-050",
+        "id": "inmet-2026-07-28-055",
         "fonte": "INMET",
-        "tipo": "outro",
+        "tipo": "chuva_intensa",
         "severidade": "moderada",
-        "municipio": "Rio de Janeiro",
-        "estado": "RJ",
+        "municipio": "Litoral Sul Paulista, Macro Metropolitana Paulista",
+        "estado": "SP",
         "data_ocorrencia": "2026-07-28T10:00:00",
         "descricao": "INMET publica aviso iniciando em: 28/07/2026 10:00. Chuva entre 20 e 30 mm/h ou até 50 mm/dia, ventos intensos (40-60 km/h), e queda de granizo. Baixo risco de corte de energia elétrica, estragos em plantações, queda de galhos de árvores e de alagamentos.",
         "url": "https://apiprevmet3.inmet.gov.br/avisos/rss/55170"
@@ -1061,7 +1166,7 @@
         ]
       },
       "properties": {
-        "id": "inmet-2026-07-29-051",
+        "id": "inmet-2026-07-29-056",
         "fonte": "INMET",
         "tipo": "outro",
         "severidade": "moderada",
@@ -1077,17 +1182,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -43.2093727,
-          -22.9110137
+          -46.6333824,
+          -23.5506507
         ]
       },
       "properties": {
-        "id": "inmet-2026-07-28-052",
+        "id": "inmet-2026-07-28-057",
         "fonte": "INMET",
         "tipo": "outro",
         "severidade": "moderada",
-        "municipio": "Rio de Janeiro",
-        "estado": "RJ",
+        "municipio": "São Paulo",
+        "estado": "SP",
         "data_ocorrencia": "2026-07-28T10:00:00",
         "descricao": "INMET publica aviso iniciando em: 28/07/2026 10:00. Umidade relativa do ar variando entre 30% e 20%. Baixo risco de incêndios florestais e à saúde.",
         "url": "https://apiprevmet3.inmet.gov.br/avisos/rss/55162"
@@ -1103,7 +1208,7 @@
         ]
       },
       "properties": {
-        "id": "inmet-2026-07-25-053",
+        "id": "inmet-2026-07-25-058",
         "fonte": "INMET",
         "tipo": "chuva_intensa",
         "severidade": "moderada",
@@ -1124,9 +1229,9 @@
         ]
       },
       "properties": {
-        "id": "inmet-2026-07-25-054",
+        "id": "inmet-2026-07-25-059",
         "fonte": "INMET",
-        "tipo": "outro",
+        "tipo": "chuva_intensa",
         "severidade": "moderada",
         "municipio": "Rio de Janeiro",
         "estado": "RJ",
@@ -1145,9 +1250,9 @@
         ]
       },
       "properties": {
-        "id": "inmet-2026-07-24-055",
+        "id": "inmet-2026-07-24-060",
         "fonte": "INMET",
-        "tipo": "outro",
+        "tipo": "chuva_intensa",
         "severidade": "moderada",
         "municipio": "Rio de Janeiro",
         "estado": "RJ",
@@ -1161,17 +1266,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -43.2093727,
-          -22.9110137
+          -43.1729,
+          -22.9068
         ]
       },
       "properties": {
-        "id": "inmet-2026-07-23-056",
+        "id": "inmet-2026-07-23-061",
         "fonte": "INMET",
-        "tipo": "outro",
+        "tipo": "chuva_intensa",
         "severidade": "moderada",
-        "municipio": "Rio de Janeiro",
-        "estado": "RJ",
+        "municipio": "Macro Metropolitana Paulista",
+        "estado": "SP",
         "data_ocorrencia": "2026-07-23T18:00:00",
         "descricao": "INMET publica aviso iniciando em: 23/07/2026 18:00. Chuva entre 20 e 30 mm/h ou até 50 mm/dia, ventos intensos (40-60 km/h), e queda de granizo. Baixo risco de corte de energia elétrica, estragos em plantações, queda de galhos de árvores e de alagamentos.",
         "url": "https://apiprevmet3.inmet.gov.br/avisos/rss/55121"
@@ -1182,17 +1287,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -43.2093727,
-          -22.9110137
+          -43.1729,
+          -22.9068
         ]
       },
       "properties": {
-        "id": "inmet-2026-07-23-057",
+        "id": "inmet-2026-07-23-062",
         "fonte": "INMET",
-        "tipo": "outro",
+        "tipo": "chuva_intensa",
         "severidade": "moderada",
-        "municipio": "Rio de Janeiro",
-        "estado": "RJ",
+        "municipio": "Macro Metropolitana Paulista",
+        "estado": "SP",
         "data_ocorrencia": "2026-07-23T00:00:00",
         "descricao": "INMET publica aviso iniciando em: 23/07/2026 00:00. Chuva entre 20 e 30 mm/h ou até 50 mm/dia, ventos intensos (40-60 km/h), e queda de granizo. Baixo risco de corte de energia elétrica, estragos em plantações, queda de galhos de árvores e de alagamentos.",
         "url": "https://apiprevmet3.inmet.gov.br/avisos/rss/55112"
@@ -1203,17 +1308,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -43.2093727,
-          -22.9110137
+          -43.1729,
+          -22.9068
         ]
       },
       "properties": {
-        "id": "inmet-2026-07-22-058",
+        "id": "inmet-2026-07-22-063",
         "fonte": "INMET",
-        "tipo": "outro",
+        "tipo": "chuva_intensa",
         "severidade": "alta",
-        "municipio": "Rio de Janeiro",
-        "estado": "RJ",
+        "municipio": "Litoral Sul Paulista",
+        "estado": "SP",
         "data_ocorrencia": "2026-07-22T09:15:00",
         "descricao": "INMET publica aviso iniciando em: 22/07/2026 09:15. Chuva entre 30 e 60 mm/h ou 50 e 100 mm/dia, ventos intensos (60-100 km/h), e queda de granizo. Risco de corte de energia elétrica, estragos em plantações,  queda de árvores e de alagamentos.",
         "url": "https://apiprevmet3.inmet.gov.br/avisos/rss/55102"
@@ -1229,7 +1334,7 @@
         ]
       },
       "properties": {
-        "id": "inmet-2026-07-22-059",
+        "id": "inmet-2026-07-22-064",
         "fonte": "INMET",
         "tipo": "outro",
         "severidade": "moderada",
@@ -1245,17 +1350,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -43.2093727,
-          -22.9110137
+          -43.1729,
+          -22.9068
         ]
       },
       "properties": {
-        "id": "inmet-2026-07-22-060",
+        "id": "inmet-2026-07-22-065",
         "fonte": "INMET",
-        "tipo": "outro",
+        "tipo": "chuva_intensa",
         "severidade": "moderada",
-        "municipio": "Rio de Janeiro",
-        "estado": "RJ",
+        "municipio": "Litoral Sul Paulista",
+        "estado": "SP",
         "data_ocorrencia": "2026-07-22T00:00:00",
         "descricao": "INMET publica aviso iniciando em: 22/07/2026 00:00. Chuva entre 20 e 30 mm/h ou até 50 mm/dia, ventos intensos (40-60 km/h), e queda de granizo. Baixo risco de corte de energia elétrica, estragos em plantações, queda de galhos de árvores e de alagamentos.",
         "url": "https://apiprevmet3.inmet.gov.br/avisos/rss/55090"
@@ -1271,7 +1376,7 @@
         ]
       },
       "properties": {
-        "id": "inmet-2026-07-21-061",
+        "id": "inmet-2026-07-21-066",
         "fonte": "INMET",
         "tipo": "outro",
         "severidade": "moderada",
@@ -1292,13 +1397,13 @@
         ]
       },
       "properties": {
-        "id": "sp-sempre-alerta-2026-02-07-062",
+        "id": "sp-sempre-alerta-2026-07-02-067",
         "fonte": "SP Sempre Alerta",
-        "tipo": "outro",
+        "tipo": "chuva_intensa",
         "severidade": "baixa",
         "municipio": "São Paulo",
         "estado": "SP",
-        "data_ocorrencia": "2026-02-07T13:57:44",
+        "data_ocorrencia": "2026-07-02T13:57:44",
         "descricao": "Defesa Civil alerta para chuva, queda nas temperaturas e ventos com avanço de frente fria em São Paulo",
         "url": "https://www.spsemprealerta.sp.gov.br/defesa-civil-alerta/defesa-civil-alerta-para-chuva-queda-nas-temperaturas-e-ventos-com-avanco-de-frente-fria-em-sao-paulo/"
       }
@@ -1313,9 +1418,9 @@
         ]
       },
       "properties": {
-        "id": "sp-sempre-alerta-2026-06-15-063",
+        "id": "sp-sempre-alerta-2026-06-15-068",
         "fonte": "SP Sempre Alerta",
-        "tipo": "outro",
+        "tipo": "chuva_intensa",
         "severidade": "baixa",
         "municipio": "São Paulo",
         "estado": "SP",
@@ -1334,9 +1439,9 @@
         ]
       },
       "properties": {
-        "id": "sp-sempre-alerta-2026-05-25-064",
+        "id": "sp-sempre-alerta-2026-05-25-069",
         "fonte": "SP Sempre Alerta",
-        "tipo": "outro",
+        "tipo": "chuva_intensa",
         "severidade": "baixa",
         "municipio": "São Paulo",
         "estado": "SP",
@@ -1355,9 +1460,9 @@
         ]
       },
       "properties": {
-        "id": "sp-sempre-alerta-2026-05-22-065",
+        "id": "sp-sempre-alerta-2026-05-22-070",
         "fonte": "SP Sempre Alerta",
-        "tipo": "outro",
+        "tipo": "chuva_intensa",
         "severidade": "moderada",
         "municipio": "São Paulo",
         "estado": "SP",
@@ -1376,9 +1481,9 @@
         ]
       },
       "properties": {
-        "id": "sp-sempre-alerta-2026-05-16-066",
+        "id": "sp-sempre-alerta-2026-05-16-071",
         "fonte": "SP Sempre Alerta",
-        "tipo": "outro",
+        "tipo": "chuva_intensa",
         "severidade": "moderada",
         "municipio": "São Paulo",
         "estado": "SP",
@@ -1397,13 +1502,13 @@
         ]
       },
       "properties": {
-        "id": "sp-sempre-alerta-2026-07-05-067",
+        "id": "sp-sempre-alerta-2026-05-07-072",
         "fonte": "SP Sempre Alerta",
-        "tipo": "outro",
+        "tipo": "chuva_intensa",
         "severidade": "baixa",
         "municipio": "São Paulo",
         "estado": "SP",
-        "data_ocorrencia": "2026-07-05T22:12:14",
+        "data_ocorrencia": "2026-05-07T22:12:14",
         "descricao": "Defesa Civil de SP alerta para ventos fortes, chuva e queda acentuada de temperatura em São Paulo neste fim de semana",
         "url": "https://www.spsemprealerta.sp.gov.br/defesa-civil-alerta/defesa-civil-de-sp-alerta-para-ventos-fortes-chuva-e-queda-acentuada-de-temperatura-em-sao-paulo-neste-fim-de-semana/"
       }
@@ -1418,9 +1523,9 @@
         ]
       },
       "properties": {
-        "id": "sp-sempre-alerta-2026-04-25-068",
+        "id": "sp-sempre-alerta-2026-04-25-073",
         "fonte": "SP Sempre Alerta",
-        "tipo": "outro",
+        "tipo": "chuva_intensa",
         "severidade": "baixa",
         "municipio": "São Paulo",
         "estado": "SP",
@@ -1439,7 +1544,7 @@
         ]
       },
       "properties": {
-        "id": "sp-sempre-alerta-2026-03-20-069",
+        "id": "sp-sempre-alerta-2026-03-20-074",
         "fonte": "SP Sempre Alerta",
         "tipo": "outro",
         "severidade": "baixa",
@@ -1460,9 +1565,9 @@
         ]
       },
       "properties": {
-        "id": "sp-sempre-alerta-2026-03-18-070",
+        "id": "sp-sempre-alerta-2026-03-18-075",
         "fonte": "SP Sempre Alerta",
-        "tipo": "outro",
+        "tipo": "chuva_intensa",
         "severidade": "moderada",
         "municipio": "São Paulo",
         "estado": "SP",
@@ -1481,9 +1586,9 @@
         ]
       },
       "properties": {
-        "id": "sp-sempre-alerta-2026-03-16-071",
+        "id": "sp-sempre-alerta-2026-03-16-076",
         "fonte": "SP Sempre Alerta",
-        "tipo": "outro",
+        "tipo": "chuva_intensa",
         "severidade": "baixa",
         "municipio": "São Paulo",
         "estado": "SP",
@@ -1502,7 +1607,7 @@
         ]
       },
       "properties": {
-        "id": "sp-sempre-alerta-2026-03-13-072",
+        "id": "sp-sempre-alerta-2026-03-13-077",
         "fonte": "SP Sempre Alerta",
         "tipo": "outro",
         "severidade": "baixa",
@@ -1523,13 +1628,13 @@
         ]
       },
       "properties": {
-        "id": "sp-sempre-alerta-2026-10-03-073",
+        "id": "sp-sempre-alerta-2026-03-10-078",
         "fonte": "SP Sempre Alerta",
         "tipo": "outro",
         "severidade": "baixa",
         "municipio": "São Paulo",
         "estado": "SP",
-        "data_ocorrencia": "2026-10-03T16:06:32",
+        "data_ocorrencia": "2026-03-10T16:06:32",
         "descricao": "Defesa Civil do Estado mantém Gabinete de Crise ativo e alerta para chuvas intensas entre segunda-feira (9) e quarta-feira (11)",
         "url": "https://www.spsemprealerta.sp.gov.br/defesa-civil-alerta/defesa-civil-do-estado-mantem-gabinete-de-crise-ativo-e-alerta-para-chuvas-intensas-entre-segunda-feira-9-e-quarta-feira-11/"
       }
@@ -1539,14 +1644,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -46.6333824,
-          -23.5506507
+          -43.1729,
+          -22.9068
         ]
       },
       "properties": {
-        "id": "sp-sempre-alerta-2026-02-20-074",
+        "id": "sp-sempre-alerta-2026-02-20-079",
         "fonte": "SP Sempre Alerta",
-        "tipo": "outro",
+        "tipo": "chuva_intensa",
         "severidade": "baixa",
         "municipio": "São Paulo",
         "estado": "SP",
@@ -1565,7 +1670,7 @@
         ]
       },
       "properties": {
-        "id": "sp-sempre-alerta-2026-02-13-075",
+        "id": "sp-sempre-alerta-2026-02-13-080",
         "fonte": "SP Sempre Alerta",
         "tipo": "outro",
         "severidade": "baixa",
@@ -1586,13 +1691,13 @@
         ]
       },
       "properties": {
-        "id": "sp-sempre-alerta-2026-07-02-076",
+        "id": "sp-sempre-alerta-2026-02-07-081",
         "fonte": "SP Sempre Alerta",
-        "tipo": "outro",
+        "tipo": "chuva_intensa",
         "severidade": "alta",
         "municipio": "São Paulo",
         "estado": "SP",
-        "data_ocorrencia": "2026-07-02T06:26:49",
+        "data_ocorrencia": "2026-02-07T06:26:49",
         "descricao": "Defesa Civil do Estado alerta para risco de chuvas fortes e persistentes em São Paulo",
         "url": "https://www.spsemprealerta.sp.gov.br/defesa-civil-alerta/defesa-civil-do-estado-alerta-para-risco-de-chuvas-fortes-e-persistentes-em-sao-paulo/"
       }
@@ -1607,13 +1712,13 @@
         ]
       },
       "properties": {
-        "id": "sp-sempre-alerta-2026-01-02-077",
+        "id": "sp-sempre-alerta-2026-02-01-082",
         "fonte": "SP Sempre Alerta",
         "tipo": "outro",
         "severidade": "moderada",
         "municipio": "São Paulo",
         "estado": "SP",
-        "data_ocorrencia": "2026-01-02T17:42:23",
+        "data_ocorrencia": "2026-02-01T17:42:23",
         "descricao": "Defesa Civil do Estado alerta para risco de chuvas fortes e tempestades em São Paulo",
         "url": "https://www.spsemprealerta.sp.gov.br/defesa-civil-alerta/defesa-civil-do-estado-alerta-para-risco-de-chuvas-fortes-e-tempestades-em-sao-paulo/"
       }
@@ -1628,9 +1733,9 @@
         ]
       },
       "properties": {
-        "id": "sp-sempre-alerta-2026-01-29-078",
+        "id": "sp-sempre-alerta-2026-01-29-083",
         "fonte": "SP Sempre Alerta",
-        "tipo": "outro",
+        "tipo": "chuva_intensa",
         "severidade": "baixa",
         "municipio": "São Paulo",
         "estado": "SP",
@@ -1649,7 +1754,7 @@
         ]
       },
       "properties": {
-        "id": "sp-sempre-alerta-2026-01-16-079",
+        "id": "sp-sempre-alerta-2026-01-16-084",
         "fonte": "SP Sempre Alerta",
         "tipo": "outro",
         "severidade": "alta",
@@ -1670,15 +1775,78 @@
         ]
       },
       "properties": {
-        "id": "sp-sempre-alerta-2026-01-14-080",
+        "id": "sp-sempre-alerta-2026-01-14-085",
         "fonte": "SP Sempre Alerta",
-        "tipo": "outro",
+        "tipo": "chuva_intensa",
         "severidade": "moderada",
         "municipio": "São Paulo",
         "estado": "SP",
         "data_ocorrencia": "2026-01-14T08:50:01",
         "descricao": "Defesa Civil do estado alerta para risco de chuvas fortes e tempestades em São Paulo",
         "url": "https://www.spsemprealerta.sp.gov.br/defesa-civil-alerta/defesa-civil-do-estado-alerta-para-risco-de-chuvas-fortes-e-tempestades-em-sao-paulo-entre-quarta-feira-14-e-sexta-feira-16-a-previsao-indica-volumes-elevados-de-chuva-com-raios-ventos-fortes/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2093727,
+          -22.9110137
+        ]
+      },
+      "properties": {
+        "id": "g1-2018-02-27-086",
+        "fonte": "G1",
+        "tipo": "outro",
+        "severidade": "baixa",
+        "municipio": "Rio de Janeiro",
+        "estado": "RJ",
+        "data_ocorrencia": "2018-02-27T13:16:16-03:00",
+        "descricao": "\"Tem que acabar a justiça!\", \"Quem tá na rua de madrugada tá procurando confusão!\", \"Ambiente de música é ambiente de droga!\", \"É tudo uma conspiração de grupos internacionais!\", \"Os americanos são verdadeiros patriotas! O Brasil é que é uma bagunça!\"Parecem frases retiradas de comentários de portais de notícia. Mas são petardos disparados pelos personagens criados pelos humoristas Caito Mainier e Daniel Furlan, que após a consagração na internet brilharam na cobertura que o Sportv fez das Olimpíadas de Inverno de PyeongChang, encerrados na semana passada.Muito se fala, e muito se teme o fenômeno de comentaristas de portal. Conservadores, incultos, misóginos, preconceituosos e intolerantes, eles seriam e representariam o brasileiro que não gostaríamos de ser. O povo que não gostaríamos de ser. A voz que a internet dá a \"qualquer um\" teria revelado que não somos, na verdade, o povo que um dia salvaria o mundo com sua alegria e tolerância. Não nos imaginávamos tão selvagens. Tão feios. E desanimamos.Mas Daniel e Caito perceberam que conservadores incultos, misóginos, preconceituosos e intolerantes são, acima de tudo, patéticos. E, como tudo o que é patético, muito engraçados. E então criaram personagens que são paródias do patético inculto conservador. E passaram a fazer as pessoas rirem disso.Só ao fim da 2ª Guerra Mundial é que fomos nos dar conta de que Benito Mussolini era tosco e engraçado. Hoje, reconhecemos em tempo real a tosquice e a consequente graça de Donald Trump e Kim Jong-un. Rir de algo tão violento, desumano e, por isso, criminoso, é a vacina mais eficaz contra a praga do inculto conservador. Ter visto, durante a corbertura dos jogos de PyeongChang, os personagens Cerginho da Pereira Nunes e Craque Daniel tocarem o programa Falha de Cobertura, uma paródia de mesa redonda de esportes, fora da Internet, em um grande veículo de comunicação, aponta para uma uma certa vontade da TV em estar atentas aos produtos contraculturais que aparecem na rede.A Internet é conservadora, porque livre. O pensamento conservador é o raciocínio humano em seu estágio primitivo. O Homem das Cavernas era conservador. Evoluímos. Mas o Homem das Cavernas ainda é maioria.  Os personagens do Caito e Furlan são preconceituosos, mal informados e alienados. São contra ciclovias, ciências humanas e vocabulários ricos.  Escancarando essa alienação, escancarando como é feio e tosco (e engraçado) ter opiniões medievais, alienar-se em um país onde a desigualdade social, e ano de eleição, e fazer tudo isso despretensiosamente, os dois operam um milagre: conseguem falar diretamente com o público conservador, que também adoram os personagens, sem desconfiar que se trata de uma tiração de onda com este público.Política, discordo com o competente e talentoso Thiago Leifert, não só combina com o esporte, como o potencializa. \"Esporte sem partido\" é como \"Escola sem partido\": pura alienação. Que tem como consequência (ela, a alienação) a miséria na qual vivemos.Furlan e Caito (e seus não menos talentosos colegas do canal TV Quase) nos lembraram, na estreia de Falha de Cobertura na TV, que é isso e muito mais: Esporte combina, e se engrandece, não só com política. Mas também com humor.\nForte abraço!",
+        "url": "https://g1.globo.com/rio-de-janeiro/blog/dodo-azevedo/post/falha-de-cobertura.html"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2093727,
+          -22.9110137
+        ]
+      },
+      "properties": {
+        "id": "g1-2018-07-22-087",
+        "fonte": "G1",
+        "tipo": "outro",
+        "severidade": "baixa",
+        "municipio": "Rio de Janeiro",
+        "estado": "RJ",
+        "data_ocorrencia": "2018-07-22T19:08:18Z",
+        "descricao": "Show do artista trouxe clássicos como Avôhai, Chão de Giz e Sinônimos, além da interpretação de Gita e Medo da Chuva, de Raul Seixas.",
+        "url": "https://g1.globo.com/sp/sorocaba-jundiai/noticia/2018/07/22/ze-ramalho-lembra-sucessos-e-invoca-raul-seixas-na-festa-junina-de-sorocaba.ghtml"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2093727,
+          -22.9110137
+        ]
+      },
+      "properties": {
+        "id": "g1-2018-07-17-088",
+        "fonte": "G1",
+        "tipo": "outro",
+        "severidade": "baixa",
+        "municipio": "Rio de Janeiro",
+        "estado": "RJ",
+        "data_ocorrencia": "2018-07-17T16:06:59Z",
+        "descricao": "No evento são oferecidas mais de 400 vagas de emprego em vários setores. Horário de funcionamento é das 11h às 20h.",
+        "url": "https://g1.globo.com/sp/sorocaba-jundiai/concursos-e-emprego/noticia/etec-faz-feira-voltada-para-emprego-e-estagio-em-rio-preto.ghtml"
       }
     }
   ]

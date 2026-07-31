@@ -17,6 +17,7 @@ from app.ai.gemini_client import classificar_evento, extrair_localizacao
 from app.models.evento import Evento
 from app.processing.geocoding import geocodificar
 from app.scrapers.cor_rio_scraper import BoletimEvento, coletar_boletins, filtrar_eventos_climaticos
+from app.scrapers.g1_scraper import coletar_noticias_g1
 from app.scrapers.inmet_avisos import coletar_avisos_inmet
 from app.scrapers.sp_alerta_scraper import coletar_boletins_sp
 
@@ -48,6 +49,17 @@ def _severidade_heuristica(titulo: str, resumo: str) -> str:
 
 def _parsear_data(data_texto: str) -> datetime:
     if data_texto:
+        # dateutil.parser.parse com dayfirst=True inverte dia/mês mesmo em datas ISO
+        # não ambíguas (ex.: "2026-05-02" virava 5 de fevereiro). As datas que
+        # chegam aqui em formato ISO (data de publicação do WordPress ou data
+        # extraída do texto do boletim) precisam ser parseadas primeiro por
+        # isoparse, que respeita a ordem ano-mês-dia sem ambiguidade. Só caímos no
+        # parse "fuzzy" com dayfirst para formatos não-ISO (ex.: dd/mm/aaaa de
+        # outras fontes).
+        try:
+            return date_parser.isoparse(data_texto)
+        except ValueError:
+            pass
         try:
             return date_parser.parse(data_texto, dayfirst=True, fuzzy=True)
         except (ValueError, OverflowError):
@@ -120,14 +132,16 @@ def gerar_eventos_reais() -> dict:
 
     avisos_inmet = coletar_avisos_inmet()
     climaticos_sp = coletar_boletins_sp()
+    climaticos_g1 = coletar_noticias_g1()
 
-    boletins_combinados = climaticos_cor_rio + avisos_inmet + climaticos_sp
+    boletins_combinados = climaticos_cor_rio + avisos_inmet + climaticos_sp + climaticos_g1
     logger.info(
-        "Boletins a processar nesta execução: %d (COR-Rio: %d, INMET: %d, SP Sempre Alerta: %d)",
+        "Boletins a processar nesta execução: %d (COR-Rio: %d, INMET: %d, SP Sempre Alerta: %d, G1: %d)",
         len(boletins_combinados),
         len(climaticos_cor_rio),
         len(avisos_inmet),
         len(climaticos_sp),
+        len(climaticos_g1),
     )
 
     novos_eventos: list[Evento] = []
