@@ -1,0 +1,11 @@
+<div class="mapa-container">
+  <div #mapaEl class="mapa"></div>
+
+  @if (carregando) {
+    <div class="mapa-status mapa-status--carregando">Carregando eventos...</div>
+  }
+
+  @if (erro) {
+    <div class="mapa-status mapa-status--erro">{{ erro }}</div>
+  }
+</div>

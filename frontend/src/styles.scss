@@ -1,0 +1,29 @@
+/* You can add global styles to this file, and also import other style files */
+
+html,
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.popup-evento {
+  font-family: sans-serif;
+  font-size: 0.85rem;
+  max-width: 260px;
+
+  h3 {
+    margin: 0 0 0.35rem;
+    font-size: 1rem;
+  }
+
+  p {
+    margin: 0.25rem 0;
+  }
+
+  a {
+    display: inline-block;
+    margin-top: 0.5rem;
+    color: #1565c0;
+  }
+}
+
