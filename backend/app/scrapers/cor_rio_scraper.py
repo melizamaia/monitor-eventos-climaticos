@@ -12,11 +12,9 @@ from dataclasses import asdict, dataclass
 from selenium import webdriver
 from selenium.common.exceptions import TimeoutException
 from selenium.webdriver.chrome.options import Options
-from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
-from webdriver_manager.chrome import ChromeDriverManager
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s")
 logger = logging.getLogger(__name__)
@@ -55,8 +53,11 @@ def _criar_driver(headless: bool = True) -> webdriver.Chrome:
         "user-agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 "
         "(KHTML, like Gecko) Chrome/126.0 Safari/537.36"
     )
-    service = Service(ChromeDriverManager().install())
-    return webdriver.Chrome(service=service, options=options)
+
+    # Selenium 4 já inclui o "Selenium Manager", que baixa e gerencia
+    # automaticamente a versão correta do ChromeDriver para o Chrome/Chromium
+    # instalado na máquina — não é preciso indicar um Service manualmente.
+    return webdriver.Chrome(options=options)
 
 
 def coletar_boletins(max_boletins: int = 30, headless: bool = True) -> list[BoletimEvento]:

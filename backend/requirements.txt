@@ -4,7 +4,6 @@ uvicorn[standard]==0.30.6
 
 # --- RPA / Scraping ---
 selenium==4.24.0
-webdriver-manager==4.0.2
 
 # --- Tratamento de dados ---
 pandas==2.2.2
