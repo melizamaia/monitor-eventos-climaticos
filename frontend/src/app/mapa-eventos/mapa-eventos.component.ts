@@ -2,8 +2,12 @@ import { AfterViewInit, Component, ElementRef, OnDestroy, ViewChild } from '@ang
 import * as L from 'leaflet';
 import { EventoFeature, EventosService } from '../services/eventos.service';
 
-const RJ_CENTER: L.LatLngExpression = [-22.9068, -43.1729];
+// Ponto médio aproximado entre RJ e SP — só usado como fallback enquanto os
+// eventos carregam ou quando a coleção vier vazia; assim que houver marcadores,
+// o mapa se ajusta automaticamente a eles (ver ajustarEnquadramento).
+const CENTRO_NEUTRO: L.LatLngExpression = [-23.0, -44.5];
 const ZOOM_INICIAL = 7;
+const ZOOM_EVENTO_UNICO = 11;
 
 const CORES_SEVERIDADE: Record<string, string> = {
   baixa: '#2e7d32',
@@ -30,7 +34,7 @@ export class MapaEventosComponent implements AfterViewInit, OnDestroy {
   constructor(private readonly eventosService: EventosService) {}
 
   ngAfterViewInit(): void {
-    this.mapa = L.map(this.mapaEl.nativeElement).setView(RJ_CENTER, ZOOM_INICIAL);
+    this.mapa = L.map(this.mapaEl.nativeElement).setView(CENTRO_NEUTRO, ZOOM_INICIAL);
 
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
       attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
@@ -48,7 +52,8 @@ export class MapaEventosComponent implements AfterViewInit, OnDestroy {
     this.eventosService.listar().subscribe({
       next: (colecao) => {
         this.carregando = false;
-        colecao.features.forEach((feature) => this.adicionarMarcador(feature));
+        const coordenadas = colecao.features.map((feature) => this.adicionarMarcador(feature));
+        this.ajustarEnquadramento(coordenadas);
       },
       error: () => {
         this.carregando = false;
@@ -58,17 +63,38 @@ export class MapaEventosComponent implements AfterViewInit, OnDestroy {
     });
   }
 
-  private adicionarMarcador(feature: EventoFeature): void {
-    if (!this.mapa) {
+  /**
+   * Enquadra o mapa nos marcadores carregados. Não depende de nenhum estado
+   * específico — funciona igual se os eventos vierem só de RJ, só de SP, das
+   * duas regiões ou de qualquer outra combinação futura.
+   */
+  private ajustarEnquadramento(coordenadas: L.LatLngExpression[]): void {
+    if (!this.mapa || coordenadas.length === 0) {
       return;
     }
 
+    if (coordenadas.length === 1) {
+      this.mapa.setView(coordenadas[0], ZOOM_EVENTO_UNICO);
+      return;
+    }
+
+    const bounds = L.latLngBounds(coordenadas);
+    this.mapa.fitBounds(bounds, { padding: [50, 50] });
+  }
+
+  private adicionarMarcador(feature: EventoFeature): L.LatLngExpression {
     const [lng, lat] = feature.geometry.coordinates;
+    const coordenada: L.LatLngExpression = [lat, lng];
+
+    if (!this.mapa) {
+      return coordenada;
+    }
+
     const { tipo, severidade, municipio, estado, data_ocorrencia, descricao, url } = feature.properties;
 
     const cor = CORES_SEVERIDADE[severidade?.toLowerCase()] ?? COR_PADRAO;
 
-    const marcador = L.circleMarker([lat, lng], {
+    const marcador = L.circleMarker(coordenada, {
       radius: 8,
       color: cor,
       fillColor: cor,
@@ -78,6 +104,8 @@ export class MapaEventosComponent implements AfterViewInit, OnDestroy {
 
     marcador.bindPopup(this.montarPopup({ tipo, severidade, municipio, estado, data_ocorrencia, descricao, url }));
     marcador.addTo(this.mapa);
+
+    return coordenada;
   }
 
   private montarPopup(props: {

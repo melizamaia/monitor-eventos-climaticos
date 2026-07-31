@@ -128,11 +128,41 @@ com segurança. Não invente informação que não esteja no texto."""
         return {"tipo": "outro", "causa_provavel": "nao_identificada"}
 
 
-def extrair_localizacao(titulo: str, resumo: str) -> dict:
+def extrair_localizacao(
+    titulo: str,
+    resumo: str,
+    contexto_area: str | None = None,
+    municipio_padrao: str = "Rio de Janeiro",
+    estado_padrao: str = "RJ",
+) -> dict:
     cliente = _criar_cliente()
 
-    prompt = f"""Leia o boletim abaixo, emitido pelo COR-Rio (Centro de Operações e
-Resiliência da cidade do Rio de Janeiro).
+    if contexto_area:
+        prompt = f"""Leia o aviso meteorológico abaixo, emitido pelo INMET (Instituto Nacional de
+Meteorologia). O INMET descreve a área afetada usando mesorregiões geográficas do IBGE
+(ex.: "Litoral Sul Fluminense", "Metropolitana do Rio de Janeiro", "Zona Oeste"), não
+bairros — então a extração precisa lidar com nomes de região, não só cidade ou bairro.
+
+Título: {titulo}
+Descrição: {resumo}
+Área do aviso: {contexto_area}
+
+Extraia o município, o estado (UF) e, se possível, um bairro ou zona mais específico.
+
+Responda APENAS em JSON, no formato:
+{{"municipio": "...", "estado": "...", "bairro_ou_zona": "..." ou null}}
+
+Regras:
+- O estado é "RJ" se a área mencionar termos como "Fluminense" ou "Rio de Janeiro", ou
+  "SP" se mencionar termos como "Paulista" ou "São Paulo".
+- Se o título, a descrição ou a área mencionarem uma cidade específica, use-a como
+  "municipio".
+- Se apenas uma mesorregião ou zona mais ampla for mencionada (ex.: "Litoral Sul
+  Fluminense", "Zona Oeste"), use o nome dessa região como "municipio" — ela será usada
+  como termo de busca na geolocalização — e responda "bairro_ou_zona": null.
+- Nunca invente uma cidade, bairro ou zona que não esteja implícita no texto."""
+    else:
+        prompt = f"""Leia o boletim climático abaixo.
 
 Título: {titulo}
 Descrição: {resumo}
@@ -143,19 +173,16 @@ Responda APENAS em JSON, no formato:
 {{"municipio": "...", "estado": "...", "bairro_ou_zona": "..." ou null}}
 
 Regras:
-- Se o texto mencionar uma zona da cidade (ex: "Zona Oeste", "Zona Sul", "Zona Norte",
-  "Zona Central" ou "Centro"), capture essa zona em "bairro_ou_zona".
-- Se o texto mencionar um bairro específico (ex: "Recreio", "Tijuca", "Copacabana",
-  "Barra da Tijuca"), capture o bairro em vez da zona em "bairro_ou_zona" — o bairro é
-  mais preciso para geolocalização do que a zona.
-- Se o texto mencionar um bairro, zona ou região da cidade do Rio de Janeiro, o
-  município é "Rio de Janeiro" e o estado é "RJ".
+- Se o texto mencionar uma zona ou região (ex: "Zona Oeste", "Zona Sul", "Zona Norte",
+  "Litoral", "Centro"), capture essa zona em "bairro_ou_zona".
+- Se o texto mencionar um bairro específico, capture o bairro em vez da zona em
+  "bairro_ou_zona" — o bairro é mais preciso para geolocalização do que a zona.
+- Se o texto mencionar um bairro, zona ou cidade, o "municipio" é a cidade correspondente
+  e o "estado" é a UF correspondente.
 - Se o texto não mencionar nenhuma cidade específica, responda com
-  "municipio": "Rio de Janeiro" e "estado": "RJ", pois a fonte é focada na cidade
-  do Rio de Janeiro.
+  "municipio": "{municipio_padrao}" e "estado": "{estado_padrao}".
 - Se o texto não mencionar nenhum bairro ou zona específico, responda
-  "bairro_ou_zona": null. Nunca invente um bairro ou zona que não esteja no texto.
-- Nunca invente uma cidade que não esteja implícita no texto."""
+  "bairro_ou_zona": null. Nunca invente um bairro, zona ou cidade que não esteja no texto."""
 
     try:
         _respeitar_limite_de_taxa()
@@ -166,14 +193,14 @@ Regras:
         )
         dados = json.loads(resposta.text)
 
-        municipio = dados.get("municipio") or "Rio de Janeiro"
-        estado = dados.get("estado") or "RJ"
+        municipio = dados.get("municipio") or municipio_padrao
+        estado = dados.get("estado") or estado_padrao
         bairro_ou_zona = dados.get("bairro_ou_zona") or None
 
         return {"municipio": municipio, "estado": estado, "bairro_ou_zona": bairro_ou_zona}
     except Exception as e:
         logger.error("Erro ao extrair localização com Gemini: %s", e)
-        return {"municipio": "Rio de Janeiro", "estado": "RJ", "bairro_ou_zona": None}
+        return {"municipio": municipio_padrao, "estado": estado_padrao, "bairro_ou_zona": None}
 
 
 if __name__ == "__main__":

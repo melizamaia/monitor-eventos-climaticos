@@ -63,6 +63,11 @@ class BoletimEvento:
     url: str
     resumo: str
     fonte: str = "COR-Rio"
+    # Preenchidos apenas por fontes que já trazem severidade estruturada (ex.: INMET).
+    # O COR-Rio não tem esse campo na origem, então o pipeline recorre à heurística
+    # de palavras-chave nesse caso.
+    severidade_origem: str | None = None
+    area_texto: str | None = None
 
     def menciona_evento_climatico(self) -> bool:
         texto = f"{self.titulo} {self.resumo}".lower()

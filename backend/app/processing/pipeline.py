@@ -1,6 +1,7 @@
 """
-Pipeline principal: coleta boletins do COR-Rio, classifica e geolocaliza cada um
-com o Gemini, e gera o GeoJSON de eventos reais consumido pela API.
+Pipeline principal: coleta boletins do COR-Rio, avisos do INMET e alertas do SP Sempre
+Alerta, classifica e geolocaliza cada um com o Gemini, e gera o GeoJSON de eventos reais
+consumido pela API.
 """
 
 from __future__ import annotations
@@ -16,6 +17,8 @@ from app.ai.gemini_client import classificar_evento, extrair_localizacao
 from app.models.evento import Evento
 from app.processing.geocoding import geocodificar
 from app.scrapers.cor_rio_scraper import BoletimEvento, coletar_boletins, filtrar_eventos_climaticos
+from app.scrapers.inmet_avisos import coletar_avisos_inmet
+from app.scrapers.sp_alerta_scraper import coletar_boletins_sp
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s")
 logger = logging.getLogger(__name__)
@@ -24,6 +27,14 @@ DATA_PATH = Path(__file__).parent.parent / "data" / "eventos_reais.geojson"
 
 PALAVRAS_SEVERIDADE_ALTA = ["extrem", "grave", "crític", "critic"]
 PALAVRAS_SEVERIDADE_MODERADA = ["risco", "atenção", "atencao"]
+
+# Município/estado padrão usados na extração de localização quando o boletim não
+# menciona nenhuma cidade específica — cada fonte cobre uma cidade/estado diferente.
+LOCALIZACAO_PADRAO_POR_FONTE = {
+    "COR-Rio": ("Rio de Janeiro", "RJ"),
+    "SP Sempre Alerta": ("São Paulo", "SP"),
+}
+LOCALIZACAO_PADRAO_FALLBACK = ("Rio de Janeiro", "RJ")
 
 
 def _severidade_heuristica(titulo: str, resumo: str) -> str:
@@ -46,18 +57,30 @@ def _parsear_data(data_texto: str) -> datetime:
 
 def _boletim_para_evento(boletim: BoletimEvento, indice: int) -> Evento:
     classificacao = classificar_evento(boletim.titulo, boletim.resumo)
-    localizacao = extrair_localizacao(boletim.titulo, boletim.resumo)
+    municipio_padrao, estado_padrao = LOCALIZACAO_PADRAO_POR_FONTE.get(
+        boletim.fonte, LOCALIZACAO_PADRAO_FALLBACK
+    )
+    localizacao = extrair_localizacao(
+        boletim.titulo,
+        boletim.resumo,
+        contexto_area=boletim.area_texto,
+        municipio_padrao=municipio_padrao,
+        estado_padrao=estado_padrao,
+    )
 
     municipio = localizacao["municipio"]
     estado = localizacao["estado"]
     bairro_ou_zona = localizacao.get("bairro_ou_zona")
     latitude, longitude = geocodificar(municipio, estado, bairro_ou_zona)
 
-    severidade = _severidade_heuristica(boletim.titulo, boletim.resumo)
+    # Fontes como o INMET já chegam com severidade estruturada na origem; só recorremos
+    # à heurística de palavras-chave para fontes que não fornecem esse dado (COR-Rio).
+    severidade = boletim.severidade_origem or _severidade_heuristica(boletim.titulo, boletim.resumo)
     data_ocorrencia = _parsear_data(boletim.data_texto)
 
+    fonte_slug = boletim.fonte.lower().replace(" ", "-")
     return Evento(
-        id=f"cor-rio-{data_ocorrencia.strftime('%Y-%m-%d')}-{indice:03d}",
+        id=f"{fonte_slug}-{data_ocorrencia.strftime('%Y-%m-%d')}-{indice:03d}",
         fonte=boletim.fonte,
         tipo=classificacao["tipo"],
         severidade=severidade,
@@ -93,14 +116,25 @@ def gerar_eventos_reais() -> dict:
     urls_existentes: set[str] = set()
 
     boletins = coletar_boletins()
-    climaticos = filtrar_eventos_climaticos(boletins)
-    logger.info("Boletins a processar nesta execução: %d", len(climaticos))
+    climaticos_cor_rio = filtrar_eventos_climaticos(boletins)
+
+    avisos_inmet = coletar_avisos_inmet()
+    climaticos_sp = coletar_boletins_sp()
+
+    boletins_combinados = climaticos_cor_rio + avisos_inmet + climaticos_sp
+    logger.info(
+        "Boletins a processar nesta execução: %d (COR-Rio: %d, INMET: %d, SP Sempre Alerta: %d)",
+        len(boletins_combinados),
+        len(climaticos_cor_rio),
+        len(avisos_inmet),
+        len(climaticos_sp),
+    )
 
     novos_eventos: list[Evento] = []
     duplicados = 0
     falhas = 0
 
-    for indice, boletim in enumerate(climaticos, start=1):
+    for indice, boletim in enumerate(boletins_combinados, start=1):
         if boletim.url in urls_existentes:
             duplicados += 1
             continue

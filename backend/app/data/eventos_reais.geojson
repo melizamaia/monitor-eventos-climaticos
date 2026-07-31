@@ -279,8 +279,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -43.2093727,
-          -22.9110137
+          -42.5325303,
+          -22.2800004
         ]
       },
       "properties": {
@@ -363,8 +363,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -43.2093727,
-          -22.9110137
+          -43.1830653,
+          -22.9043934
         ]
       },
       "properties": {
@@ -372,7 +372,7 @@
         "fonte": "COR-Rio",
         "tipo": "outro",
         "severidade": "alta",
-        "municipio": "Rio de Janeiro",
+        "municipio": "Rio",
         "estado": "RJ",
         "data_ocorrencia": "2026-03-27T08:58:57",
         "descricao": "O Centro de Operações e Resiliência da Prefeitura do Rio (COR-Rio) informa que a cidade retornou ao CALOR 1 às 09h00 desta sexta-feira, 27 de março de 2026, em função da ausência de previsão de Índices de Calor – IC (temperatura e umidade) extremo, muito alto ou alto nas próximas horas. Na quinta-feira (26/3), às [&hellip;]",
@@ -615,8 +615,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -43.2327165,
-          -22.9247351
+          -43.2489075,
+          -22.9949397
         ]
       },
       "properties": {
@@ -727,7 +727,7 @@
       "properties": {
         "id": "cor-rio-2025-09-11-035",
         "fonte": "COR-Rio",
-        "tipo": "chuva_intensa",
+        "tipo": "outro",
         "severidade": "baixa",
         "municipio": "Rio de Janeiro",
         "estado": "RJ",
@@ -902,6 +902,783 @@
         "data_ocorrencia": "2025-04-04T12:42:43",
         "descricao": "O Centro de Operações e Resiliência da Prefeitura do Rio (COR-Rio) informa que o município do Rio de Janeiro permanece no ESTÁGIO 2 desde às 06h05 de sexta-feira, dia 04 de abril de 2025, devido ao registro de chuva forte durante a madrugada/manhã. O Estágio 2 é o segundo nível em uma escala de cinco [&hellip;]",
         "url": "https://cor.rio/municipio-do-rio-de-janeiro-entrou-em-estagio-2-as-06h05-desta-sexta-feira-dia-04-04-2025/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2093727,
+          -22.9110137
+        ]
+      },
+      "properties": {
+        "id": "inmet-2026-07-30-044",
+        "fonte": "INMET",
+        "tipo": "outro",
+        "severidade": "moderada",
+        "municipio": "Rio de Janeiro",
+        "estado": "RJ",
+        "data_ocorrencia": "2026-07-30T10:00:00",
+        "descricao": "INMET publica aviso iniciando em: 30/07/2026 10:00. Umidade relativa do ar variando entre 30% e 20%. Baixo risco de incêndios florestais e à saúde.",
+        "url": "https://apiprevmet3.inmet.gov.br/avisos/rss/55191"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -41.2897697,
+          -21.7618006
+        ]
+      },
+      "properties": {
+        "id": "inmet-2026-07-29-045",
+        "fonte": "INMET",
+        "tipo": "vento_forte",
+        "severidade": "moderada",
+        "municipio": "Norte Fluminense",
+        "estado": "RJ",
+        "data_ocorrencia": "2026-07-29T17:25:00",
+        "descricao": "INMET publica aviso iniciando em: 29/07/2026 17:25. Intensificação dos ventos nas regiões litorâneas, movimentando dunas de areia sobre construções na orla.",
+        "url": "https://apiprevmet3.inmet.gov.br/avisos/rss/55189"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2093727,
+          -22.9110137
+        ]
+      },
+      "properties": {
+        "id": "inmet-2026-07-29-046",
+        "fonte": "INMET",
+        "tipo": "vento_forte",
+        "severidade": "alta",
+        "municipio": "Rio de Janeiro",
+        "estado": "RJ",
+        "data_ocorrencia": "2026-07-29T10:00:00",
+        "descricao": "INMET publica aviso iniciando em: 29/07/2026 10:00. Intensificação dos ventos nas regiões litorâneas, movimentando dunas de areia sobre construções na orla.",
+        "url": "https://apiprevmet3.inmet.gov.br/avisos/rss/55188"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2093727,
+          -22.9110137
+        ]
+      },
+      "properties": {
+        "id": "inmet-2026-07-29-047",
+        "fonte": "INMET",
+        "tipo": "chuva_intensa",
+        "severidade": "moderada",
+        "municipio": "Rio de Janeiro",
+        "estado": "RJ",
+        "data_ocorrencia": "2026-07-29T00:00:00",
+        "descricao": "INMET publica aviso iniciando em: 29/07/2026 00:00. Chuva entre 20 e 30 mm/h ou até 50 mm/dia, ventos intensos (40-60 km/h), e queda de granizo. Baixo risco de corte de energia elétrica, estragos em plantações, queda de galhos de árvores e de alagamentos.",
+        "url": "https://apiprevmet3.inmet.gov.br/avisos/rss/55176"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2093727,
+          -22.9110137
+        ]
+      },
+      "properties": {
+        "id": "inmet-2026-07-29-048",
+        "fonte": "INMET",
+        "tipo": "outro",
+        "severidade": "alta",
+        "municipio": "Rio de Janeiro",
+        "estado": "RJ",
+        "data_ocorrencia": "2026-07-29T00:00:00",
+        "descricao": "INMET publica aviso iniciando em: 29/07/2026 00:00. Intensificação dos ventos nas regiões litorâneas, movimentando dunas de areia sobre construções na orla.",
+        "url": "https://apiprevmet3.inmet.gov.br/avisos/rss/55175"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2093727,
+          -22.9110137
+        ]
+      },
+      "properties": {
+        "id": "inmet-2026-07-28-049",
+        "fonte": "INMET",
+        "tipo": "outro",
+        "severidade": "moderada",
+        "municipio": "Rio de Janeiro",
+        "estado": "RJ",
+        "data_ocorrencia": "2026-07-28T10:00:00",
+        "descricao": "INMET publica aviso iniciando em: 28/07/2026 10:00. Chuva entre 20 e 30 mm/h ou até 50 mm/dia, ventos intensos (40-60 km/h), e queda de granizo. Baixo risco de corte de energia elétrica, estragos em plantações, queda de galhos de árvores e de alagamentos.",
+        "url": "https://apiprevmet3.inmet.gov.br/avisos/rss/55171"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2093727,
+          -22.9110137
+        ]
+      },
+      "properties": {
+        "id": "inmet-2026-07-28-050",
+        "fonte": "INMET",
+        "tipo": "outro",
+        "severidade": "moderada",
+        "municipio": "Rio de Janeiro",
+        "estado": "RJ",
+        "data_ocorrencia": "2026-07-28T10:00:00",
+        "descricao": "INMET publica aviso iniciando em: 28/07/2026 10:00. Chuva entre 20 e 30 mm/h ou até 50 mm/dia, ventos intensos (40-60 km/h), e queda de granizo. Baixo risco de corte de energia elétrica, estragos em plantações, queda de galhos de árvores e de alagamentos.",
+        "url": "https://apiprevmet3.inmet.gov.br/avisos/rss/55170"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2093727,
+          -22.9110137
+        ]
+      },
+      "properties": {
+        "id": "inmet-2026-07-29-051",
+        "fonte": "INMET",
+        "tipo": "outro",
+        "severidade": "moderada",
+        "municipio": "Rio de Janeiro",
+        "estado": "RJ",
+        "data_ocorrencia": "2026-07-29T11:00:00",
+        "descricao": "INMET publica aviso iniciando em: 29/07/2026 11:00. Umidade relativa do ar variando entre 30% e 20%. Baixo risco de incêndios florestais e à saúde.",
+        "url": "https://apiprevmet3.inmet.gov.br/avisos/rss/55169"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2093727,
+          -22.9110137
+        ]
+      },
+      "properties": {
+        "id": "inmet-2026-07-28-052",
+        "fonte": "INMET",
+        "tipo": "outro",
+        "severidade": "moderada",
+        "municipio": "Rio de Janeiro",
+        "estado": "RJ",
+        "data_ocorrencia": "2026-07-28T10:00:00",
+        "descricao": "INMET publica aviso iniciando em: 28/07/2026 10:00. Umidade relativa do ar variando entre 30% e 20%. Baixo risco de incêndios florestais e à saúde.",
+        "url": "https://apiprevmet3.inmet.gov.br/avisos/rss/55162"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2093727,
+          -22.9110137
+        ]
+      },
+      "properties": {
+        "id": "inmet-2026-07-25-053",
+        "fonte": "INMET",
+        "tipo": "chuva_intensa",
+        "severidade": "moderada",
+        "municipio": "Rio de Janeiro",
+        "estado": "RJ",
+        "data_ocorrencia": "2026-07-25T09:00:00",
+        "descricao": "INMET publica aviso iniciando em: 25/07/2026 09:00. Chuva entre 20 e 30 mm/h ou até 50 mm/dia, ventos intensos (40-60 km/h), e queda de granizo. Baixo risco de corte de energia elétrica, estragos em plantações, queda de galhos de árvores e de alagamentos.",
+        "url": "https://apiprevmet3.inmet.gov.br/avisos/rss/55127"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2093727,
+          -22.9110137
+        ]
+      },
+      "properties": {
+        "id": "inmet-2026-07-25-054",
+        "fonte": "INMET",
+        "tipo": "outro",
+        "severidade": "moderada",
+        "municipio": "Rio de Janeiro",
+        "estado": "RJ",
+        "data_ocorrencia": "2026-07-25T09:00:00",
+        "descricao": "INMET publica aviso iniciando em: 25/07/2026 09:00. Chuva entre 20 e 30 mm/h ou até 50 mm/dia, ventos intensos (40-60 km/h), e queda de granizo. Baixo risco de corte de energia elétrica, estragos em plantações, queda de galhos de árvores e de alagamentos.",
+        "url": "https://apiprevmet3.inmet.gov.br/avisos/rss/55126"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2093727,
+          -22.9110137
+        ]
+      },
+      "properties": {
+        "id": "inmet-2026-07-24-055",
+        "fonte": "INMET",
+        "tipo": "outro",
+        "severidade": "moderada",
+        "municipio": "Rio de Janeiro",
+        "estado": "RJ",
+        "data_ocorrencia": "2026-07-24T10:00:00",
+        "descricao": "INMET publica aviso iniciando em: 24/07/2026 10:00. Chuva entre 20 e 30 mm/h ou até 50 mm/dia, ventos intensos (40-60 km/h), e queda de granizo. Baixo risco de corte de energia elétrica, estragos em plantações, queda de galhos de árvores e de alagamentos.",
+        "url": "https://apiprevmet3.inmet.gov.br/avisos/rss/55123"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2093727,
+          -22.9110137
+        ]
+      },
+      "properties": {
+        "id": "inmet-2026-07-23-056",
+        "fonte": "INMET",
+        "tipo": "outro",
+        "severidade": "moderada",
+        "municipio": "Rio de Janeiro",
+        "estado": "RJ",
+        "data_ocorrencia": "2026-07-23T18:00:00",
+        "descricao": "INMET publica aviso iniciando em: 23/07/2026 18:00. Chuva entre 20 e 30 mm/h ou até 50 mm/dia, ventos intensos (40-60 km/h), e queda de granizo. Baixo risco de corte de energia elétrica, estragos em plantações, queda de galhos de árvores e de alagamentos.",
+        "url": "https://apiprevmet3.inmet.gov.br/avisos/rss/55121"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2093727,
+          -22.9110137
+        ]
+      },
+      "properties": {
+        "id": "inmet-2026-07-23-057",
+        "fonte": "INMET",
+        "tipo": "outro",
+        "severidade": "moderada",
+        "municipio": "Rio de Janeiro",
+        "estado": "RJ",
+        "data_ocorrencia": "2026-07-23T00:00:00",
+        "descricao": "INMET publica aviso iniciando em: 23/07/2026 00:00. Chuva entre 20 e 30 mm/h ou até 50 mm/dia, ventos intensos (40-60 km/h), e queda de granizo. Baixo risco de corte de energia elétrica, estragos em plantações, queda de galhos de árvores e de alagamentos.",
+        "url": "https://apiprevmet3.inmet.gov.br/avisos/rss/55112"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2093727,
+          -22.9110137
+        ]
+      },
+      "properties": {
+        "id": "inmet-2026-07-22-058",
+        "fonte": "INMET",
+        "tipo": "outro",
+        "severidade": "alta",
+        "municipio": "Rio de Janeiro",
+        "estado": "RJ",
+        "data_ocorrencia": "2026-07-22T09:15:00",
+        "descricao": "INMET publica aviso iniciando em: 22/07/2026 09:15. Chuva entre 30 e 60 mm/h ou 50 e 100 mm/dia, ventos intensos (60-100 km/h), e queda de granizo. Risco de corte de energia elétrica, estragos em plantações,  queda de árvores e de alagamentos.",
+        "url": "https://apiprevmet3.inmet.gov.br/avisos/rss/55102"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2093727,
+          -22.9110137
+        ]
+      },
+      "properties": {
+        "id": "inmet-2026-07-22-059",
+        "fonte": "INMET",
+        "tipo": "outro",
+        "severidade": "moderada",
+        "municipio": "Rio de Janeiro",
+        "estado": "RJ",
+        "data_ocorrencia": "2026-07-22T12:00:00",
+        "descricao": "INMET publica aviso iniciando em: 22/07/2026 12:00. Umidade relativa do ar variando entre 30% e 20%. Baixo risco de incêndios florestais e à saúde.",
+        "url": "https://apiprevmet3.inmet.gov.br/avisos/rss/55091"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2093727,
+          -22.9110137
+        ]
+      },
+      "properties": {
+        "id": "inmet-2026-07-22-060",
+        "fonte": "INMET",
+        "tipo": "outro",
+        "severidade": "moderada",
+        "municipio": "Rio de Janeiro",
+        "estado": "RJ",
+        "data_ocorrencia": "2026-07-22T00:00:00",
+        "descricao": "INMET publica aviso iniciando em: 22/07/2026 00:00. Chuva entre 20 e 30 mm/h ou até 50 mm/dia, ventos intensos (40-60 km/h), e queda de granizo. Baixo risco de corte de energia elétrica, estragos em plantações, queda de galhos de árvores e de alagamentos.",
+        "url": "https://apiprevmet3.inmet.gov.br/avisos/rss/55090"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2093727,
+          -22.9110137
+        ]
+      },
+      "properties": {
+        "id": "inmet-2026-07-21-061",
+        "fonte": "INMET",
+        "tipo": "outro",
+        "severidade": "moderada",
+        "municipio": "Rio de Janeiro",
+        "estado": "RJ",
+        "data_ocorrencia": "2026-07-21T12:00:00",
+        "descricao": "INMET publica aviso iniciando em: 21/07/2026 12:00. Umidade relativa do ar variando entre 30% e 20%. Baixo risco de incêndios florestais e à saúde.",
+        "url": "https://apiprevmet3.inmet.gov.br/avisos/rss/55084"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -46.6333824,
+          -23.5506507
+        ]
+      },
+      "properties": {
+        "id": "sp-sempre-alerta-2026-02-07-062",
+        "fonte": "SP Sempre Alerta",
+        "tipo": "outro",
+        "severidade": "baixa",
+        "municipio": "São Paulo",
+        "estado": "SP",
+        "data_ocorrencia": "2026-02-07T13:57:44",
+        "descricao": "Defesa Civil alerta para chuva, queda nas temperaturas e ventos com avanço de frente fria em São Paulo",
+        "url": "https://www.spsemprealerta.sp.gov.br/defesa-civil-alerta/defesa-civil-alerta-para-chuva-queda-nas-temperaturas-e-ventos-com-avanco-de-frente-fria-em-sao-paulo/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -46.6333824,
+          -23.5506507
+        ]
+      },
+      "properties": {
+        "id": "sp-sempre-alerta-2026-06-15-063",
+        "fonte": "SP Sempre Alerta",
+        "tipo": "outro",
+        "severidade": "baixa",
+        "municipio": "São Paulo",
+        "estado": "SP",
+        "data_ocorrencia": "2026-06-15T16:54:55",
+        "descricao": "Defesa Civil do Estado prevê tempo estável e retorno das pancadas isoladas de chuva na sexta-feira (19)",
+        "url": "https://www.spsemprealerta.sp.gov.br/defesa-civil-alerta/defesa-civil-do-estado-preve-tempo-estavel-e-retorno-das-pancadas-isoladas-de-chuva-na-sexta-feira/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -46.6333824,
+          -23.5506507
+        ]
+      },
+      "properties": {
+        "id": "sp-sempre-alerta-2026-05-25-064",
+        "fonte": "SP Sempre Alerta",
+        "tipo": "outro",
+        "severidade": "baixa",
+        "municipio": "São Paulo",
+        "estado": "SP",
+        "data_ocorrencia": "2026-05-25T15:55:51",
+        "descricao": "Defesa Civil do Estado indica tempo estável e possibilidade de chuva isolada em São Paulo até quarta-feira (27)",
+        "url": "https://www.spsemprealerta.sp.gov.br/defesa-civil-alerta/defesa-civil-do-estado-indica-tempo-estavel-e-possibilidade-de-chuva-isolada-em-sao-paulo-ate-quarta-feira-27/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -46.6333824,
+          -23.5506507
+        ]
+      },
+      "properties": {
+        "id": "sp-sempre-alerta-2026-05-22-065",
+        "fonte": "SP Sempre Alerta",
+        "tipo": "outro",
+        "severidade": "moderada",
+        "municipio": "São Paulo",
+        "estado": "SP",
+        "data_ocorrencia": "2026-05-22T14:16:33",
+        "descricao": "Defesa Civil alerta para risco de chuva forte e ventos intensos em diversas regiões do Estado neste fim de semana",
+        "url": "https://www.spsemprealerta.sp.gov.br/defesa-civil-alerta/defesa-civil-alerta-para-risco-de-chuva-forte-e-ventos-intensos-em-diversas-regioes-do-estado-neste-fim-de-semana/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -46.6333824,
+          -23.5506507
+        ]
+      },
+      "properties": {
+        "id": "sp-sempre-alerta-2026-05-16-066",
+        "fonte": "SP Sempre Alerta",
+        "tipo": "outro",
+        "severidade": "moderada",
+        "municipio": "São Paulo",
+        "estado": "SP",
+        "data_ocorrencia": "2026-05-16T09:01:30",
+        "descricao": "Defesa Civil do Estado prevê aumento das chuvas, risco de temporais isolados e queda nas temperaturas entre sábado (16) e segunda-feira (18)",
+        "url": "https://www.spsemprealerta.sp.gov.br/defesa-civil-alerta/defesa-civil-do-estado-preve-aumento-das-chuvas-risco-de-temporais-isolados-e-queda-nas-temperaturas-entre-sabado-16-e-segunda-feira-18/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -46.6333824,
+          -23.5506507
+        ]
+      },
+      "properties": {
+        "id": "sp-sempre-alerta-2026-07-05-067",
+        "fonte": "SP Sempre Alerta",
+        "tipo": "outro",
+        "severidade": "baixa",
+        "municipio": "São Paulo",
+        "estado": "SP",
+        "data_ocorrencia": "2026-07-05T22:12:14",
+        "descricao": "Defesa Civil de SP alerta para ventos fortes, chuva e queda acentuada de temperatura em São Paulo neste fim de semana",
+        "url": "https://www.spsemprealerta.sp.gov.br/defesa-civil-alerta/defesa-civil-de-sp-alerta-para-ventos-fortes-chuva-e-queda-acentuada-de-temperatura-em-sao-paulo-neste-fim-de-semana/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -46.6333824,
+          -23.5506507
+        ]
+      },
+      "properties": {
+        "id": "sp-sempre-alerta-2026-04-25-068",
+        "fonte": "SP Sempre Alerta",
+        "tipo": "outro",
+        "severidade": "baixa",
+        "municipio": "São Paulo",
+        "estado": "SP",
+        "data_ocorrencia": "2026-04-25T12:04:49",
+        "descricao": "Defesa Civil alerta para mudança no tempo e previsão de chuva nos próximos dias em São Paulo",
+        "url": "https://www.spsemprealerta.sp.gov.br/defesa-civil-alerta/1546/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -46.6333824,
+          -23.5506507
+        ]
+      },
+      "properties": {
+        "id": "sp-sempre-alerta-2026-03-20-069",
+        "fonte": "SP Sempre Alerta",
+        "tipo": "outro",
+        "severidade": "baixa",
+        "municipio": "São Paulo",
+        "estado": "SP",
+        "data_ocorrencia": "2026-03-20T15:03:01",
+        "descricao": "Defesa Civil prevê tempo estável e calor no primeiro fim de semana de outono, com pancadas isoladas de chuva no interior",
+        "url": "https://www.spsemprealerta.sp.gov.br/defesa-civil-alerta/defesa-civil-preve-tempo-estavel-e-calor-no-primeiro-fim-de-semana-de-outono-com-pancadas-isoladas-de-chuva-no-interior/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -46.6333824,
+          -23.5506507
+        ]
+      },
+      "properties": {
+        "id": "sp-sempre-alerta-2026-03-18-070",
+        "fonte": "SP Sempre Alerta",
+        "tipo": "outro",
+        "severidade": "moderada",
+        "municipio": "São Paulo",
+        "estado": "SP",
+        "data_ocorrencia": "2026-03-18T17:02:59",
+        "descricao": "Defesa Civil alerta para risco de temporais no Estado nesta quinta-feira (19) e chuvas na sexta-feira (20)",
+        "url": "https://www.spsemprealerta.sp.gov.br/defesa-civil-alerta/defesa-civil-alerta-para-risco-de-temporais-no-estado-nesta-quinta-feira-19-e-chuvas-na-sexta-feira-20/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -46.6333824,
+          -23.5506507
+        ]
+      },
+      "properties": {
+        "id": "sp-sempre-alerta-2026-03-16-071",
+        "fonte": "SP Sempre Alerta",
+        "tipo": "outro",
+        "severidade": "baixa",
+        "municipio": "São Paulo",
+        "estado": "SP",
+        "data_ocorrencia": "2026-03-16T14:09:21",
+        "descricao": "Defesa Civil alerta para possibilidade de pancadas de chuva no interior do Estado entre segunda (16) e terça-feira (17)",
+        "url": "https://www.spsemprealerta.sp.gov.br/defesa-civil-alerta/defesa-civil-alerta-para-possibilidade-de-pancadas-de-chuva-no-interior-do-estado-entre-segunda-16-e-terca-feira-17/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -46.6333824,
+          -23.5506507
+        ]
+      },
+      "properties": {
+        "id": "sp-sempre-alerta-2026-03-13-072",
+        "fonte": "SP Sempre Alerta",
+        "tipo": "outro",
+        "severidade": "baixa",
+        "municipio": "São Paulo",
+        "estado": "SP",
+        "data_ocorrencia": "2026-03-13T14:16:13",
+        "descricao": "Defesa Civil prevê mudança no tempo e indica trégua da chuva no Estado de São Paulo",
+        "url": "https://www.spsemprealerta.sp.gov.br/defesa-civil-alerta/defesa-civil-preve-mudanca-no-tempo-e-indica-tregua-da-chuva-no-estado-de-sao-paulo/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -46.6333824,
+          -23.5506507
+        ]
+      },
+      "properties": {
+        "id": "sp-sempre-alerta-2026-10-03-073",
+        "fonte": "SP Sempre Alerta",
+        "tipo": "outro",
+        "severidade": "baixa",
+        "municipio": "São Paulo",
+        "estado": "SP",
+        "data_ocorrencia": "2026-10-03T16:06:32",
+        "descricao": "Defesa Civil do Estado mantém Gabinete de Crise ativo e alerta para chuvas intensas entre segunda-feira (9) e quarta-feira (11)",
+        "url": "https://www.spsemprealerta.sp.gov.br/defesa-civil-alerta/defesa-civil-do-estado-mantem-gabinete-de-crise-ativo-e-alerta-para-chuvas-intensas-entre-segunda-feira-9-e-quarta-feira-11/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -46.6333824,
+          -23.5506507
+        ]
+      },
+      "properties": {
+        "id": "sp-sempre-alerta-2026-02-20-074",
+        "fonte": "SP Sempre Alerta",
+        "tipo": "outro",
+        "severidade": "baixa",
+        "municipio": "São Paulo",
+        "estado": "SP",
+        "data_ocorrencia": "2026-02-20T16:49:23",
+        "descricao": "Defesa Civil alerta para chuva persistente no fim de semana na faixa leste do Estado",
+        "url": "https://www.spsemprealerta.sp.gov.br/defesa-civil-alerta/defesa-civil-alerta-para-chuva-persistente-no-fim-de-semana-na-faixa-leste-do-estado/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -46.6333824,
+          -23.5506507
+        ]
+      },
+      "properties": {
+        "id": "sp-sempre-alerta-2026-02-13-075",
+        "fonte": "SP Sempre Alerta",
+        "tipo": "outro",
+        "severidade": "baixa",
+        "municipio": "São Paulo",
+        "estado": "SP",
+        "data_ocorrencia": "2026-02-13T17:22:51",
+        "descricao": "Defesa Civil aponta para Carnaval com calor e chuvas em São Paulo e mudança na segunda",
+        "url": "https://www.spsemprealerta.sp.gov.br/defesa-civil-alerta/defesa-civil-aponta-para-carnaval-com-calor-e-chuvas-em-sao-paulo-e-mudanca-na-segunda/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -46.6333824,
+          -23.5506507
+        ]
+      },
+      "properties": {
+        "id": "sp-sempre-alerta-2026-07-02-076",
+        "fonte": "SP Sempre Alerta",
+        "tipo": "outro",
+        "severidade": "alta",
+        "municipio": "São Paulo",
+        "estado": "SP",
+        "data_ocorrencia": "2026-07-02T06:26:49",
+        "descricao": "Defesa Civil do Estado alerta para risco de chuvas fortes e persistentes em São Paulo",
+        "url": "https://www.spsemprealerta.sp.gov.br/defesa-civil-alerta/defesa-civil-do-estado-alerta-para-risco-de-chuvas-fortes-e-persistentes-em-sao-paulo/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -46.6333824,
+          -23.5506507
+        ]
+      },
+      "properties": {
+        "id": "sp-sempre-alerta-2026-01-02-077",
+        "fonte": "SP Sempre Alerta",
+        "tipo": "outro",
+        "severidade": "moderada",
+        "municipio": "São Paulo",
+        "estado": "SP",
+        "data_ocorrencia": "2026-01-02T17:42:23",
+        "descricao": "Defesa Civil do Estado alerta para risco de chuvas fortes e tempestades em São Paulo",
+        "url": "https://www.spsemprealerta.sp.gov.br/defesa-civil-alerta/defesa-civil-do-estado-alerta-para-risco-de-chuvas-fortes-e-tempestades-em-sao-paulo/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -46.6333824,
+          -23.5506507
+        ]
+      },
+      "properties": {
+        "id": "sp-sempre-alerta-2026-01-29-078",
+        "fonte": "SP Sempre Alerta",
+        "tipo": "outro",
+        "severidade": "baixa",
+        "municipio": "São Paulo",
+        "estado": "SP",
+        "data_ocorrencia": "2026-01-29T06:24:39",
+        "descricao": "Defesa Civil do Estado alerta para temporais e chuvas persistentes nesta sexta-feira (30)",
+        "url": "https://www.spsemprealerta.sp.gov.br/defesa-civil-alerta/defesa-civil-do-estado-alerta-para-temporais-e-chuvas-persistentes-nesta-sexta-feira-30/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -46.6333824,
+          -23.5506507
+        ]
+      },
+      "properties": {
+        "id": "sp-sempre-alerta-2026-01-16-079",
+        "fonte": "SP Sempre Alerta",
+        "tipo": "outro",
+        "severidade": "alta",
+        "municipio": "São Paulo",
+        "estado": "SP",
+        "data_ocorrencia": "2026-01-16T16:17:49",
+        "descricao": "Defesa Civil de São Paulo renova alerta para chuvas intensas e mobiliza Gabinete de Crise nos dias mais críticos",
+        "url": "https://www.spsemprealerta.sp.gov.br/defesa-civil-alerta/defesa-civil-de-sao-paulo-renova-alerta-para-chuvas-intensas-e-mobiliza-gabinete-de-crise-nos-dias-mais-criticos/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -46.6333824,
+          -23.5506507
+        ]
+      },
+      "properties": {
+        "id": "sp-sempre-alerta-2026-01-14-080",
+        "fonte": "SP Sempre Alerta",
+        "tipo": "outro",
+        "severidade": "moderada",
+        "municipio": "São Paulo",
+        "estado": "SP",
+        "data_ocorrencia": "2026-01-14T08:50:01",
+        "descricao": "Defesa Civil do estado alerta para risco de chuvas fortes e tempestades em São Paulo",
+        "url": "https://www.spsemprealerta.sp.gov.br/defesa-civil-alerta/defesa-civil-do-estado-alerta-para-risco-de-chuvas-fortes-e-tempestades-em-sao-paulo-entre-quarta-feira-14-e-sexta-feira-16-a-previsao-indica-volumes-elevados-de-chuva-com-raios-ventos-fortes/"
       }
     }
   ]
