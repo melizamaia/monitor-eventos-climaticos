@@ -3,10 +3,13 @@ Monitor de Eventos Climáticos Extremos - API
 """
 
 import json
+import logging
 from pathlib import Path
 
 from fastapi import FastAPI, HTTPException, Query
 from fastapi.middleware.cors import CORSMiddleware
+
+logger = logging.getLogger(__name__)
 
 app = FastAPI(
     title="Monitor de Eventos Climáticos Extremos",
@@ -24,6 +27,7 @@ app.add_middleware(
 DATA_DIR = Path(__file__).parent / "data"
 DATA_PATH_REAL = DATA_DIR / "eventos_reais.geojson"
 DATA_PATH_MOCK = DATA_DIR / "eventos_mock.geojson"
+DATA_PATH_TEMPERATURAS = DATA_DIR / "temperaturas_estacoes.json"
 
 
 def carregar_eventos() -> dict:
@@ -60,3 +64,14 @@ def obter_evento(evento_id: str):
         if feature["properties"]["id"] == evento_id:
             return feature
     raise HTTPException(status_code=404, detail="Evento não encontrado")
+
+
+@app.get("/temperaturas")
+def listar_temperaturas():
+    if not DATA_PATH_TEMPERATURAS.exists():
+        logger.warning(
+            "Arquivo de temperaturas não encontrado em %s", DATA_PATH_TEMPERATURAS
+        )
+        return []
+    with open(DATA_PATH_TEMPERATURAS, encoding="utf-8") as f:
+        return json.load(f)

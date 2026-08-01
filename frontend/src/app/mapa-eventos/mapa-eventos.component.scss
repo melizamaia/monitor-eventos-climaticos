@@ -33,3 +33,86 @@
   max-width: 90%;
   text-align: center;
 }
+
+// O leaflet.heat desenha num <canvas> anexado direto ao pane do mapa via JS, fora
+// do template Angular — por isso ele não recebe o atributo de scope do encapsulamento
+// emulado e precisa de ::ng-deep pra ser alcançado por um seletor daqui.
+// Opacidade real no canvas (em vez de cores mais claras no gradiente) é o que
+// deixou o mapa base legível por baixo do heatmap de forma consistente.
+:host ::ng-deep .leaflet-heatmap-layer {
+  opacity: 0.65;
+}
+
+// Assim como o canvas do heatmap, o controle da legenda é criado via L.DomUtil
+// pelo Leaflet (fora do template Angular), então precisa de ::ng-deep.
+:host ::ng-deep .legenda-heatmap {
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 6px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+  padding: 0.5rem 0.65rem;
+  font-family: sans-serif;
+  font-size: 12px;
+  max-width: 170px;
+  margin: 0 0.75rem 0.75rem 0;
+
+  .legenda-heatmap__titulo {
+    font-weight: 600;
+    margin-bottom: 0.4rem;
+    color: #333;
+  }
+
+  .legenda-heatmap__barra {
+    height: 8px;
+    border-radius: 4px;
+    margin-bottom: 0.4rem;
+  }
+
+  .legenda-heatmap__faixas {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+  }
+
+  .legenda-heatmap__linha {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+  }
+
+  .legenda-heatmap__bolinha {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    flex: 0 0 auto;
+  }
+
+  .legenda-heatmap__rotulo {
+    color: #333;
+    white-space: nowrap;
+  }
+}
+
+.mapa-controles {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  z-index: 1000;
+  background: #ffffff;
+  padding: 0.5rem 0.75rem;
+  border-radius: 4px;
+  font-family: sans-serif;
+  font-size: 0.85rem;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+
+  label {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    cursor: pointer;
+
+    &.mapa-controles--desabilitado {
+      color: #999;
+      cursor: not-allowed;
+    }
+  }
+}

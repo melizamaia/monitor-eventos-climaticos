@@ -1,0 +1,4916 @@
+[
+  {
+    "codigo": "A887",
+    "nome": "CAPAO DO LEAO (PELOTAS)",
+    "latitude": -31.8025,
+    "longitude": -52.40722222,
+    "temperatura": 22.1,
+    "data_leitura": "2026-07-31 1700",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A928",
+    "nome": "NOVA MARINGA",
+    "latitude": -13.0386111,
+    "longitude": -57.09222221,
+    "temperatura": 36.2,
+    "data_leitura": "2026-07-31 1800",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A028",
+    "nome": "IPORA",
+    "latitude": -16.42305554,
+    "longitude": -51.14888888,
+    "temperatura": 33.3,
+    "data_leitura": "2026-07-31 1700",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A954",
+    "nome": "COCALINHO",
+    "latitude": -14.38555555,
+    "longitude": -51.00972222,
+    "temperatura": 36.9,
+    "data_leitura": "2026-07-31 1800",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A806",
+    "nome": "FLORIANOPOLIS",
+    "latitude": -27.6025,
+    "longitude": -48.61999999,
+    "temperatura": 23.5,
+    "data_leitura": "2026-02-24 1100",
+    "situacao": "Pane"
+  },
+  {
+    "codigo": "A213",
+    "nome": "TOME ACU",
+    "latitude": -2.59249999,
+    "longitude": -48.36055555,
+    "temperatura": 32.5,
+    "data_leitura": "2026-07-31 1700",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A572",
+    "nome": "BELO HORIZONTE - SANTO AGOSTINHO",
+    "latitude": -19.93388888,
+    "longitude": -43.95222222,
+    "temperatura": 23.4,
+    "data_leitura": "2026-07-31 1800",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A869",
+    "nome": "CIDADE GAUCHA",
+    "latitude": -23.35916666,
+    "longitude": -52.93194443,
+    "temperatura": 27.5,
+    "data_leitura": "2026-07-31 1700",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A040",
+    "nome": "MATEIROS",
+    "latitude": -10.43444444,
+    "longitude": -45.92194443,
+    "temperatura": 31.5,
+    "data_leitura": "2026-07-31 1700",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A363",
+    "nome": "VALENCA DO PIAUI",
+    "latitude": -6.4236111,
+    "longitude": -41.74888888,
+    "temperatura": 27.5,
+    "data_leitura": "2026-07-21 1200",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A853",
+    "nome": "CRUZ ALTA",
+    "latitude": -28.60333333,
+    "longitude": -53.6736111,
+    "temperatura": 4.6,
+    "data_leitura": "2026-07-04 0800",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A437",
+    "nome": "UNA",
+    "latitude": -15.28027777,
+    "longitude": -39.09138888,
+    "temperatura": 22.3,
+    "data_leitura": "2025-09-15 2300",
+    "situacao": "Pane"
+  },
+  {
+    "codigo": "A754",
+    "nome": "SIDROLANDIA",
+    "latitude": -20.98166666,
+    "longitude": -54.97194443,
+    "temperatura": 31.2,
+    "data_leitura": "2026-07-31 1800",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "B846",
+    "nome": "NONOAI",
+    "latitude": -27.35861111,
+    "longitude": -52.77805554,
+    "temperatura": 24.4,
+    "data_leitura": "2026-07-31 1700",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "B838",
+    "nome": "SALTO DO JACUI",
+    "latitude": -29.09638888,
+    "longitude": -53.2125,
+    "temperatura": 19.1,
+    "data_leitura": "2026-07-21 1500",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A726",
+    "nome": "PIRACICABA",
+    "latitude": -22.70305555,
+    "longitude": -47.62333332,
+    "temperatura": 27.4,
+    "data_leitura": "2026-07-31 1800",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A334",
+    "nome": "MONTEIRO",
+    "latitude": -7.89444444,
+    "longitude": -37.12472221,
+    "temperatura": 29.7,
+    "data_leitura": "2026-07-31 1700",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A335",
+    "nome": "PIRIPIRI",
+    "latitude": -4.2761111,
+    "longitude": -41.79444444,
+    "temperatura": 35.2,
+    "data_leitura": "2026-07-31 1700",
+    "situacao": "Pane"
+  },
+  {
+    "codigo": "A410",
+    "nome": "ILHEUS",
+    "latitude": -14.65888888,
+    "longitude": -39.18138888,
+    "temperatura": 27.3,
+    "data_leitura": "2026-07-31 1700",
+    "situacao": "Pane"
+  },
+  {
+    "codigo": "A135",
+    "nome": "BOA VISTA",
+    "latitude": 2.81694443,
+    "longitude": -60.69083333,
+    "temperatura": 25.8,
+    "data_leitura": "2025-10-05 0100",
+    "situacao": "Pane"
+  },
+  {
+    "codigo": "A897",
+    "nome": "CAMBARA DO SUL",
+    "latitude": -29.04916666,
+    "longitude": -50.14972221,
+    "temperatura": 25.6,
+    "data_leitura": "2026-07-31 1700",
+    "situacao": "Pane"
+  },
+  {
+    "codigo": "B836",
+    "nome": "PALMARES DO SUL",
+    "latitude": -30.24916666,
+    "longitude": -50.50916666,
+    "temperatura": 21.6,
+    "data_leitura": "2026-07-31 1700",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A509",
+    "nome": "MONTE VERDE",
+    "latitude": -22.86166666,
+    "longitude": -46.04333333,
+    "temperatura": 21.3,
+    "data_leitura": "2026-07-31 1800",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A755",
+    "nome": "BARUERI",
+    "latitude": -23.52388888,
+    "longitude": -46.86944443,
+    "temperatura": 16.3,
+    "data_leitura": "2026-06-15 1500",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A704",
+    "nome": "TRES LAGOAS",
+    "latitude": -20.79499999,
+    "longitude": -51.71333333,
+    "temperatura": 30.9,
+    "data_leitura": "2026-07-31 1800",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A734",
+    "nome": "VALPARAISO",
+    "latitude": -21.31916666,
+    "longitude": -50.93027777,
+    "temperatura": 18.8,
+    "data_leitura": "2026-06-14 1200",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A433",
+    "nome": "BRUMADO",
+    "latitude": -14.18194443,
+    "longitude": -41.67222221,
+    "temperatura": 29.0,
+    "data_leitura": "2025-11-17 2100",
+    "situacao": "Pane"
+  },
+  {
+    "codigo": "A601",
+    "nome": "SEROPEDICA-ECOLOGIA AGRICOLA",
+    "latitude": -22.75777777,
+    "longitude": -43.68472221,
+    "temperatura": 25.5,
+    "data_leitura": "2026-07-31 1800",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A320",
+    "nome": "JOAO PESSOA",
+    "latitude": -7.14083333,
+    "longitude": -34.85083333,
+    "temperatura": 29.4,
+    "data_leitura": "2026-07-31 1700",
+    "situacao": "Pane"
+  },
+  {
+    "codigo": "A901",
+    "nome": "CUIABA",
+    "latitude": -15.60694444,
+    "longitude": -56.06083333,
+    "temperatura": 36.9,
+    "data_leitura": "2026-07-31 1700",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A930",
+    "nome": "GAUCHA DO NORTE",
+    "latitude": -13.18472221,
+    "longitude": -53.2575,
+    "temperatura": 35.2,
+    "data_leitura": "2026-07-31 1800",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A211",
+    "nome": "PLACAS",
+    "latitude": -3.86416666,
+    "longitude": -54.21638888,
+    "temperatura": 23.5,
+    "data_leitura": "2026-05-08 0500",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A948",
+    "nome": "SANTA RITA DO TRIVELATO",
+    "latitude": -13.82555554,
+    "longitude": -55.27027777,
+    "temperatura": 34.4,
+    "data_leitura": "2026-07-31 1800",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A242",
+    "nome": "OIAPOQUE",
+    "latitude": 3.81361111,
+    "longitude": -51.8625,
+    "temperatura": 31.9,
+    "data_leitura": "2026-07-31 1700",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A128",
+    "nome": "BARCELOS",
+    "latitude": -0.98722221,
+    "longitude": -62.92416666,
+    "temperatura": 32.0,
+    "data_leitura": "2026-07-31 1600",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A802",
+    "nome": "RIO GRANDE",
+    "latitude": -32.07888888,
+    "longitude": -52.16777777,
+    "temperatura": 20.6,
+    "data_leitura": "2026-07-31 1700",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A347",
+    "nome": "CAMPOS SALES",
+    "latitude": -7.07777777,
+    "longitude": -40.36277777,
+    "temperatura": 32.4,
+    "data_leitura": "2026-07-31 1700",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A349",
+    "nome": "IBIMIRIM",
+    "latitude": -8.50944444,
+    "longitude": -37.71166666,
+    "temperatura": 21.4,
+    "data_leitura": "2026-05-24 1100",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A253",
+    "nome": "ALTAMIRA",
+    "latitude": -3.26999999,
+    "longitude": -52.39472221,
+    "temperatura": 31.4,
+    "data_leitura": "2026-07-31 1700",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A706",
+    "nome": "CAMPOS DO JORDAO",
+    "latitude": -22.75027777,
+    "longitude": -45.60388888,
+    "temperatura": 19.4,
+    "data_leitura": "2026-07-31 1800",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A902",
+    "nome": "TANGARA DA SERRA",
+    "latitude": -14.65,
+    "longitude": -57.43166666,
+    "temperatura": 34.0,
+    "data_leitura": "2026-07-31 1800",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A893",
+    "nome": "ENCRUZILHADA DO SUL",
+    "latitude": -30.54305555,
+    "longitude": -52.52472221,
+    "temperatura": 22.9,
+    "data_leitura": "2026-07-31 1700",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A899",
+    "nome": "SANTA VITORIA DO PALMAR - BARRA DO CHUI",
+    "latitude": -33.74222221,
+    "longitude": -53.37222221,
+    "temperatura": 19.7,
+    "data_leitura": "2026-07-31 1700",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A014",
+    "nome": "GOIAS",
+    "latitude": -15.93972221,
+    "longitude": -50.14138888,
+    "temperatura": 35.2,
+    "data_leitura": "2026-07-31 1800",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A546",
+    "nome": "GUARDA-MOR",
+    "latitude": -17.56138888,
+    "longitude": -47.19916666,
+    "temperatura": 26.2,
+    "data_leitura": "2026-07-31 1800",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A839",
+    "nome": "PASSO FUNDO",
+    "latitude": -28.22666666,
+    "longitude": -52.40361111,
+    "temperatura": 22.1,
+    "data_leitura": "2026-07-31 1700",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A702",
+    "nome": "CAMPO GRANDE",
+    "latitude": -20.44722221,
+    "longitude": -54.72249999,
+    "temperatura": 31.0,
+    "data_leitura": "2026-07-31 1800",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A016",
+    "nome": "JATAI",
+    "latitude": -17.9236111,
+    "longitude": -51.71749999,
+    "temperatura": 32.4,
+    "data_leitura": "2026-07-31 1800",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A355",
+    "nome": "CORURIPE",
+    "latitude": -10.1286111,
+    "longitude": -36.28638888,
+    "temperatura": 27.5,
+    "data_leitura": "2026-07-31 1700",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "B852",
+    "nome": "DILERMANDO DE AGUIAR",
+    "latitude": -29.72555554,
+    "longitude": -54.18805555,
+    "temperatura": 28.0,
+    "data_leitura": "2026-07-31 1700",
+    "situacao": "Pane"
+  },
+  {
+    "codigo": "A634",
+    "nome": "VILA VELHA",
+    "latitude": -20.46694443,
+    "longitude": -40.40388888,
+    "temperatura": 25.3,
+    "data_leitura": "2026-07-31 1700",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A525",
+    "nome": "SACRAMENTO",
+    "latitude": -19.87527777,
+    "longitude": -47.43416666,
+    "temperatura": 29.1,
+    "data_leitura": "2026-07-31 1800",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A602",
+    "nome": "RIO DE JANEIRO-MARAMBAIA",
+    "latitude": -23.05027777,
+    "longitude": -43.59555555,
+    "temperatura": 23.8,
+    "data_leitura": "2026-07-31 1800",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A017",
+    "nome": "POSSE",
+    "latitude": -14.08916666,
+    "longitude": -46.36638888,
+    "temperatura": 29.8,
+    "data_leitura": "2026-07-31 1800",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "B851",
+    "nome": "MACAMBARA",
+    "latitude": -29.15527777,
+    "longitude": -56.1786111,
+    "temperatura": 24.1,
+    "data_leitura": "2026-07-17 0000",
+    "situacao": "Pane"
+  },
+  {
+    "codigo": "A406",
+    "nome": "CRUZ DAS ALMAS",
+    "latitude": -12.67555554,
+    "longitude": -39.08944444,
+    "temperatura": 23.4,
+    "data_leitura": "2026-07-31 1700",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "B842",
+    "nome": "CARAZINHO",
+    "latitude": -28.32333332,
+    "longitude": -52.81444444,
+    "temperatura": 13.5,
+    "data_leitura": "2026-07-16 0900",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A557",
+    "nome": "CORONEL PACHECO",
+    "latitude": -21.54666666,
+    "longitude": -43.26111111,
+    "temperatura": 21.6,
+    "data_leitura": "2026-07-28 1300",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A368",
+    "nome": "TIANGUA",
+    "latitude": -3.73222221,
+    "longitude": -41.01194444,
+    "temperatura": 27.8,
+    "data_leitura": "2026-07-31 1700",
+    "situacao": "Pane"
+  },
+  {
+    "codigo": "A234",
+    "nome": "TUCUMA",
+    "latitude": -6.74333333,
+    "longitude": -51.14194444,
+    "temperatura": 34.2,
+    "data_leitura": "2026-07-31 1700",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A417",
+    "nome": "ITABAIANINHA",
+    "latitude": -11.27249999,
+    "longitude": -37.79499999,
+    "temperatura": 25.0,
+    "data_leitura": "2026-07-31 1700",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A369",
+    "nome": "QUIXADA",
+    "latitude": -4.97888888,
+    "longitude": -39.05722222,
+    "temperatura": 33.9,
+    "data_leitura": "2026-07-31 1700",
+    "situacao": "Pane"
+  },
+  {
+    "codigo": "A610",
+    "nome": "PICO DO COUTO",
+    "latitude": -22.46472222,
+    "longitude": -43.29138888,
+    "temperatura": 15.0,
+    "data_leitura": "2026-07-31 1800",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A615",
+    "nome": "ALFREDO CHAVES",
+    "latitude": -20.63638888,
+    "longitude": -40.74194444,
+    "temperatura": 24.1,
+    "data_leitura": "2025-10-15 1300",
+    "situacao": "Temporariamente Fechada"
+  },
+  {
+    "codigo": "A927",
+    "nome": "BRASNORTE (NOVO MUNDO)",
+    "latitude": -12.52194443,
+    "longitude": -58.23138888,
+    "temperatura": 33.7,
+    "data_leitura": "2026-07-31 1800",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A005",
+    "nome": "PORANGATU",
+    "latitude": -13.30944444,
+    "longitude": -49.11749999,
+    "temperatura": 36.2,
+    "data_leitura": "2026-07-31 1700",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A898",
+    "nome": "CAMPOS NOVOS",
+    "latitude": -27.3886111,
+    "longitude": -51.21583333,
+    "temperatura": 22.0,
+    "data_leitura": "2026-07-31 1700",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A530",
+    "nome": "CALDAS",
+    "latitude": -21.91805554,
+    "longitude": -46.38305554,
+    "temperatura": 24.5,
+    "data_leitura": "2026-07-31 1800",
+    "situacao": "Pane"
+  },
+  {
+    "codigo": "A627",
+    "nome": "NITEROI",
+    "latitude": -22.86749999,
+    "longitude": -43.10194444,
+    "temperatura": 25.3,
+    "data_leitura": "2026-07-31 1800",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A011",
+    "nome": "SAO SIMAO",
+    "latitude": -18.96916666,
+    "longitude": -50.63333333,
+    "temperatura": 32.8,
+    "data_leitura": "2026-07-31 1800",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A801",
+    "nome": "PORTO ALEGRE - JARDIM BOTANICO",
+    "latitude": -30.05361111,
+    "longitude": -51.17472221,
+    "temperatura": 26.5,
+    "data_leitura": "2026-07-31 1700",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A229",
+    "nome": "TUCURUI",
+    "latitude": -3.82277777,
+    "longitude": -49.67499999,
+    "temperatura": 30.6,
+    "data_leitura": "2026-07-31 1700",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "B811",
+    "nome": "SERTAO SANTANA",
+    "latitude": -30.49416666,
+    "longitude": -51.66333333,
+    "temperatura": 1.2,
+    "data_leitura": "2026-06-24 0800",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "B856",
+    "nome": "BOM JESUS (INMET)",
+    "latitude": -28.66944443,
+    "longitude": -50.44194444,
+    "temperatura": 20.3,
+    "data_leitura": "2026-07-31 1500",
+    "situacao": "Pane"
+  },
+  {
+    "codigo": "A936",
+    "nome": "SALTO DO CEU",
+    "latitude": -15.12472221,
+    "longitude": -58.12722221,
+    "temperatura": 36.7,
+    "data_leitura": "2026-07-31 1800",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A916",
+    "nome": "QUERENCIA",
+    "latitude": -12.60305555,
+    "longitude": -52.1625,
+    "temperatura": 35.2,
+    "data_leitura": "2026-07-31 1800",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A763",
+    "nome": "MARILIA",
+    "latitude": -22.23527777,
+    "longitude": -49.965,
+    "temperatura": 26.7,
+    "data_leitura": "2026-07-31 1800",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A705",
+    "nome": "BAURU",
+    "latitude": -22.35805555,
+    "longitude": -49.02888888,
+    "temperatura": 25.4,
+    "data_leitura": "2026-07-31 1800",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A932",
+    "nome": "GUIRATINGA",
+    "latitude": -16.34166666,
+    "longitude": -53.76611111,
+    "temperatura": 36.0,
+    "data_leitura": "2026-07-31 1800",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A346",
+    "nome": "URUCUI",
+    "latitude": -7.44138888,
+    "longitude": -44.34499999,
+    "temperatura": 20.8,
+    "data_leitura": "2026-07-02 1000",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A303",
+    "nome": "MACEIO",
+    "latitude": -9.55111111,
+    "longitude": -35.77027777,
+    "temperatura": 27.5,
+    "data_leitura": "2026-07-31 1700",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "B840",
+    "nome": "SOBRADINHO",
+    "latitude": -29.39833333,
+    "longitude": -53.01361111,
+    "temperatura": 26.9,
+    "data_leitura": "2026-07-31 1700",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "B858",
+    "nome": "CASCA",
+    "latitude": -28.56361111,
+    "longitude": -51.96916666,
+    "temperatura": 14.7,
+    "data_leitura": "2026-07-31 1100",
+    "situacao": "Pane"
+  },
+  {
+    "codigo": "A254",
+    "nome": "REDENCAO",
+    "latitude": -8.04333333,
+    "longitude": -50.00694444,
+    "temperatura": 35.4,
+    "data_leitura": "2026-07-31 1600",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A348",
+    "nome": "CABACEIRAS",
+    "latitude": -7.48333333,
+    "longitude": -36.28638888,
+    "temperatura": 30.6,
+    "data_leitura": "2026-07-31 1700",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A025",
+    "nome": "RIO VERDE",
+    "latitude": -17.78527777,
+    "longitude": -50.965,
+    "temperatura": 31.3,
+    "data_leitura": "2026-07-31 1800",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A743",
+    "nome": "RIO BRILHANTE",
+    "latitude": -21.77499999,
+    "longitude": -54.52805554,
+    "temperatura": 29.5,
+    "data_leitura": "2026-07-31 1800",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A138",
+    "nome": "FEIJO",
+    "latitude": -8.14277777,
+    "longitude": -70.3436111,
+    "temperatura": 30.6,
+    "data_leitura": "2026-07-31 1700",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A812",
+    "nome": "CACAPAVA DO SUL",
+    "latitude": -30.54527777,
+    "longitude": -53.46694443,
+    "temperatura": 22.6,
+    "data_leitura": "2026-07-31 1700",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A736",
+    "nome": "ARIRANHA",
+    "latitude": -21.13305554,
+    "longitude": -48.84055555,
+    "temperatura": 31.5,
+    "data_leitura": "2026-07-31 1800",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A556",
+    "nome": "MANHUACU",
+    "latitude": -20.26333333,
+    "longitude": -42.18277777,
+    "temperatura": 23.2,
+    "data_leitura": "2026-07-31 1800",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A873",
+    "nome": "MORRETES",
+    "latitude": -25.50888888,
+    "longitude": -48.80861111,
+    "temperatura": 22.0,
+    "data_leitura": "2026-07-31 1700",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A727",
+    "nome": "LINS",
+    "latitude": -21.66611111,
+    "longitude": -49.73472221,
+    "temperatura": 24.4,
+    "data_leitura": "2026-05-13 1500",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A949",
+    "nome": "DIAMANTINO",
+    "latitude": -14.37777777,
+    "longitude": -56.37972221,
+    "temperatura": 36.0,
+    "data_leitura": "2026-07-31 1800",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A545",
+    "nome": "PIRAPORA",
+    "latitude": -17.258064,
+    "longitude": -44.835556,
+    "temperatura": 27.7,
+    "data_leitura": "2026-07-31 1800",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A962",
+    "nome": "CAMPOS DE JULIO",
+    "latitude": -14.0525,
+    "longitude": -59.26888888,
+    "temperatura": 32.5,
+    "data_leitura": "2026-07-31 1800",
+    "situacao": "Pane"
+  },
+  {
+    "codigo": "A553",
+    "nome": "JOAO PINHEIRO",
+    "latitude": -17.78444444,
+    "longitude": -46.11944443,
+    "temperatura": 26.9,
+    "data_leitura": "2026-07-31 1800",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A024",
+    "nome": "ALTO PARAISO DE GOIAS",
+    "latitude": -14.13305554,
+    "longitude": -47.52333332,
+    "temperatura": 26.8,
+    "data_leitura": "2026-07-31 1800",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A110",
+    "nome": "BOCA DO ACRE",
+    "latitude": -8.77666666,
+    "longitude": -67.33249999,
+    "temperatura": 35.7,
+    "data_leitura": "2026-07-31 1700",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A220",
+    "nome": "BACABAL",
+    "latitude": -4.24305555,
+    "longitude": -44.79499999,
+    "temperatura": 32.8,
+    "data_leitura": "2026-07-31 1700",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A508",
+    "nome": "ALMENARA",
+    "latitude": -16.16666666,
+    "longitude": -40.68777777,
+    "temperatura": 29.7,
+    "data_leitura": "2026-07-31 1800",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A659",
+    "nome": "SILVA JARDIM",
+    "latitude": -22.64583333,
+    "longitude": -42.41555555,
+    "temperatura": 24.6,
+    "data_leitura": "2026-07-31 1800",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A631",
+    "nome": "ECOPORANGA",
+    "latitude": -18.29138888,
+    "longitude": -40.73638888,
+    "temperatura": 15.1,
+    "data_leitura": "2026-07-04 1000",
+    "situacao": "Pane"
+  },
+  {
+    "codigo": "A830",
+    "nome": "SAO BORJA",
+    "latitude": -28.65,
+    "longitude": -56.01638888,
+    "temperatura": 30.4,
+    "data_leitura": "2026-07-31 1700",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A570",
+    "nome": "OLIVEIRA",
+    "latitude": -20.715,
+    "longitude": -44.86444444,
+    "temperatura": 22.3,
+    "data_leitura": "2026-07-31 1800",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A239",
+    "nome": "MONTE ALEGRE",
+    "latitude": -2.0,
+    "longitude": -54.07638888,
+    "temperatura": 26.4,
+    "data_leitura": "2026-05-13 1600",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A413",
+    "nome": "FEIRA DE SANTANA",
+    "latitude": -12.1961111,
+    "longitude": -38.96749999,
+    "temperatura": 23.9,
+    "data_leitura": "2026-07-31 1700",
+    "situacao": "Pane"
+  },
+  {
+    "codigo": "A249",
+    "nome": "MACAPA",
+    "latitude": 0.03499999,
+    "longitude": -51.08888888,
+    "temperatura": 31.4,
+    "data_leitura": "2026-07-31 1700",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A851",
+    "nome": "ITAPOA",
+    "latitude": -26.08138888,
+    "longitude": -48.64166666,
+    "temperatura": 19.5,
+    "data_leitura": "2026-07-26 2000",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A361",
+    "nome": "CASTELO DO PIAUI",
+    "latitude": -5.34916666,
+    "longitude": -41.51222222,
+    "temperatura": 35.7,
+    "data_leitura": "2026-07-31 1700",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A711",
+    "nome": "SAO CARLOS",
+    "latitude": -21.98027777,
+    "longitude": -47.88388888,
+    "temperatura": 26.8,
+    "data_leitura": "2026-07-31 1800",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A876",
+    "nome": "CLEVELANDIA",
+    "latitude": -26.41722221,
+    "longitude": -52.3486111,
+    "temperatura": 27.5,
+    "data_leitura": "2026-03-02 1700",
+    "situacao": "Pane"
+  },
+  {
+    "codigo": "A849",
+    "nome": "DIAMANTE DO NORTE",
+    "latitude": -22.63944444,
+    "longitude": -52.89027777,
+    "temperatura": 26.1,
+    "data_leitura": "2026-07-31 1700",
+    "situacao": "Pane"
+  },
+  {
+    "codigo": "A119",
+    "nome": "MANACAPURU",
+    "latitude": -3.29472221,
+    "longitude": -60.62833332,
+    "temperatura": 32.6,
+    "data_leitura": "2026-07-31 1600",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A758",
+    "nome": "JARDIM",
+    "latitude": -21.4786111,
+    "longitude": -56.13777777,
+    "temperatura": 32.7,
+    "data_leitura": "2026-07-31 1800",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A827",
+    "nome": "BAGE",
+    "latitude": -31.34777777,
+    "longitude": -54.01333333,
+    "temperatura": 26.0,
+    "data_leitura": "2026-07-31 1700",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A231",
+    "nome": "ITAITUBA",
+    "latitude": -4.27694443,
+    "longitude": -55.99305555,
+    "temperatura": 32.8,
+    "data_leitura": "2026-07-31 1700",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A630",
+    "nome": "SANTA MARIA MADALENA",
+    "latitude": -21.95055555,
+    "longitude": -42.01027777,
+    "temperatura": 22.0,
+    "data_leitura": "2026-07-31 1800",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A237",
+    "nome": "CAXIAS",
+    "latitude": -4.82138888,
+    "longitude": -43.3436111,
+    "temperatura": 33.1,
+    "data_leitura": "2026-07-28 1700",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A761",
+    "nome": "SONORA",
+    "latitude": -17.63527777,
+    "longitude": -54.76055555,
+    "temperatura": 34.7,
+    "data_leitura": "2026-07-31 1800",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A868",
+    "nome": "ITAJAI",
+    "latitude": -26.95083333,
+    "longitude": -48.76194444,
+    "temperatura": 20.4,
+    "data_leitura": "2026-07-31 1700",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A216",
+    "nome": "SAO FELIX DO XINGU",
+    "latitude": -6.63972221,
+    "longitude": -51.95694444,
+    "temperatura": 30.4,
+    "data_leitura": "2026-05-14 1300",
+    "situacao": "Pane"
+  },
+  {
+    "codigo": "A111",
+    "nome": "LABREA",
+    "latitude": -7.26055555,
+    "longitude": -64.7886111,
+    "temperatura": 30.4,
+    "data_leitura": "2025-11-12 1800",
+    "situacao": "Pane"
+  },
+  {
+    "codigo": "B837",
+    "nome": "PORTO XAVIER",
+    "latitude": -27.90277777,
+    "longitude": -55.16722221,
+    "temperatura": 30.7,
+    "data_leitura": "2026-07-31 1700",
+    "situacao": "Pane"
+  },
+  {
+    "codigo": "A248",
+    "nome": "CAPITAO POCO",
+    "latitude": -1.73472221,
+    "longitude": -47.0575,
+    "temperatura": 31.4,
+    "data_leitura": "2026-07-31 1700",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A054",
+    "nome": "ARAGUACU",
+    "latitude": -12.59222221,
+    "longitude": -49.5286111,
+    "temperatura": 36.2,
+    "data_leitura": "2026-07-31 1700",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A519",
+    "nome": "CAMPINA VERDE",
+    "latitude": -19.53916666,
+    "longitude": -49.51805554,
+    "temperatura": 32.3,
+    "data_leitura": "2026-07-31 1800",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "B808",
+    "nome": "CACHOEIRINHA",
+    "latitude": -29.95138888,
+    "longitude": -51.12416666,
+    "temperatura": 24.8,
+    "data_leitura": "2026-07-31 1700",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "B825",
+    "nome": "PORTO ALEGRE - BELEM NOVO",
+    "latitude": -30.1861111,
+    "longitude": -51.17833332,
+    "temperatura": 24.4,
+    "data_leitura": "2026-07-31 1700",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A440",
+    "nome": "JACOBINA",
+    "latitude": -11.205,
+    "longitude": -40.465,
+    "temperatura": 27.3,
+    "data_leitura": "2026-07-31 1700",
+    "situacao": "Pane"
+  },
+  {
+    "codigo": "B843",
+    "nome": "AJURICABA",
+    "latitude": -28.22083332,
+    "longitude": -53.6736111,
+    "temperatura": 25.6,
+    "data_leitura": "2026-07-31 1600",
+    "situacao": "Pane"
+  },
+  {
+    "codigo": "A445",
+    "nome": "IPIAU",
+    "latitude": -14.17138888,
+    "longitude": -39.69249999,
+    "temperatura": 31.1,
+    "data_leitura": "2025-12-03 1800",
+    "situacao": "Pane"
+  },
+  {
+    "codigo": "A882",
+    "nome": "TEUTONIA",
+    "latitude": -29.44916666,
+    "longitude": -51.82333332,
+    "temperatura": 28.1,
+    "data_leitura": "2026-07-31 1700",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "B861",
+    "nome": "SAO JOSE DO OURO",
+    "latitude": -27.77249999,
+    "longitude": -51.58666666,
+    "temperatura": 22.5,
+    "data_leitura": "2026-07-31 1700",
+    "situacao": "Pane"
+  },
+  {
+    "codigo": "A843",
+    "nome": "DOIS VIZINHOS",
+    "latitude": -25.69916666,
+    "longitude": -53.09527777,
+    "temperatura": 24.5,
+    "data_leitura": "2026-07-31 1700",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A372",
+    "nome": "IPANGUACU",
+    "latitude": -5.53499999,
+    "longitude": -36.87222221,
+    "temperatura": 35.3,
+    "data_leitura": "2026-07-29 1700",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A747",
+    "nome": "PRADOPOLIS",
+    "latitude": -21.33833333,
+    "longitude": -48.11388888,
+    "temperatura": 30.1,
+    "data_leitura": "2026-07-31 1800",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A713",
+    "nome": "IPERO",
+    "latitude": -23.4261111,
+    "longitude": -47.58555555,
+    "temperatura": 26.1,
+    "data_leitura": "2026-07-31 1800",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A140",
+    "nome": "EPITACIOLANDIA",
+    "latitude": -11.02388888,
+    "longitude": -68.73527777,
+    "temperatura": 33.3,
+    "data_leitura": "2026-03-24 1800",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A108",
+    "nome": "CRUZEIRO DO SUL",
+    "latitude": -7.61055555,
+    "longitude": -72.6811111,
+    "temperatura": 27.5,
+    "data_leitura": "2026-03-07 1400",
+    "situacao": "Pane"
+  },
+  {
+    "codigo": "A212",
+    "nome": "PARAGOMINAS",
+    "latitude": -2.90055555,
+    "longitude": -47.49499999,
+    "temperatura": 31.5,
+    "data_leitura": "2026-07-31 1700",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A719",
+    "nome": "AQUIDAUANA",
+    "latitude": -20.47555554,
+    "longitude": -55.78388888,
+    "temperatura": 32.6,
+    "data_leitura": "2026-07-31 1800",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A895",
+    "nome": "CHAPECO",
+    "latitude": -27.08527777,
+    "longitude": -52.63583333,
+    "temperatura": 6.7,
+    "data_leitura": "2026-07-03 1100",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A019",
+    "nome": "GURUPI",
+    "latitude": -11.74499999,
+    "longitude": -49.05166666,
+    "temperatura": 35.1,
+    "data_leitura": "2026-07-31 1700",
+    "situacao": "Pane"
+  },
+  {
+    "codigo": "A036",
+    "nome": "CRISTALINA",
+    "latitude": -16.78499999,
+    "longitude": -47.61305555,
+    "temperatura": 25.4,
+    "data_leitura": "2026-07-31 1800",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A938",
+    "nome": "VILHENA",
+    "latitude": -12.73499999,
+    "longitude": -60.15777777,
+    "temperatura": 33.0,
+    "data_leitura": "2025-08-06 0000",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A619",
+    "nome": "PARATY",
+    "latitude": -23.2236111,
+    "longitude": -44.72694443,
+    "temperatura": 25.4,
+    "data_leitura": "2026-07-31 1800",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A915",
+    "nome": "PARANATINGA",
+    "latitude": -14.42138888,
+    "longitude": -54.0361111,
+    "temperatura": 31.7,
+    "data_leitura": "2025-10-06 2200",
+    "situacao": "Temporariamente Fechada"
+  },
+  {
+    "codigo": "A637",
+    "nome": "PATY DO ALFERES - AVELAR",
+    "latitude": -22.34722221,
+    "longitude": -43.41777777,
+    "temperatura": 24.4,
+    "data_leitura": "2026-07-31 1700",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A123",
+    "nome": "PARINTINS",
+    "latitude": -2.63916666,
+    "longitude": -56.75611111,
+    "temperatura": 33.1,
+    "data_leitura": "2026-07-31 1600",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A562",
+    "nome": "PATOS DE MINAS",
+    "latitude": -18.52055554,
+    "longitude": -46.44055555,
+    "temperatura": 23.9,
+    "data_leitura": "2026-02-08 1700",
+    "situacao": "Pane"
+  },
+  {
+    "codigo": "A838",
+    "nome": "CAMAQUA",
+    "latitude": -30.80805555,
+    "longitude": -51.83416666,
+    "temperatura": 24.6,
+    "data_leitura": "2026-07-31 1700",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A946",
+    "nome": "MARCELANDIA",
+    "latitude": -11.08499999,
+    "longitude": -54.51388888,
+    "temperatura": 36.4,
+    "data_leitura": "2026-07-31 1800",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A613",
+    "nome": "SANTA TERESA",
+    "latitude": -19.98833333,
+    "longitude": -40.57944443,
+    "temperatura": 17.5,
+    "data_leitura": "2026-07-31 1800",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A764",
+    "nome": "BEBEDOURO",
+    "latitude": -20.94805555,
+    "longitude": -48.47138888,
+    "temperatura": 31.9,
+    "data_leitura": "2026-07-31 1800",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A256",
+    "nome": "SANTA MARIA DAS BARREIRAS",
+    "latitude": -8.72972221,
+    "longitude": -49.85638888,
+    "temperatura": 34.2,
+    "data_leitura": "2026-07-31 1700",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "B832",
+    "nome": "CAPAO DA CANOA",
+    "latitude": -29.68527777,
+    "longitude": -49.99305555,
+    "temperatura": 20.5,
+    "data_leitura": "2026-07-31 1700",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A718",
+    "nome": "RANCHARIA",
+    "latitude": -22.37277777,
+    "longitude": -50.97472221,
+    "temperatura": 28.9,
+    "data_leitura": "2026-07-31 1800",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A822",
+    "nome": "NOVA TEBAS",
+    "latitude": -24.43388888,
+    "longitude": -51.95388888,
+    "temperatura": 24.0,
+    "data_leitura": "2026-07-31 1700",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A514",
+    "nome": "SAO JOAO DEL REI",
+    "latitude": -21.10638888,
+    "longitude": -44.25083333,
+    "temperatura": 21.4,
+    "data_leitura": "2026-07-31 1800",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A015",
+    "nome": "ITAPACI",
+    "latitude": -14.97972221,
+    "longitude": -49.53944444,
+    "temperatura": 25.8,
+    "data_leitura": "2025-11-20 2300",
+    "situacao": "Pane"
+  },
+  {
+    "codigo": "F501",
+    "nome": "BELO HORIZONTE - CERCADINHO",
+    "latitude": -19.97999999,
+    "longitude": -43.95861111,
+    "temperatura": 22.5,
+    "data_leitura": "2026-07-31 1800",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A741",
+    "nome": "BARRA BONITA",
+    "latitude": -22.4711111,
+    "longitude": -48.5575,
+    "temperatura": 25.0,
+    "data_leitura": "2026-07-31 1800",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A633",
+    "nome": "VENDA NOVA DO IMIGRANTE",
+    "latitude": -20.38555555,
+    "longitude": -41.18999999,
+    "temperatura": 20.5,
+    "data_leitura": "2026-07-31 1700",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A226",
+    "nome": "BRAGANCA",
+    "latitude": -1.05583333,
+    "longitude": -46.78277777,
+    "temperatura": 30.7,
+    "data_leitura": "2026-07-31 1700",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A903",
+    "nome": "S.J. DO RIO CLARO",
+    "latitude": -13.45388888,
+    "longitude": -56.67722221,
+    "temperatura": 35.5,
+    "data_leitura": "2026-07-31 1800",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A034",
+    "nome": "CATALAO",
+    "latitude": -18.15472222,
+    "longitude": -47.92749999,
+    "temperatura": 28.1,
+    "data_leitura": "2026-07-31 1800",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A505",
+    "nome": "ARAXA",
+    "latitude": -19.60583333,
+    "longitude": -46.94972221,
+    "temperatura": 27.1,
+    "data_leitura": "2026-07-31 1800",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "B833",
+    "nome": "CRUZ ALTA ( CENTRO)",
+    "latitude": -28.62583332,
+    "longitude": -53.61361111,
+    "temperatura": 24.9,
+    "data_leitura": "2026-07-31 1700",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A527",
+    "nome": "TEOFILO OTONI",
+    "latitude": -17.89277777,
+    "longitude": -41.51555555,
+    "temperatura": 24.5,
+    "data_leitura": "2026-07-31 1800",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A056",
+    "nome": "CRISTALINA (FAZENDA SANTA MONICA)",
+    "latitude": -16.39944444,
+    "longitude": -47.62583332,
+    "temperatura": 28.0,
+    "data_leitura": "2026-07-31 1800",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A404",
+    "nome": "LUIS EDUARDO MAGALHAES",
+    "latitude": -12.1525,
+    "longitude": -45.82972221,
+    "temperatura": 30.4,
+    "data_leitura": "2026-07-31 1700",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A740",
+    "nome": "SAO LUIZ DO PARAITINGA",
+    "latitude": -23.22833332,
+    "longitude": -45.41694443,
+    "temperatura": 23.7,
+    "data_leitura": "2026-07-31 1800",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A879",
+    "nome": "CANELA",
+    "latitude": -29.36888888,
+    "longitude": -50.82722221,
+    "temperatura": 24.3,
+    "data_leitura": "2026-07-31 1700",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A604",
+    "nome": "CAMBUCI",
+    "latitude": -21.58749999,
+    "longitude": -41.95833333,
+    "temperatura": 25.9,
+    "data_leitura": "2026-07-31 1800",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A328",
+    "nome": "SURUBIM",
+    "latitude": -7.84249999,
+    "longitude": -35.79027777,
+    "temperatura": 28.5,
+    "data_leitura": "2026-07-31 1700",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A013",
+    "nome": "ARAGARCAS",
+    "latitude": -15.90277777,
+    "longitude": -52.24527777,
+    "temperatura": 36.0,
+    "data_leitura": "2026-07-31 1800",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A507",
+    "nome": "UBERLANDIA",
+    "latitude": -18.91694443,
+    "longitude": -48.25555555,
+    "temperatura": 29.0,
+    "data_leitura": "2026-07-31 1800",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A352",
+    "nome": "CAMARATUBA",
+    "latitude": -6.56194444,
+    "longitude": -35.13527777,
+    "temperatura": 28.6,
+    "data_leitura": "2026-07-31 1700",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A245",
+    "nome": "PORTO DE MOZ",
+    "latitude": -1.82194443,
+    "longitude": -52.11166666,
+    "temperatura": 32.8,
+    "data_leitura": "2026-07-31 1700",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A542",
+    "nome": "UNAI",
+    "latitude": -16.55416666,
+    "longitude": -46.88194443,
+    "temperatura": 30.0,
+    "data_leitura": "2026-07-31 1700",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A931",
+    "nome": "SANTO ANTONIO DO LESTE",
+    "latitude": -14.92499999,
+    "longitude": -53.88444444,
+    "temperatura": 33.6,
+    "data_leitura": "2026-07-31 1800",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A860",
+    "nome": "CURITIBANOS",
+    "latitude": -27.2886111,
+    "longitude": -50.60416666,
+    "temperatura": 16.9,
+    "data_leitura": "2026-07-31 1800",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A933",
+    "nome": "ITIQUIRA",
+    "latitude": -17.17499999,
+    "longitude": -54.50166666,
+    "temperatura": 34.6,
+    "data_leitura": "2026-07-31 1800",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A840",
+    "nome": "BENTO GONCALVES",
+    "latitude": -29.16444444,
+    "longitude": -51.53416666,
+    "temperatura": 23.8,
+    "data_leitura": "2026-07-31 1700",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "B820",
+    "nome": "SAO FRANCISCO DE PAULA",
+    "latitude": -29.44222221,
+    "longitude": -50.56027777,
+    "temperatura": 25.2,
+    "data_leitura": "2026-07-31 1700",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A354",
+    "nome": "OEIRAS",
+    "latitude": -6.97416666,
+    "longitude": -42.14694444,
+    "temperatura": 36.7,
+    "data_leitura": "2026-07-31 1700",
+    "situacao": "Pane"
+  },
+  {
+    "codigo": "B815",
+    "nome": "TAQUARI",
+    "latitude": -29.79166666,
+    "longitude": -51.82749999,
+    "temperatura": 20.3,
+    "data_leitura": "2026-07-30 1900",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A837",
+    "nome": "SOLEDADE",
+    "latitude": -28.85916666,
+    "longitude": -52.54249999,
+    "temperatura": 12.0,
+    "data_leitura": "2026-07-30 1100",
+    "situacao": "Pane"
+  },
+  {
+    "codigo": "A032",
+    "nome": "MONTE ALEGRE DE GOIAS",
+    "latitude": -13.25361111,
+    "longitude": -46.89027777,
+    "temperatura": 33.0,
+    "data_leitura": "2026-07-31 1700",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A341",
+    "nome": "CARUARU",
+    "latitude": -8.35611111,
+    "longitude": -36.02833332,
+    "temperatura": 18.2,
+    "data_leitura": "2026-05-15 0600",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A624",
+    "nome": "NOVA FRIBURGO - SALINAS",
+    "latitude": -22.33472221,
+    "longitude": -42.67694443,
+    "temperatura": 18.0,
+    "data_leitura": "2026-07-31 1800",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A762",
+    "nome": "DRACENA",
+    "latitude": -21.45777777,
+    "longitude": -51.55222222,
+    "temperatura": 28.2,
+    "data_leitura": "2025-10-08 1900",
+    "situacao": "Pane"
+  },
+  {
+    "codigo": "A759",
+    "nome": "BATAGUASSU",
+    "latitude": -21.75,
+    "longitude": -52.47138888,
+    "temperatura": 27.6,
+    "data_leitura": "2026-07-31 1800",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A960",
+    "nome": "PORTO ESPERIDIAO",
+    "latitude": -15.85416666,
+    "longitude": -58.4625,
+    "temperatura": 36.3,
+    "data_leitura": "2026-07-31 1800",
+    "situacao": "Pane"
+  },
+  {
+    "codigo": "A864",
+    "nome": "MAJOR VIEIRA",
+    "latitude": -26.3936111,
+    "longitude": -50.36333333,
+    "temperatura": 17.3,
+    "data_leitura": "2026-07-31 1700",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A235",
+    "nome": "NOVO REPARTIMENTO",
+    "latitude": -4.24388888,
+    "longitude": -49.93944444,
+    "temperatura": 29.4,
+    "data_leitura": "2026-07-31 1700",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A101",
+    "nome": "MANAUS",
+    "latitude": -3.10333333,
+    "longitude": -60.01638888,
+    "temperatura": 34.2,
+    "data_leitura": "2026-07-31 1700",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "B860",
+    "nome": "RELVADO",
+    "latitude": -29.10444444,
+    "longitude": -52.05277777,
+    "temperatura": 23.0,
+    "data_leitura": "2026-07-31 1500",
+    "situacao": "Pane"
+  },
+  {
+    "codigo": "A421",
+    "nome": "BREJO GRANDE",
+    "latitude": -10.47388888,
+    "longitude": -36.48194443,
+    "temperatura": 24.4,
+    "data_leitura": "2026-07-27 1100",
+    "situacao": "Pane"
+  },
+  {
+    "codigo": "B829",
+    "nome": "SANTA VITORIA DO PALMAR (RESERVA DO TAIM)",
+    "latitude": -32.83583333,
+    "longitude": -52.6436111,
+    "temperatura": 19.0,
+    "data_leitura": "2026-07-31 1700",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "B826",
+    "nome": "HERVAL",
+    "latitude": -32.01277777,
+    "longitude": -53.40305555,
+    "temperatura": 25.1,
+    "data_leitura": "2026-07-31 1700",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A312",
+    "nome": "TERESINA",
+    "latitude": -5.03472221,
+    "longitude": -42.80138888,
+    "temperatura": 35.0,
+    "data_leitura": "2026-07-31 1700",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A331",
+    "nome": "SAO JOAO DO PIAUI",
+    "latitude": -8.36444444,
+    "longitude": -42.2525,
+    "temperatura": 35.0,
+    "data_leitura": "2026-07-31 1700",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A728",
+    "nome": "TAUBATE",
+    "latitude": -23.04166666,
+    "longitude": -45.52083332,
+    "temperatura": 24.0,
+    "data_leitura": "2026-07-31 1800",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A219",
+    "nome": "TURIACU",
+    "latitude": -1.66111111,
+    "longitude": -45.37249999,
+    "temperatura": 30.1,
+    "data_leitura": "2026-07-31 1700",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A829",
+    "nome": "SAO JOSE DOS AUSENTES",
+    "latitude": -28.7486111,
+    "longitude": -50.05777777,
+    "temperatura": 22.8,
+    "data_leitura": "2026-07-31 1400",
+    "situacao": "Pane"
+  },
+  {
+    "codigo": "A521",
+    "nome": "BELO HORIZONTE - PAMPULHA",
+    "latitude": -19.88388888,
+    "longitude": -43.96944443,
+    "temperatura": 23.5,
+    "data_leitura": "2026-07-31 1800",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A319",
+    "nome": "IGUATU",
+    "latitude": -6.39638888,
+    "longitude": -39.26888888,
+    "temperatura": 22.9,
+    "data_leitura": "2026-07-29 0600",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A733",
+    "nome": "JALES",
+    "latitude": -20.165,
+    "longitude": -50.59499999,
+    "temperatura": 30.9,
+    "data_leitura": "2026-07-31 1800",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A768",
+    "nome": "TUPA",
+    "latitude": -21.92722221,
+    "longitude": -50.49027777,
+    "temperatura": 28.6,
+    "data_leitura": "2026-07-31 1800",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A815",
+    "nome": "SAO JOAQUIM",
+    "latitude": -28.27555554,
+    "longitude": -49.93472221,
+    "temperatura": 14.8,
+    "data_leitura": "2025-11-30 0300",
+    "situacao": "Pane"
+  },
+  {
+    "codigo": "B817",
+    "nome": "CAXIAS DO SUL - CRIUVA",
+    "latitude": -28.87416666,
+    "longitude": -50.97555554,
+    "temperatura": 9.5,
+    "data_leitura": "2026-07-14 2300",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A717",
+    "nome": "NHUMIRIM",
+    "latitude": -18.9886111,
+    "longitude": -56.62277777,
+    "temperatura": 34.5,
+    "data_leitura": "2026-07-31 1800",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A325",
+    "nome": "QUIXERAMOBIM",
+    "latitude": -5.17444443,
+    "longitude": -39.28944444,
+    "temperatura": 33.8,
+    "data_leitura": "2026-07-31 1700",
+    "situacao": "Pane"
+  },
+  {
+    "codigo": "A037",
+    "nome": "SILVANIA",
+    "latitude": -16.67972221,
+    "longitude": -48.61805554,
+    "temperatura": 25.2,
+    "data_leitura": "2026-02-17 2200",
+    "situacao": "Pane"
+  },
+  {
+    "codigo": "A771",
+    "nome": "SAO PAULO - INTERLAGOS",
+    "latitude": -23.72444443,
+    "longitude": -46.67749999,
+    "temperatura": 19.6,
+    "data_leitura": "2026-07-31 1800",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A202",
+    "nome": "CASTANHAL",
+    "latitude": -1.30083333,
+    "longitude": -47.94805555,
+    "temperatura": 31.7,
+    "data_leitura": "2026-07-31 1700",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A622",
+    "nome": "PRESIDENTE KENNEDY",
+    "latitude": -21.10083333,
+    "longitude": -41.03944444,
+    "temperatura": 23.2,
+    "data_leitura": "2026-07-31 1800",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A710",
+    "nome": "PARANAIBA",
+    "latitude": -19.69555555,
+    "longitude": -51.18166666,
+    "temperatura": 32.7,
+    "data_leitura": "2026-07-31 1800",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A923",
+    "nome": "PRIMAVERA DO LESTE",
+    "latitude": -15.57999999,
+    "longitude": -54.3811111,
+    "temperatura": 33.0,
+    "data_leitura": "2026-07-31 1800",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "B812",
+    "nome": "CHARQUEADAS",
+    "latitude": -29.96555555,
+    "longitude": -51.62555554,
+    "temperatura": 24.7,
+    "data_leitura": "2026-07-31 1700",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A947",
+    "nome": "NOVO SANTO ANTONIO",
+    "latitude": -12.28805555,
+    "longitude": -50.97138888,
+    "temperatura": 37.0,
+    "data_leitura": "2026-07-31 1800",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A121",
+    "nome": "ITACOATIARA",
+    "latitude": -3.13333333,
+    "longitude": -58.48277777,
+    "temperatura": 31.7,
+    "data_leitura": "2026-07-31 1600",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A374",
+    "nome": "CORRENTE",
+    "latitude": -10.42916666,
+    "longitude": -45.17305554,
+    "temperatura": 34.2,
+    "data_leitura": "2026-07-31 1700",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A904",
+    "nome": "SORRISO",
+    "latitude": -12.555,
+    "longitude": -55.72277777,
+    "temperatura": 35.3,
+    "data_leitura": "2026-07-31 1800",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A044",
+    "nome": "ARAGUATINS",
+    "latitude": -5.6436111,
+    "longitude": -48.11194444,
+    "temperatura": 33.5,
+    "data_leitura": "2026-07-31 1700",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A750",
+    "nome": "AMAMBAI",
+    "latitude": -23.0025,
+    "longitude": -55.32944443,
+    "temperatura": 28.9,
+    "data_leitura": "2026-07-31 1800",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A560",
+    "nome": "POMPEU",
+    "latitude": -19.23249999,
+    "longitude": -44.96416666,
+    "temperatura": 27.1,
+    "data_leitura": "2026-07-31 1800",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A329",
+    "nome": "CABROBO",
+    "latitude": -8.50388888,
+    "longitude": -39.31527777,
+    "temperatura": 31.3,
+    "data_leitura": "2026-07-31 1700",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A550",
+    "nome": "ITAOBIM",
+    "latitude": -16.57555554,
+    "longitude": -41.48555555,
+    "temperatura": 23.2,
+    "data_leitura": "2026-03-27 2100",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A803",
+    "nome": "SANTA MARIA",
+    "latitude": -29.72499999,
+    "longitude": -53.72055554,
+    "temperatura": 27.7,
+    "data_leitura": "2026-07-31 1700",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A426",
+    "nome": "GUANAMBI",
+    "latitude": -14.20805555,
+    "longitude": -42.74972221,
+    "temperatura": 27.3,
+    "data_leitura": "2026-07-31 1700",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A955",
+    "nome": "LUCAS DO RIO VERDE",
+    "latitude": -13.07499999,
+    "longitude": -55.91138888,
+    "temperatura": 36.0,
+    "data_leitura": "2026-07-31 1800",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A566",
+    "nome": "ARACUAI",
+    "latitude": -16.84888888,
+    "longitude": -42.03527777,
+    "temperatura": 30.1,
+    "data_leitura": "2026-07-31 1700",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A255",
+    "nome": "ZE DOCA",
+    "latitude": -3.26916666,
+    "longitude": -45.65111111,
+    "temperatura": 31.7,
+    "data_leitura": "2026-07-31 1600",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A939",
+    "nome": "CACOAL",
+    "latitude": -11.44583333,
+    "longitude": -61.43416666,
+    "temperatura": 35.1,
+    "data_leitura": "2026-07-31 1700",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A862",
+    "nome": "RIO NEGRINHO",
+    "latitude": -26.2486111,
+    "longitude": -49.57416666,
+    "temperatura": 19.6,
+    "data_leitura": "2026-07-31 1800",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A863",
+    "nome": "ITUPORANGA",
+    "latitude": -27.41833332,
+    "longitude": -49.64694444,
+    "temperatura": 17.0,
+    "data_leitura": "2026-07-31 1700",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "B821",
+    "nome": "SANTANA DA BOA VISTA",
+    "latitude": -30.85861111,
+    "longitude": -53.15555555,
+    "temperatura": 25.7,
+    "data_leitura": "2026-07-31 1700",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A616",
+    "nome": "SAO MATEUS",
+    "latitude": -18.6761111,
+    "longitude": -39.86416666,
+    "temperatura": 24.9,
+    "data_leitura": "2026-07-31 1800",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A436",
+    "nome": "QUEIMADAS",
+    "latitude": -10.98472221,
+    "longitude": -39.61694443,
+    "temperatura": 29.9,
+    "data_leitura": "2025-08-28 1500",
+    "situacao": "Pane"
+  },
+  {
+    "codigo": "A606",
+    "nome": "ARRAIAL DO CABO",
+    "latitude": -22.97527777,
+    "longitude": -42.02138888,
+    "temperatura": 24.1,
+    "data_leitura": "2026-07-31 1800",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A048",
+    "nome": "SANTA FE DO ARAGUAIA",
+    "latitude": -7.12416666,
+    "longitude": -48.78138888,
+    "temperatura": 24.2,
+    "data_leitura": "2026-07-15 1900",
+    "situacao": "Pane"
+  },
+  {
+    "codigo": "A883",
+    "nome": "IBIRUBA",
+    "latitude": -28.65333333,
+    "longitude": -53.11194444,
+    "temperatura": 14.7,
+    "data_leitura": "2026-07-30 0000",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A536",
+    "nome": "DORES DO INDAIA",
+    "latitude": -19.48194443,
+    "longitude": -45.59388888,
+    "temperatura": 27.9,
+    "data_leitura": "2026-07-31 1800",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A104",
+    "nome": "RIO BRANCO",
+    "latitude": -9.95916666,
+    "longitude": -67.86888888,
+    "temperatura": 30.3,
+    "data_leitura": "2026-07-31 1700",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A322",
+    "nome": "GARANHUNS",
+    "latitude": -8.91083333,
+    "longitude": -36.49333333,
+    "temperatura": 24.3,
+    "data_leitura": "2026-07-31 1700",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A023",
+    "nome": "CAIAPONIA",
+    "latitude": -16.96694443,
+    "longitude": -51.81749999,
+    "temperatura": 32.9,
+    "data_leitura": "2026-07-31 1800",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A828",
+    "nome": "ERECHIM",
+    "latitude": -27.65777777,
+    "longitude": -52.30583333,
+    "temperatura": 22.6,
+    "data_leitura": "2026-07-31 1700",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A323",
+    "nome": "PAO DE ACUCAR",
+    "latitude": -9.74916666,
+    "longitude": -37.43083332,
+    "temperatura": 32.6,
+    "data_leitura": "2026-07-31 1700",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A917",
+    "nome": "SINOP",
+    "latitude": -11.98222221,
+    "longitude": -55.56611111,
+    "temperatura": 28.7,
+    "data_leitura": "2025-09-15 2200",
+    "situacao": "Pane"
+  },
+  {
+    "codigo": "A458",
+    "nome": "RIBEIRA DO AMPARO",
+    "latitude": -11.05861111,
+    "longitude": -38.44416666,
+    "temperatura": 25.0,
+    "data_leitura": "2026-07-31 1700",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A526",
+    "nome": "MONTALVANIA",
+    "latitude": -14.40833333,
+    "longitude": -44.40416666,
+    "temperatura": 26.6,
+    "data_leitura": "2026-01-15 1300",
+    "situacao": "Pane"
+  },
+  {
+    "codigo": "A770",
+    "nome": "SAO SIMAO",
+    "latitude": -21.46111111,
+    "longitude": -47.57944443,
+    "temperatura": 29.0,
+    "data_leitura": "2026-07-31 1700",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A807",
+    "nome": "CURITIBA",
+    "latitude": -25.4486111,
+    "longitude": -49.23055554,
+    "temperatura": 20.5,
+    "data_leitura": "2026-07-31 1700",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A850",
+    "nome": "PARANAPOEMA",
+    "latitude": -22.65833333,
+    "longitude": -52.13444444,
+    "temperatura": 30.3,
+    "data_leitura": "2025-10-24 1500",
+    "situacao": "Pane"
+  },
+  {
+    "codigo": "A031",
+    "nome": "SAO MIGUEL DO ARAGUAIA",
+    "latitude": -12.82055554,
+    "longitude": -50.33583333,
+    "temperatura": 36.8,
+    "data_leitura": "2026-07-31 1800",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A625",
+    "nome": "TRES RIOS",
+    "latitude": -22.09833333,
+    "longitude": -43.20833333,
+    "temperatura": 27.4,
+    "data_leitura": "2026-07-31 1800",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A935",
+    "nome": "PORTO ESTRELA",
+    "latitude": -15.32472221,
+    "longitude": -57.22583332,
+    "temperatura": 36.5,
+    "data_leitura": "2026-07-31 1800",
+    "situacao": "Pane"
+  },
+  {
+    "codigo": "A908",
+    "nome": "AGUA BOA",
+    "latitude": -14.01638888,
+    "longitude": -52.21166666,
+    "temperatura": 23.0,
+    "data_leitura": "2026-02-11 1300",
+    "situacao": "Pane"
+  },
+  {
+    "codigo": "A520",
+    "nome": "CONCEICAO DAS ALAGOAS",
+    "latitude": -19.98583333,
+    "longitude": -48.15166666,
+    "temperatura": 31.8,
+    "data_leitura": "2026-07-31 1800",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A603",
+    "nome": "DUQUE DE CAXIAS - XEREM",
+    "latitude": -22.58972221,
+    "longitude": -43.28222221,
+    "temperatura": 25.1,
+    "data_leitura": "2026-07-31 1800",
+    "situacao": "Pane"
+  },
+  {
+    "codigo": "A934",
+    "nome": "ALTO TAQUARI",
+    "latitude": -17.8411111,
+    "longitude": -53.28944444,
+    "temperatura": 31.8,
+    "data_leitura": "2026-07-31 1800",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A805",
+    "nome": "SANTO AUGUSTO",
+    "latitude": -27.85444444,
+    "longitude": -53.7911111,
+    "temperatura": 25.3,
+    "data_leitura": "2026-07-31 1700",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "B850",
+    "nome": "ITAQUI",
+    "latitude": -29.15555555,
+    "longitude": -56.55555555,
+    "temperatura": 29.2,
+    "data_leitura": "2026-07-31 1700",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A867",
+    "nome": "ARARANGUA",
+    "latitude": -28.931353,
+    "longitude": -49.49792,
+    "temperatura": 23.9,
+    "data_leitura": "2026-07-31 1700",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A945",
+    "nome": "BARRA DO GARCAS",
+    "latitude": -15.88472221,
+    "longitude": -52.22722221,
+    "temperatura": 35.8,
+    "data_leitura": "2026-07-31 1800",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A543",
+    "nome": "ESPINOSA",
+    "latitude": -14.91222222,
+    "longitude": -42.80861111,
+    "temperatura": 28.6,
+    "data_leitura": "2026-07-31 1800",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A559",
+    "nome": "JANUARIA",
+    "latitude": -15.44805555,
+    "longitude": -44.36638888,
+    "temperatura": 31.3,
+    "data_leitura": "2026-07-31 1800",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A907",
+    "nome": "RONDONOPOLIS",
+    "latitude": -16.4625,
+    "longitude": -54.58027777,
+    "temperatura": 37.8,
+    "data_leitura": "2026-07-31 1800",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A925",
+    "nome": "PORTO VELHO",
+    "latitude": -8.7936111,
+    "longitude": -63.84583333,
+    "temperatura": 31.0,
+    "data_leitura": "2026-07-31 1700",
+    "situacao": "Pane"
+  },
+  {
+    "codigo": "A746",
+    "nome": "BARRA DO TURVO",
+    "latitude": -24.96277777,
+    "longitude": -48.41638888,
+    "temperatura": 20.9,
+    "data_leitura": "2026-07-31 1800",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A344",
+    "nome": "CALCANHAR",
+    "latitude": -5.16,
+    "longitude": -35.48749999,
+    "temperatura": 22.6,
+    "data_leitura": "2025-10-17 0500",
+    "situacao": "Pane"
+  },
+  {
+    "codigo": "A009",
+    "nome": "PALMAS",
+    "latitude": -10.14777777,
+    "longitude": -48.31444444,
+    "temperatura": 35.7,
+    "data_leitura": "2026-07-31 1700",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "B839",
+    "nome": "SANTO ANTONIO DA PATRULHA",
+    "latitude": -29.81611111,
+    "longitude": -50.53333333,
+    "temperatura": 25.0,
+    "data_leitura": "2026-07-31 1700",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "B803",
+    "nome": "CAMPINA DA LAGOA",
+    "latitude": -24.57083332,
+    "longitude": -52.80027777,
+    "temperatura": 26.7,
+    "data_leitura": "2026-07-31 1700",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A318",
+    "nome": "MOSSORO",
+    "latitude": -4.90416666,
+    "longitude": -37.36694443,
+    "temperatura": 32.5,
+    "data_leitura": "2026-07-31 1700",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A772",
+    "nome": "AMAMBAI - NOVO HORIZONTE",
+    "latitude": -23.1211111,
+    "longitude": -54.86555555,
+    "temperatura": 26.9,
+    "data_leitura": "2026-07-31 1800",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A738",
+    "nome": "CASA BRANCA",
+    "latitude": -21.78055554,
+    "longitude": -47.07527777,
+    "temperatura": 27.5,
+    "data_leitura": "2026-07-31 1800",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "B827",
+    "nome": "BAGE - CENTRO",
+    "latitude": -31.30555555,
+    "longitude": -54.01333333,
+    "temperatura": 25.8,
+    "data_leitura": "2026-07-31 1700",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A428",
+    "nome": "SENHOR DO BONFIM",
+    "latitude": -10.44305555,
+    "longitude": -40.14833333,
+    "temperatura": 26.1,
+    "data_leitura": "2026-07-31 1700",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A540",
+    "nome": "MANTENA",
+    "latitude": -18.78055554,
+    "longitude": -40.98638888,
+    "temperatura": 26.4,
+    "data_leitura": "2026-07-31 1800",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A739",
+    "nome": "ITAPIRA",
+    "latitude": -22.415,
+    "longitude": -46.80527777,
+    "temperatura": 30.0,
+    "data_leitura": "2026-07-31 1800",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A858",
+    "nome": "XANXERE",
+    "latitude": -26.9386111,
+    "longitude": -52.39805555,
+    "temperatura": 22.8,
+    "data_leitura": "2025-11-19 1600",
+    "situacao": "Pane"
+  },
+  {
+    "codigo": "A657",
+    "nome": "AFONSO CLAUDIO",
+    "latitude": -20.10416666,
+    "longitude": -41.10694444,
+    "temperatura": 24.9,
+    "data_leitura": "2026-07-31 1800",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A752",
+    "nome": "ITAQUIRAI",
+    "latitude": -23.44944444,
+    "longitude": -54.18194443,
+    "temperatura": 32.1,
+    "data_leitura": "2026-04-04 1600",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A881",
+    "nome": "DOM PEDRITO",
+    "latitude": -31.0025,
+    "longitude": -54.61805554,
+    "temperatura": 16.0,
+    "data_leitura": "2026-07-31 0100",
+    "situacao": "Pane"
+  },
+  {
+    "codigo": "A723",
+    "nome": "PORTO MURTINHO",
+    "latitude": -21.70583333,
+    "longitude": -57.88666666,
+    "temperatura": 35.8,
+    "data_leitura": "2026-07-31 1800",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A544",
+    "nome": "BURITIS",
+    "latitude": -15.52416666,
+    "longitude": -46.43555555,
+    "temperatura": 27.8,
+    "data_leitura": "2026-07-31 1800",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "B830",
+    "nome": "SANTA VITORIA DO PALMAR (CENTRO)",
+    "latitude": -33.53166666,
+    "longitude": -53.35027777,
+    "temperatura": 21.3,
+    "data_leitura": "2026-07-31 1700",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A343",
+    "nome": "PICOS",
+    "latitude": -7.0711111,
+    "longitude": -41.40416666,
+    "temperatura": 34.6,
+    "data_leitura": "2026-07-31 1700",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A046",
+    "nome": "GAMA (PONTE ALTA)",
+    "latitude": -15.93527777,
+    "longitude": -48.13749999,
+    "temperatura": 28.6,
+    "data_leitura": "2026-07-31 1800",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A563",
+    "nome": "NOVA PORTEIRINHA (JANAUBA)",
+    "latitude": -15.80277777,
+    "longitude": -43.29694444,
+    "temperatura": 29.7,
+    "data_leitura": "2026-07-31 1800",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A617",
+    "nome": "ALEGRE",
+    "latitude": -20.75055555,
+    "longitude": -41.48888888,
+    "temperatura": 23.8,
+    "data_leitura": "2026-07-31 1800",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "B828",
+    "nome": "ACEGUA",
+    "latitude": -31.87472221,
+    "longitude": -54.11972221,
+    "temperatura": 25.2,
+    "data_leitura": "2026-07-31 1700",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A731",
+    "nome": "MARACAJU",
+    "latitude": -21.60916666,
+    "longitude": -55.17749999,
+    "temperatura": 31.1,
+    "data_leitura": "2026-07-31 1800",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A125",
+    "nome": "RIO URUBU",
+    "latitude": -2.6336111,
+    "longitude": -59.60055555,
+    "temperatura": 24.7,
+    "data_leitura": "2025-09-30 2100",
+    "situacao": "Pane"
+  },
+  {
+    "codigo": "A874",
+    "nome": "SAO MATEUS DO SUL",
+    "latitude": -25.83555555,
+    "longitude": -50.36888888,
+    "temperatura": 13.1,
+    "data_leitura": "2026-07-31 0500",
+    "situacao": "Pane"
+  },
+  {
+    "codigo": "A531",
+    "nome": "MARIA DA FE",
+    "latitude": -22.31444444,
+    "longitude": -45.37305554,
+    "temperatura": 23.5,
+    "data_leitura": "2026-07-31 1800",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A865",
+    "nome": "LAGES",
+    "latitude": -27.80222222,
+    "longitude": -50.33555555,
+    "temperatura": 14.0,
+    "data_leitura": "2026-07-31 1800",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A541",
+    "nome": "CAPELINHA",
+    "latitude": -17.70555555,
+    "longitude": -42.38916666,
+    "temperatura": 21.2,
+    "data_leitura": "2026-07-31 1800",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A416",
+    "nome": "CORRENTINA",
+    "latitude": -13.33249999,
+    "longitude": -44.61749999,
+    "temperatura": 32.4,
+    "data_leitura": "2026-07-31 1700",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A524",
+    "nome": "FORMIGA",
+    "latitude": -20.455,
+    "longitude": -45.45388888,
+    "temperatura": 25.6,
+    "data_leitura": "2026-07-31 1800",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A434",
+    "nome": "AMARGOSA",
+    "latitude": -13.00944444,
+    "longitude": -39.61694443,
+    "temperatura": 23.2,
+    "data_leitura": "2026-07-31 1700",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "B845",
+    "nome": "ESPERANCA DO SUL",
+    "latitude": -27.37416666,
+    "longitude": -53.96916666,
+    "temperatura": 23.5,
+    "data_leitura": "2026-07-31 1500",
+    "situacao": "Pane"
+  },
+  {
+    "codigo": "A611",
+    "nome": "VALENCA",
+    "latitude": -22.35805555,
+    "longitude": -43.69555555,
+    "temperatura": 25.5,
+    "data_leitura": "2026-07-31 1800",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A712",
+    "nome": "IGUAPE",
+    "latitude": -24.67166666,
+    "longitude": -47.54583333,
+    "temperatura": 21.8,
+    "data_leitura": "2026-07-31 1800",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A836",
+    "nome": "JAGUARAO",
+    "latitude": -32.53472221,
+    "longitude": -53.37583332,
+    "temperatura": 18.0,
+    "data_leitura": "2026-07-20 1900",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A376",
+    "nome": "CAMPO MAIOR",
+    "latitude": -4.86416666,
+    "longitude": -42.14555555,
+    "temperatura": 34.3,
+    "data_leitura": "2026-07-31 1700",
+    "situacao": "Pane"
+  },
+  {
+    "codigo": "A552",
+    "nome": "SALINAS",
+    "latitude": -16.16027777,
+    "longitude": -42.31027777,
+    "temperatura": 29.6,
+    "data_leitura": "2026-07-31 1800",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A523",
+    "nome": "PATROCINIO",
+    "latitude": -18.99666666,
+    "longitude": -46.98583333,
+    "temperatura": 28.3,
+    "data_leitura": "2026-07-31 1800",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "B813",
+    "nome": "MINAS DO LEAO",
+    "latitude": -30.12444443,
+    "longitude": -52.05083333,
+    "temperatura": 15.0,
+    "data_leitura": "2026-07-26 0000",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A038",
+    "nome": "DIANOPOLIS",
+    "latitude": -11.59444444,
+    "longitude": -46.84722221,
+    "temperatura": 32.3,
+    "data_leitura": "2026-07-31 1700",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A889",
+    "nome": "SAO VICENTE DO SUL",
+    "latitude": -29.70222222,
+    "longitude": -54.69444444,
+    "temperatura": 28.2,
+    "data_leitura": "2026-07-31 1700",
+    "situacao": "Pane"
+  },
+  {
+    "codigo": "A310",
+    "nome": "AREIA",
+    "latitude": -6.97555554,
+    "longitude": -35.71805554,
+    "temperatura": 25.5,
+    "data_leitura": "2026-07-31 1700",
+    "situacao": "Pane"
+  },
+  {
+    "codigo": "A515",
+    "nome": "VARGINHA",
+    "latitude": -21.56638888,
+    "longitude": -45.40416666,
+    "temperatura": 24.6,
+    "data_leitura": "2026-07-31 1800",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A042",
+    "nome": "BRAZLANDIA",
+    "latitude": -15.6525,
+    "longitude": -48.20138888,
+    "temperatura": 27.1,
+    "data_leitura": "2026-07-31 1800",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A026",
+    "nome": "MINEIROS",
+    "latitude": -17.45472222,
+    "longitude": -52.60111111,
+    "temperatura": 32.5,
+    "data_leitura": "2026-07-31 1700",
+    "situacao": "Pane"
+  },
+  {
+    "codigo": "A715",
+    "nome": "SAO MIGUEL ARCANJO",
+    "latitude": -23.89083333,
+    "longitude": -47.99916666,
+    "temperatura": 19.8,
+    "data_leitura": "2026-07-31 1800",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A039",
+    "nome": "FORMOSO DO ARAGUAIA",
+    "latitude": -11.88749999,
+    "longitude": -49.60833333,
+    "temperatura": 37.0,
+    "data_leitura": "2026-07-31 1600",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A722",
+    "nome": "MIRANDA",
+    "latitude": -20.39555555,
+    "longitude": -56.43166666,
+    "temperatura": 32.9,
+    "data_leitura": "2026-07-31 1700",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A029",
+    "nome": "EDEIA",
+    "latitude": -17.33694444,
+    "longitude": -49.91472222,
+    "temperatura": 32.6,
+    "data_leitura": "2026-07-31 1800",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A050",
+    "nome": "RIO SONO",
+    "latitude": -9.793363,
+    "longitude": -47.132732,
+    "temperatura": 33.2,
+    "data_leitura": "2026-07-20 1800",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A405",
+    "nome": "CARAVELAS",
+    "latitude": -17.73944444,
+    "longitude": -39.25861111,
+    "temperatura": 30.1,
+    "data_leitura": "2026-05-10 1600",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A027",
+    "nome": "PARAUNA",
+    "latitude": -16.9625,
+    "longitude": -50.42555554,
+    "temperatura": 33.3,
+    "data_leitura": "2026-07-31 1800",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A944",
+    "nome": "ROSARIO OESTE",
+    "latitude": -14.82888888,
+    "longitude": -56.44194444,
+    "temperatura": 36.1,
+    "data_leitura": "2026-07-31 1800",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "B848",
+    "nome": "BARRA DO QUARAI",
+    "latitude": -30.11166666,
+    "longitude": -57.3361111,
+    "temperatura": 17.3,
+    "data_leitura": "2026-07-31 0300",
+    "situacao": "Pane"
+  },
+  {
+    "codigo": "A929",
+    "nome": "NOVA UBIRATA",
+    "latitude": -13.41111111,
+    "longitude": -54.75222222,
+    "temperatura": 34.2,
+    "data_leitura": "2025-09-08 2000",
+    "situacao": "Pane"
+  },
+  {
+    "codigo": "A535",
+    "nome": "FLORESTAL",
+    "latitude": -19.88527777,
+    "longitude": -44.41694443,
+    "temperatura": 25.4,
+    "data_leitura": "2026-07-31 1800",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A529",
+    "nome": "PASSA QUATRO",
+    "latitude": -22.39583333,
+    "longitude": -44.96194444,
+    "temperatura": 23.0,
+    "data_leitura": "2026-07-31 1800",
+    "situacao": "Pane"
+  },
+  {
+    "codigo": "A848",
+    "nome": "DIONISIO CERQUEIRA",
+    "latitude": -26.286562,
+    "longitude": -53.633114,
+    "temperatura": 23.6,
+    "data_leitura": "2026-07-31 1700",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A238",
+    "nome": "BURITICUPU",
+    "latitude": -4.32055554,
+    "longitude": -46.44944444,
+    "temperatura": 33.0,
+    "data_leitura": "2026-07-31 1700",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A909",
+    "nome": "ALTO ARAGUAIA",
+    "latitude": -17.33944444,
+    "longitude": -53.22444443,
+    "temperatura": 32.7,
+    "data_leitura": "2026-07-31 1800",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A735",
+    "nome": "JOSE BONIFACIO",
+    "latitude": -21.08555555,
+    "longitude": -49.92027777,
+    "temperatura": 31.0,
+    "data_leitura": "2026-07-31 1800",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A621",
+    "nome": "RIO DE JANEIRO - VILA MILITAR",
+    "latitude": -22.86138888,
+    "longitude": -43.41138888,
+    "temperatura": 25.5,
+    "data_leitura": "2026-07-31 1800",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A304",
+    "nome": "NATAL",
+    "latitude": -5.83722221,
+    "longitude": -35.20805555,
+    "temperatura": 29.3,
+    "data_leitura": "2026-07-31 1700",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A608",
+    "nome": "MACAE",
+    "latitude": -22.3761111,
+    "longitude": -41.81194444,
+    "temperatura": 23.2,
+    "data_leitura": "2026-07-31 1800",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A447",
+    "nome": "BELMONTE",
+    "latitude": -16.08805555,
+    "longitude": -39.21527777,
+    "temperatura": 30.2,
+    "data_leitura": "2026-04-01 1600",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A431",
+    "nome": "CONDE",
+    "latitude": -12.03583333,
+    "longitude": -37.68388888,
+    "temperatura": 26.2,
+    "data_leitura": "2026-04-13 2300",
+    "situacao": "Pane"
+  },
+  {
+    "codigo": "A532",
+    "nome": "GOVERNADOR VALADARES",
+    "latitude": -18.83027777,
+    "longitude": -41.97694443,
+    "temperatura": 27.9,
+    "data_leitura": "2026-07-31 1800",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "B823",
+    "nome": "PINHEIRO MACHADO",
+    "latitude": -31.57472221,
+    "longitude": -53.38833333,
+    "temperatura": 24.4,
+    "data_leitura": "2026-07-31 1700",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A511",
+    "nome": "TIMOTEO",
+    "latitude": -19.57388888,
+    "longitude": -42.62249999,
+    "temperatura": 24.3,
+    "data_leitura": "2026-07-31 1800",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A912",
+    "nome": "CAMPO VERDE",
+    "latitude": -15.55888888,
+    "longitude": -55.17944443,
+    "temperatura": 31.2,
+    "data_leitura": "2026-07-31 1800",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A316",
+    "nome": "CAICO",
+    "latitude": -6.46749999,
+    "longitude": -37.08499999,
+    "temperatura": 35.3,
+    "data_leitura": "2026-07-31 1700",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "B835",
+    "nome": "JOIA",
+    "latitude": -28.65027777,
+    "longitude": -54.11277777,
+    "temperatura": 26.4,
+    "data_leitura": "2026-07-31 1700",
+    "situacao": "Pane"
+  },
+  {
+    "codigo": "A332",
+    "nome": "MORADA NOVA",
+    "latitude": -5.0911111,
+    "longitude": -38.36472222,
+    "temperatura": 34.1,
+    "data_leitura": "2026-07-31 1700",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A569",
+    "nome": "SETE LAGOAS",
+    "latitude": -19.45527777,
+    "longitude": -44.17333332,
+    "temperatura": 25.6,
+    "data_leitura": "2026-07-31 1800",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A215",
+    "nome": "SALINOPOLIS",
+    "latitude": -0.61888888,
+    "longitude": -47.35666666,
+    "temperatura": 28.4,
+    "data_leitura": "2026-07-31 1700",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A844",
+    "nome": "LAGOA VERMELHA",
+    "latitude": -28.22249999,
+    "longitude": -51.51277777,
+    "temperatura": 17.8,
+    "data_leitura": "2026-07-31 1400",
+    "situacao": "Pane"
+  },
+  {
+    "codigo": "A370",
+    "nome": "SALGUEIRO",
+    "latitude": -8.05805555,
+    "longitude": -39.0961111,
+    "temperatura": 31.8,
+    "data_leitura": "2026-07-31 1700",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A241",
+    "nome": "CONCEICAO DO ARAGUAIA",
+    "latitude": -8.30361111,
+    "longitude": -49.28277777,
+    "temperatura": 22.5,
+    "data_leitura": "2026-07-31 0000",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A967",
+    "nome": "BARRA DO BUGRES",
+    "latitude": -15.07583332,
+    "longitude": -57.19472221,
+    "temperatura": 35.7,
+    "data_leitura": "2026-07-31 1800",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A365",
+    "nome": "CANTO DO BURITI",
+    "latitude": -8.11805554,
+    "longitude": -42.97583332,
+    "temperatura": 34.1,
+    "data_leitura": "2026-07-31 1700",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A375",
+    "nome": "BAIXA GRANDE DO RIBEIRO",
+    "latitude": -8.333531,
+    "longitude": -45.094625,
+    "temperatura": 33.6,
+    "data_leitura": "2026-07-31 1700",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A950",
+    "nome": "ITANHANGA",
+    "latitude": -12.23416666,
+    "longitude": -56.60222222,
+    "temperatura": 35.8,
+    "data_leitura": "2026-07-31 1800",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A814",
+    "nome": "URUSSANGA",
+    "latitude": -28.53249999,
+    "longitude": -49.31527777,
+    "temperatura": 19.9,
+    "data_leitura": "2025-11-13 2300",
+    "situacao": "Pane"
+  },
+  {
+    "codigo": "A357",
+    "nome": "PALMARES",
+    "latitude": -8.66666666,
+    "longitude": -35.56805554,
+    "temperatura": 25.9,
+    "data_leitura": "2026-07-31 1700",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A629",
+    "nome": "CARMO",
+    "latitude": -21.9386111,
+    "longitude": -42.60083333,
+    "temperatura": 26.8,
+    "data_leitura": "2026-07-31 1800",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "B834",
+    "nome": "GARRUCHOS",
+    "latitude": -28.19694444,
+    "longitude": -55.62972221,
+    "temperatura": 8.5,
+    "data_leitura": "2026-06-27 0900",
+    "situacao": "Pane"
+  },
+  {
+    "codigo": "A210",
+    "nome": "PACAJA",
+    "latitude": -3.8436111,
+    "longitude": -50.63805555,
+    "temperatura": 31.7,
+    "data_leitura": "2026-07-31 1700",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A366",
+    "nome": "OURICURI",
+    "latitude": -7.88583333,
+    "longitude": -40.10277777,
+    "temperatura": 30.6,
+    "data_leitura": "2026-07-31 1700",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A886",
+    "nome": "TUPANCIRETA",
+    "latitude": -29.08944444,
+    "longitude": -53.82666666,
+    "temperatura": 26.1,
+    "data_leitura": "2026-07-31 1800",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A614",
+    "nome": "LINHARES",
+    "latitude": -19.35694444,
+    "longitude": -40.0686111,
+    "temperatura": 25.5,
+    "data_leitura": "2026-07-31 1800",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A415",
+    "nome": "SANTA RITA DE CASSIA",
+    "latitude": -11.00333333,
+    "longitude": -44.53638888,
+    "temperatura": 29.2,
+    "data_leitura": "2025-11-29 1700",
+    "situacao": "Pane"
+  },
+  {
+    "codigo": "A225",
+    "nome": "IMPERATRIZ",
+    "latitude": -5.55583333,
+    "longitude": -47.45972222,
+    "temperatura": 23.1,
+    "data_leitura": "2026-04-03 0500",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A809",
+    "nome": "URUGUAIANA",
+    "latitude": -29.83999999,
+    "longitude": -57.08194443,
+    "temperatura": 29.6,
+    "data_leitura": "2026-07-31 1800",
+    "situacao": "Pane"
+  },
+  {
+    "codigo": "A373",
+    "nome": "ITAPORANGA",
+    "latitude": -7.31833332,
+    "longitude": -38.14083333,
+    "temperatura": 33.5,
+    "data_leitura": "2026-07-31 1700",
+    "situacao": "Pane"
+  },
+  {
+    "codigo": "A958",
+    "nome": "CHAPADA DOS GUIMARAES",
+    "latitude": -15.46055555,
+    "longitude": -55.74972221,
+    "temperatura": 30.4,
+    "data_leitura": "2026-07-31 1700",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A414",
+    "nome": "VITORIA DA CONQUISTA",
+    "latitude": -14.88638888,
+    "longitude": -40.80138888,
+    "temperatura": 21.5,
+    "data_leitura": "2026-07-31 1700",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A831",
+    "nome": "QUARAI",
+    "latitude": -30.3686111,
+    "longitude": -56.43722221,
+    "temperatura": 29.2,
+    "data_leitura": "2026-07-31 1700",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A539",
+    "nome": "MOCAMBINHO",
+    "latitude": -15.08583333,
+    "longitude": -44.01611111,
+    "temperatura": 30.9,
+    "data_leitura": "2026-07-31 1800",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A957",
+    "nome": "CANARANA",
+    "latitude": -13.47055554,
+    "longitude": -52.30444444,
+    "temperatura": 36.3,
+    "data_leitura": "2026-07-31 1800",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A854",
+    "nome": "FREDERICO WESTPHALEN",
+    "latitude": -27.39555555,
+    "longitude": -53.42944443,
+    "temperatura": 25.9,
+    "data_leitura": "2026-07-31 1700",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A819",
+    "nome": "CASTRO",
+    "latitude": -24.77999999,
+    "longitude": -50.04638888,
+    "temperatura": 23.3,
+    "data_leitura": "2025-11-05 1700",
+    "situacao": "Pane"
+  },
+  {
+    "codigo": "A533",
+    "nome": "GUANHAES",
+    "latitude": -18.78694444,
+    "longitude": -42.94305555,
+    "temperatura": 21.7,
+    "data_leitura": "2026-07-31 1800",
+    "situacao": "Pane"
+  },
+  {
+    "codigo": "A732",
+    "nome": "SAO GABRIEL DO OESTE",
+    "latitude": -19.42027777,
+    "longitude": -54.55305555,
+    "temperatura": 32.4,
+    "data_leitura": "2026-07-31 1800",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A313",
+    "nome": "CAMPINA GRANDE",
+    "latitude": -7.22555554,
+    "longitude": -35.90472222,
+    "temperatura": 27.0,
+    "data_leitura": "2026-07-31 1700",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A003",
+    "nome": "MORRINHOS",
+    "latitude": -17.74499999,
+    "longitude": -49.10166666,
+    "temperatura": 26.7,
+    "data_leitura": "2026-04-01 2100",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A408",
+    "nome": "ITABERABA",
+    "latitude": -12.52416666,
+    "longitude": -40.29972221,
+    "temperatura": 26.7,
+    "data_leitura": "2026-07-10 1300",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A607",
+    "nome": "CAMPOS DOS GOYTACAZES",
+    "latitude": -21.71472222,
+    "longitude": -41.34388888,
+    "temperatura": 23.5,
+    "data_leitura": "2026-07-31 1800",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A441",
+    "nome": "SERRINHA",
+    "latitude": -11.66472222,
+    "longitude": -39.02305554,
+    "temperatura": 22.1,
+    "data_leitura": "2026-06-26 1200",
+    "situacao": "Pane"
+  },
+  {
+    "codigo": "A737",
+    "nome": "IBITINGA",
+    "latitude": -21.85555555,
+    "longitude": -48.79972221,
+    "temperatura": 29.4,
+    "data_leitura": "2026-07-31 1800",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A632",
+    "nome": "MARILANDIA",
+    "latitude": -19.40722222,
+    "longitude": -40.53972221,
+    "temperatura": 27.2,
+    "data_leitura": "2026-07-31 1700",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A412",
+    "nome": "MACAJUBA",
+    "latitude": -12.13166666,
+    "longitude": -40.35416666,
+    "temperatura": 21.9,
+    "data_leitura": "2026-06-27 1200",
+    "situacao": "Pane"
+  },
+  {
+    "codigo": "A339",
+    "nome": "JAGUARUANA",
+    "latitude": -4.83777777,
+    "longitude": -37.69972221,
+    "temperatura": 29.0,
+    "data_leitura": "2026-06-12 1300",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A612",
+    "nome": "VITORIA",
+    "latitude": -20.27083332,
+    "longitude": -40.30583333,
+    "temperatura": 24.3,
+    "data_leitura": "2026-07-31 1800",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A342",
+    "nome": "CRATEUS",
+    "latitude": -5.18666666,
+    "longitude": -40.67222221,
+    "temperatura": 31.5,
+    "data_leitura": "2025-10-11 2200",
+    "situacao": "Pane"
+  },
+  {
+    "codigo": "A818",
+    "nome": "IVAI",
+    "latitude": -25.01083333,
+    "longitude": -50.85388888,
+    "temperatura": 22.1,
+    "data_leitura": "2026-07-31 1700",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A756",
+    "nome": "AGUA CLARA",
+    "latitude": -20.44444444,
+    "longitude": -52.87583332,
+    "temperatura": 31.6,
+    "data_leitura": "2026-07-31 1800",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A626",
+    "nome": "RIO CLARO",
+    "latitude": -22.653579,
+    "longitude": -44.040916,
+    "temperatura": 21.8,
+    "data_leitura": "2026-07-31 1800",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "B807",
+    "nome": "PORTO ALEGRE- BELEM NOVO",
+    "latitude": -30.1861111,
+    "longitude": -51.17805554,
+    "temperatura": 17.4,
+    "data_leitura": "2025-10-07 1400",
+    "situacao": "Desativada"
+  },
+  {
+    "codigo": "A502",
+    "nome": "BARBACENA",
+    "latitude": -21.22833332,
+    "longitude": -43.76777777,
+    "temperatura": 20.2,
+    "data_leitura": "2026-07-24 1400",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A565",
+    "nome": "BAMBUI",
+    "latitude": -20.0311111,
+    "longitude": -46.00888888,
+    "temperatura": 26.5,
+    "data_leitura": "2026-07-31 1700",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A725",
+    "nome": "AVARE",
+    "latitude": -23.10166666,
+    "longitude": -48.9411111,
+    "temperatura": 23.8,
+    "data_leitura": "2026-07-31 1800",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A549",
+    "nome": "AGUAS VERMELHAS",
+    "latitude": -15.75166666,
+    "longitude": -41.45777777,
+    "temperatura": 24.4,
+    "data_leitura": "2026-07-31 1800",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A561",
+    "nome": "SAO SEBASTIAO DO PARAISO",
+    "latitude": -20.91,
+    "longitude": -47.11416666,
+    "temperatura": 9.8,
+    "data_leitura": "2025-11-09 1700",
+    "situacao": "Pane"
+  },
+  {
+    "codigo": "A252",
+    "nome": "DOM ELISEU",
+    "latitude": -4.28055554,
+    "longitude": -47.56388888,
+    "temperatura": 31.6,
+    "data_leitura": "2026-07-31 1700",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A203",
+    "nome": "SAO LUIS",
+    "latitude": -2.52666666,
+    "longitude": -44.21361111,
+    "temperatura": 27.3,
+    "data_leitura": "2026-05-21 1300",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A911",
+    "nome": "SAPEZAL",
+    "latitude": -13.30388888,
+    "longitude": -58.76333333,
+    "temperatura": 32.0,
+    "data_leitura": "2026-07-31 1800",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "B831",
+    "nome": "SAO LOURENCO DO SUL",
+    "latitude": -31.34055555,
+    "longitude": -52.01083333,
+    "temperatura": 22.4,
+    "data_leitura": "2026-07-31 1700",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A701",
+    "nome": "SAO PAULO - MIRANTE",
+    "latitude": -23.4962888,
+    "longitude": -46.6200666,
+    "temperatura": 22.9,
+    "data_leitura": "2026-07-31 1800",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A551",
+    "nome": "RIO PARDO DE MINAS",
+    "latitude": -15.72305554,
+    "longitude": -42.43583333,
+    "temperatura": 25.8,
+    "data_leitura": "2026-07-31 1800",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A224",
+    "nome": "ESTREITO",
+    "latitude": -6.65333333,
+    "longitude": -47.41833332,
+    "temperatura": 33.3,
+    "data_leitura": "2026-07-31 1700",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A001",
+    "nome": "BRASILIA",
+    "latitude": -15.78944444,
+    "longitude": -47.92583332,
+    "temperatura": 27.1,
+    "data_leitura": "2026-07-31 1800",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A721",
+    "nome": "DOURADOS",
+    "latitude": -22.19388888,
+    "longitude": -54.91138888,
+    "temperatura": 28.2,
+    "data_leitura": "2026-07-31 1800",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "B809",
+    "nome": "SAPUCAIA DO SUL",
+    "latitude": -29.81388888,
+    "longitude": -51.15666666,
+    "temperatura": 26.8,
+    "data_leitura": "2026-07-31 1700",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A010",
+    "nome": "PARANA",
+    "latitude": -12.615,
+    "longitude": -47.87194443,
+    "temperatura": 35.0,
+    "data_leitura": "2026-07-31 1700",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A855",
+    "nome": "PLANALTO",
+    "latitude": -25.72194443,
+    "longitude": -53.74805555,
+    "temperatura": 26.8,
+    "data_leitura": "2026-07-31 1700",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A424",
+    "nome": "IRECE",
+    "latitude": -11.32888888,
+    "longitude": -41.86444444,
+    "temperatura": 28.3,
+    "data_leitura": "2026-07-31 1700",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A443",
+    "nome": "DELFINO",
+    "latitude": -10.455,
+    "longitude": -41.20694444,
+    "temperatura": 28.8,
+    "data_leitura": "2026-04-01 1700",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A742",
+    "nome": "CASSILANDIA",
+    "latitude": -19.12249999,
+    "longitude": -51.72083332,
+    "temperatura": 32.5,
+    "data_leitura": "2026-07-31 1800",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A804",
+    "nome": "SANTANA DO LIVRAMENTO",
+    "latitude": -30.75055555,
+    "longitude": -55.40138888,
+    "temperatura": 25.7,
+    "data_leitura": "2026-07-31 1700",
+    "situacao": "Pane"
+  },
+  {
+    "codigo": "A825",
+    "nome": "GOIOERE",
+    "latitude": -24.18388888,
+    "longitude": -53.04888888,
+    "temperatura": 26.8,
+    "data_leitura": "2026-07-31 1700",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A534",
+    "nome": "AIMORES",
+    "latitude": -19.53277777,
+    "longitude": -41.09083333,
+    "temperatura": 27.6,
+    "data_leitura": "2026-07-31 1800",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A554",
+    "nome": "CARATINGA",
+    "latitude": -19.73583333,
+    "longitude": -42.13722221,
+    "temperatura": 28.3,
+    "data_leitura": "2026-07-31 1800",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "B814",
+    "nome": "MONTENEGRO",
+    "latitude": -29.75861111,
+    "longitude": -51.4361111,
+    "temperatura": 26.0,
+    "data_leitura": "2026-07-31 1700",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A222",
+    "nome": "COLINAS",
+    "latitude": -6.03305554,
+    "longitude": -44.23333333,
+    "temperatura": 35.0,
+    "data_leitura": "2025-09-21 1500",
+    "situacao": "Pane"
+  },
+  {
+    "codigo": "A456",
+    "nome": "SALVADOR (RADIO FAROL)",
+    "latitude": -12.80833333,
+    "longitude": -38.49583333,
+    "temperatura": 25.1,
+    "data_leitura": "2026-07-31 1700",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A871",
+    "nome": "JAPIRA",
+    "latitude": -23.77333332,
+    "longitude": -50.18055554,
+    "temperatura": 22.3,
+    "data_leitura": "2026-07-31 1700",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A919",
+    "nome": "COTRIGUACU",
+    "latitude": -9.90638888,
+    "longitude": -58.57222221,
+    "temperatura": 33.7,
+    "data_leitura": "2026-07-24 1600",
+    "situacao": "Pane"
+  },
+  {
+    "codigo": "A448",
+    "nome": "CURACA",
+    "latitude": -9.00138888,
+    "longitude": -39.9125,
+    "temperatura": 31.6,
+    "data_leitura": "2026-07-31 1700",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A943",
+    "nome": "SERRA NOVA DOURADA",
+    "latitude": -11.98777777,
+    "longitude": -51.4261111,
+    "temperatura": 28.0,
+    "data_leitura": "2025-12-11 2000",
+    "situacao": "Pane"
+  },
+  {
+    "codigo": "B816",
+    "nome": "SANTA MARIA DO HERVAL",
+    "latitude": -29.47916666,
+    "longitude": -51.01333333,
+    "temperatura": 25.5,
+    "data_leitura": "2026-07-31 1700",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A041",
+    "nome": "MARIANOPOLIS DO TO",
+    "latitude": -9.57638888,
+    "longitude": -49.72333332,
+    "temperatura": 36.4,
+    "data_leitura": "2026-07-31 1700",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A112",
+    "nome": "HUMAITA",
+    "latitude": -7.5525,
+    "longitude": -63.07138888,
+    "temperatura": 32.6,
+    "data_leitura": "2026-07-31 1700",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A333",
+    "nome": "SAO GONCALO",
+    "latitude": -6.83583333,
+    "longitude": -38.31166666,
+    "temperatura": 33.4,
+    "data_leitura": "2026-07-31 1700",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A609",
+    "nome": "RESENDE",
+    "latitude": -22.45138888,
+    "longitude": -44.44499999,
+    "temperatura": 24.5,
+    "data_leitura": "2026-07-31 1800",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "B844",
+    "nome": "SANTO ANGELO",
+    "latitude": -28.27805554,
+    "longitude": -54.27388888,
+    "temperatura": 10.7,
+    "data_leitura": "2026-07-15 0700",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A652",
+    "nome": "RIO DE JANEIRO - FORTE DE COPACABANA",
+    "latitude": -22.98833333,
+    "longitude": -43.19055555,
+    "temperatura": 25.2,
+    "data_leitura": "2026-05-05 1200",
+    "situacao": "Pane"
+  },
+  {
+    "codigo": "A730",
+    "nome": "CHAPADAO DO SUL",
+    "latitude": -18.80222222,
+    "longitude": -52.6025,
+    "temperatura": 30.1,
+    "data_leitura": "2026-07-31 1700",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A964",
+    "nome": "ARIPUANA",
+    "latitude": -10.18249999,
+    "longitude": -59.45972222,
+    "temperatura": 33.3,
+    "data_leitura": "2026-07-31 1800",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A880",
+    "nome": "VACARIA",
+    "latitude": -28.51361111,
+    "longitude": -50.88277777,
+    "temperatura": 20.4,
+    "data_leitura": "2026-07-31 1800",
+    "situacao": "Pane"
+  },
+  {
+    "codigo": "A816",
+    "nome": "NOVO HORIZONTE",
+    "latitude": -26.40638888,
+    "longitude": -52.85027777,
+    "temperatura": 15.3,
+    "data_leitura": "2025-10-03 0700",
+    "situacao": "Pane"
+  },
+  {
+    "codigo": "A401",
+    "nome": "SALVADOR",
+    "latitude": -13.00555555,
+    "longitude": -38.50583333,
+    "temperatura": 25.8,
+    "data_leitura": "2026-07-31 1700",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A247",
+    "nome": "XINGUARA",
+    "latitude": -7.11055555,
+    "longitude": -49.9261111,
+    "temperatura": 24.1,
+    "data_leitura": "2025-09-23 0700",
+    "situacao": "Pane"
+  },
+  {
+    "codigo": "A564",
+    "nome": "DIVINOPOLIS",
+    "latitude": -20.17333332,
+    "longitude": -44.87499999,
+    "temperatura": 26.0,
+    "data_leitura": "2026-07-31 1800",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A353",
+    "nome": "ARAPIRACA",
+    "latitude": -9.80444444,
+    "longitude": -36.61916666,
+    "temperatura": 29.7,
+    "data_leitura": "2026-07-31 1700",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A567",
+    "nome": "MACHADO",
+    "latitude": -21.68083332,
+    "longitude": -45.94444444,
+    "temperatura": 23.2,
+    "data_leitura": "2026-07-31 1800",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A033",
+    "nome": "PIRES DO RIO",
+    "latitude": -17.30416666,
+    "longitude": -48.28416666,
+    "temperatura": 29.8,
+    "data_leitura": "2026-07-31 1800",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A872",
+    "nome": "VENTANIA",
+    "latitude": -24.28027777,
+    "longitude": -50.21027777,
+    "temperatura": 20.3,
+    "data_leitura": "2026-07-31 1700",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A206",
+    "nome": "CHAPADINHA",
+    "latitude": -3.74277777,
+    "longitude": -43.35222222,
+    "temperatura": 33.7,
+    "data_leitura": "2026-07-31 1700",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A953",
+    "nome": "NOVA CANAA DO NORTE",
+    "latitude": -10.62444443,
+    "longitude": -55.72416666,
+    "temperatura": 33.5,
+    "data_leitura": "2026-07-31 1800",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A205",
+    "nome": "CAROLINA",
+    "latitude": -7.33722221,
+    "longitude": -47.45972222,
+    "temperatura": 33.2,
+    "data_leitura": "2026-05-29 2000",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A856",
+    "nome": "PALMEIRA DAS MISSOES",
+    "latitude": -27.92027777,
+    "longitude": -53.31805554,
+    "temperatura": 25.4,
+    "data_leitura": "2026-07-31 1700",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "B849",
+    "nome": "ITACURUBI",
+    "latitude": -28.69916666,
+    "longitude": -55.38055554,
+    "temperatura": 15.7,
+    "data_leitura": "2026-07-30 0300",
+    "situacao": "Pane"
+  },
+  {
+    "codigo": "A852",
+    "nome": "SAO LUIZ GONZAGA",
+    "latitude": -28.41722221,
+    "longitude": -54.9625,
+    "temperatura": 13.2,
+    "data_leitura": "2026-07-23 1000",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A748",
+    "nome": "BARRETOS",
+    "latitude": -20.55916666,
+    "longitude": -48.54499999,
+    "temperatura": 31.7,
+    "data_leitura": "2026-07-31 1800",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A309",
+    "nome": "ARCO VERDE",
+    "latitude": -8.4336111,
+    "longitude": -37.05555555,
+    "temperatura": 27.5,
+    "data_leitura": "2026-07-31 1700",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A961",
+    "nome": "MIRASSOL D'OESTE",
+    "latitude": -15.64027777,
+    "longitude": -58.07888888,
+    "temperatura": 24.7,
+    "data_leitura": "2026-07-08 1600",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A751",
+    "nome": "SETE QUEDAS",
+    "latitude": -23.96694443,
+    "longitude": -55.02416666,
+    "temperatura": 27.7,
+    "data_leitura": "2026-07-31 1800",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A834",
+    "nome": "TRAMANDAI",
+    "latitude": -30.01027777,
+    "longitude": -50.13583333,
+    "temperatura": 19.3,
+    "data_leitura": "2026-07-31 1800",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A250",
+    "nome": "SANTAREM",
+    "latitude": -2.5025,
+    "longitude": -54.72027777,
+    "temperatura": 29.7,
+    "data_leitura": "2026-07-31 1700",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A035",
+    "nome": "ITUMBIARA",
+    "latitude": -18.40972222,
+    "longitude": -49.19194444,
+    "temperatura": 32.1,
+    "data_leitura": "2026-07-31 1700",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "B822",
+    "nome": "CACHOEIRA DO SUL",
+    "latitude": -30.01833332,
+    "longitude": -52.93888888,
+    "temperatura": 25.1,
+    "data_leitura": "2026-07-31 1700",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A821",
+    "nome": "JOAQUIM TAVORA",
+    "latitude": -23.50527777,
+    "longitude": -49.94638888,
+    "temperatura": 24.4,
+    "data_leitura": "2026-07-31 1700",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A246",
+    "nome": "MINA DO PALITO",
+    "latitude": -6.31999999,
+    "longitude": -55.78777777,
+    "temperatura": 33.1,
+    "data_leitura": "2026-07-31 1700",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A510",
+    "nome": "VICOSA",
+    "latitude": -20.7625,
+    "longitude": -42.86388888,
+    "temperatura": 24.6,
+    "data_leitura": "2026-07-31 1800",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "B859",
+    "nome": "MUCUM",
+    "latitude": -29.15361111,
+    "longitude": -51.86527777,
+    "temperatura": 16.6,
+    "data_leitura": "2026-07-31 1200",
+    "situacao": "Pane"
+  },
+  {
+    "codigo": "A766",
+    "nome": "REGISTRO",
+    "latitude": -24.53305554,
+    "longitude": -47.86416666,
+    "temperatura": 23.6,
+    "data_leitura": "2026-07-31 1800",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "B862",
+    "nome": "MOSTARDAS - BACUPARI",
+    "latitude": -30.50611111,
+    "longitude": -50.41999999,
+    "temperatura": 18.9,
+    "data_leitura": "2026-07-30 1900",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A813",
+    "nome": "RIO PARDO",
+    "latitude": -29.87222221,
+    "longitude": -52.38194443,
+    "temperatura": 18.7,
+    "data_leitura": "2026-07-21 1700",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A055",
+    "nome": "LAGOA DA CONFUSAO",
+    "latitude": -10.828286,
+    "longitude": -49.847882,
+    "temperatura": 35.6,
+    "data_leitura": "2026-07-31 1700",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A636",
+    "nome": "RIO DE JANEIRO - JACAREPAGUA",
+    "latitude": -22.93999999,
+    "longitude": -43.40277777,
+    "temperatura": 24.4,
+    "data_leitura": "2026-07-31 1800",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A826",
+    "nome": "ALEGRETE",
+    "latitude": -29.70916666,
+    "longitude": -55.52555554,
+    "temperatura": 19.5,
+    "data_leitura": "2026-04-25 1400",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A618",
+    "nome": "TERESOPOLIS-PARQUE NACIONAL",
+    "latitude": -22.4486111,
+    "longitude": -42.98694444,
+    "temperatura": 18.3,
+    "data_leitura": "2026-07-31 1800",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A753",
+    "nome": "ITUVERAVA",
+    "latitude": -20.35972222,
+    "longitude": -47.77527777,
+    "temperatura": 31.2,
+    "data_leitura": "2026-07-31 1800",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A620",
+    "nome": "CAMPOS DOS GOYTACAZES - SAO TOME",
+    "latitude": -22.04166666,
+    "longitude": -41.05166666,
+    "temperatura": 24.0,
+    "data_leitura": "2026-07-31 1800",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A321",
+    "nome": "PATOS",
+    "latitude": -7.07972221,
+    "longitude": -37.27277777,
+    "temperatura": 34.9,
+    "data_leitura": "2026-07-31 1700",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A512",
+    "nome": "ITUIUTABA",
+    "latitude": -18.95277777,
+    "longitude": -49.52499999,
+    "temperatura": 32.0,
+    "data_leitura": "2026-07-31 1700",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A811",
+    "nome": "CANGUCU",
+    "latitude": -31.40333333,
+    "longitude": -52.70083333,
+    "temperatura": 23.0,
+    "data_leitura": "2026-07-31 1700",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A707",
+    "nome": "PRESIDENTE PRUDENTE",
+    "latitude": -22.11999999,
+    "longitude": -51.40861111,
+    "temperatura": 23.0,
+    "data_leitura": "2026-07-23 2000",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "B857",
+    "nome": "BOM JESUS - SANTO INACIO",
+    "latitude": -28.51388888,
+    "longitude": -50.16777777,
+    "temperatura": 8.6,
+    "data_leitura": "2026-07-31 1000",
+    "situacao": "Pane"
+  },
+  {
+    "codigo": "A516",
+    "nome": "PASSOS",
+    "latitude": -20.74527777,
+    "longitude": -46.63388888,
+    "temperatura": 26.6,
+    "data_leitura": "2026-07-31 1800",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A330",
+    "nome": "PAULISTANA",
+    "latitude": -8.13222221,
+    "longitude": -41.14305555,
+    "temperatura": 32.3,
+    "data_leitura": "2026-07-31 1700",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A716",
+    "nome": "OURINHOS",
+    "latitude": -23.00055555,
+    "longitude": -49.84333333,
+    "temperatura": 26.3,
+    "data_leitura": "2026-02-16 0200",
+    "situacao": "Pane"
+  },
+  {
+    "codigo": "A965",
+    "nome": "COLNIZA",
+    "latitude": -9.45222222,
+    "longitude": -59.26,
+    "temperatura": 30.5,
+    "data_leitura": "2026-07-31 1800",
+    "situacao": "Pane"
+  },
+  {
+    "codigo": "A327",
+    "nome": "PALMEIRA DOS INDIOS",
+    "latitude": -9.42027777,
+    "longitude": -36.62027777,
+    "temperatura": 28.9,
+    "data_leitura": "2026-07-31 1700",
+    "situacao": "Pane"
+  },
+  {
+    "codigo": "A439",
+    "nome": "IBOTIRAMA",
+    "latitude": -12.19305555,
+    "longitude": -43.21333333,
+    "temperatura": 29.7,
+    "data_leitura": "2026-04-12 1200",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A628",
+    "nome": "ANGRA DOS REIS",
+    "latitude": -22.97555554,
+    "longitude": -44.30333333,
+    "temperatura": 25.1,
+    "data_leitura": "2026-07-31 1800",
+    "situacao": "Pane"
+  },
+  {
+    "codigo": "A894",
+    "nome": "SERAFINA CORREA",
+    "latitude": -28.70472222,
+    "longitude": -51.87083332,
+    "temperatura": 26.3,
+    "data_leitura": "2026-07-31 1700",
+    "situacao": "Pane"
+  },
+  {
+    "codigo": "B841",
+    "nome": "TORRES-AEROPORTO",
+    "latitude": -29.41361111,
+    "longitude": -49.80361111,
+    "temperatura": 21.6,
+    "data_leitura": "2026-07-31 1800",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A703",
+    "nome": "PONTA PORA",
+    "latitude": -22.5525,
+    "longitude": -55.71638888,
+    "temperatura": 27.5,
+    "data_leitura": "2026-07-31 1800",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A317",
+    "nome": "MACAU",
+    "latitude": -5.15111111,
+    "longitude": -36.57305554,
+    "temperatura": 24.4,
+    "data_leitura": "2026-05-29 1000",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A522",
+    "nome": "SERRA DOS AIMORES",
+    "latitude": -17.79888888,
+    "longitude": -40.25,
+    "temperatura": 23.9,
+    "data_leitura": "2026-07-31 1800",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A820",
+    "nome": "MAL. CANDIDO RONDON",
+    "latitude": -24.53333333,
+    "longitude": -54.01916666,
+    "temperatura": 27.2,
+    "data_leitura": "2026-07-31 1700",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A020",
+    "nome": "PEDRO AFONSO",
+    "latitude": -8.9686111,
+    "longitude": -48.17722221,
+    "temperatura": 26.5,
+    "data_leitura": "2026-05-04 2300",
+    "situacao": "Pane"
+  },
+  {
+    "codigo": "A833",
+    "nome": "SANTIAGO",
+    "latitude": -29.19166666,
+    "longitude": -54.88555555,
+    "temperatura": 25.7,
+    "data_leitura": "2026-07-31 1700",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A951",
+    "nome": "FELIZ NATAL",
+    "latitude": -12.39694444,
+    "longitude": -54.92999999,
+    "temperatura": 35.3,
+    "data_leitura": "2026-07-31 1800",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A053",
+    "nome": "ALMAS",
+    "latitude": -11.28416666,
+    "longitude": -47.21222222,
+    "temperatura": 34.5,
+    "data_leitura": "2026-07-31 1700",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A052",
+    "nome": "SANTA ROSA DO TOCANTINS",
+    "latitude": -11.42888888,
+    "longitude": -48.18499999,
+    "temperatura": 34.8,
+    "data_leitura": "2026-07-31 1700",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A407",
+    "nome": "ITIRUCU",
+    "latitude": -13.52777777,
+    "longitude": -40.11972221,
+    "temperatura": 17.8,
+    "data_leitura": "2025-09-16 1000",
+    "situacao": "Pane"
+  },
+  {
+    "codigo": "B818",
+    "nome": "CAXIAS DO SUL - AEROPORTO",
+    "latitude": -29.1961111,
+    "longitude": -51.18638888,
+    "temperatura": 23.7,
+    "data_leitura": "2026-07-31 1700",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A518",
+    "nome": "JUIZ DE FORA",
+    "latitude": -21.76999999,
+    "longitude": -43.36444444,
+    "temperatura": 19.8,
+    "data_leitura": "2026-07-31 1800",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "B810",
+    "nome": "PARQUE ELDORADO",
+    "latitude": -30.09666666,
+    "longitude": -51.67388888,
+    "temperatura": 19.3,
+    "data_leitura": "2026-07-29 1600",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A045",
+    "nome": "AGUAS EMENDADAS",
+    "latitude": -15.59638888,
+    "longitude": -47.62583332,
+    "temperatura": 28.2,
+    "data_leitura": "2026-07-31 1800",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A018",
+    "nome": "PEIXE",
+    "latitude": -12.01527777,
+    "longitude": -48.54444444,
+    "temperatura": 34.9,
+    "data_leitura": "2026-07-31 1600",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A760",
+    "nome": "COSTA RICA",
+    "latitude": -18.49277777,
+    "longitude": -53.17138888,
+    "temperatura": 32.3,
+    "data_leitura": "2026-07-31 1800",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A528",
+    "nome": "TRES MARIAS",
+    "latitude": -18.20083333,
+    "longitude": -45.45972222,
+    "temperatura": 26.3,
+    "data_leitura": "2026-07-31 1800",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A571",
+    "nome": "PARACATU",
+    "latitude": -17.24444444,
+    "longitude": -46.88166666,
+    "temperatura": 29.5,
+    "data_leitura": "2026-07-31 1800",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A429",
+    "nome": "BARRA",
+    "latitude": -11.08472221,
+    "longitude": -43.13888888,
+    "temperatura": 34.5,
+    "data_leitura": "2026-07-31 1700",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A336",
+    "nome": "ALVORADA DO GURGUEIA",
+    "latitude": -8.37638888,
+    "longitude": -43.85944444,
+    "temperatura": 31.4,
+    "data_leitura": "2025-09-15 2200",
+    "situacao": "Pane"
+  },
+  {
+    "codigo": "A371",
+    "nome": "PIRANHAS",
+    "latitude": -9.62222221,
+    "longitude": -37.76722221,
+    "temperatura": 32.4,
+    "data_leitura": "2026-07-31 1700",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A506",
+    "nome": "MONTES CLAROS",
+    "latitude": -16.68638888,
+    "longitude": -43.84388888,
+    "temperatura": 27.4,
+    "data_leitura": "2026-07-31 1800",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A875",
+    "nome": "GENERAL CARNEIRO",
+    "latitude": -26.3986111,
+    "longitude": -51.35361111,
+    "temperatura": 16.9,
+    "data_leitura": "2026-07-31 1700",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A350",
+    "nome": "SERRA TALHADA",
+    "latitude": -7.95416666,
+    "longitude": -38.29499999,
+    "temperatura": 30.5,
+    "data_leitura": "2026-07-31 1700",
+    "situacao": "Pane"
+  },
+  {
+    "codigo": "A517",
+    "nome": "MURIAE",
+    "latitude": -21.105,
+    "longitude": -42.37583332,
+    "temperatura": 25.9,
+    "data_leitura": "2026-07-31 1800",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "B819",
+    "nome": "ROLANTE",
+    "latitude": -29.65583333,
+    "longitude": -50.61805554,
+    "temperatura": 26.6,
+    "data_leitura": "2026-07-31 1700",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A537",
+    "nome": "DIAMANTINA",
+    "latitude": -18.231052,
+    "longitude": -43.648269,
+    "temperatura": 18.9,
+    "data_leitura": "2026-07-31 1800",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A667",
+    "nome": "SAQUAREMA - SAMPAIO CORREIA",
+    "latitude": -22.8711111,
+    "longitude": -42.60888888,
+    "temperatura": 23.5,
+    "data_leitura": "2026-07-31 1800",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "B847",
+    "nome": "ALEGRETE (MARONNA)",
+    "latitude": -29.82138888,
+    "longitude": -55.88722221,
+    "temperatura": 28.2,
+    "data_leitura": "2026-07-31 1700",
+    "situacao": "Pane"
+  },
+  {
+    "codigo": "A568",
+    "nome": "UBERABA",
+    "latitude": -19.71,
+    "longitude": -47.96194444,
+    "temperatura": 29.4,
+    "data_leitura": "2026-07-31 1800",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "B853",
+    "nome": "LAVRAS DO SUL",
+    "latitude": -30.7886111,
+    "longitude": -53.89416666,
+    "temperatura": 25.5,
+    "data_leitura": "2026-07-17 2300",
+    "situacao": "Pane"
+  },
+  {
+    "codigo": "A513",
+    "nome": "OURO BRANCO",
+    "latitude": -20.55666666,
+    "longitude": -43.75611111,
+    "temperatura": 23.3,
+    "data_leitura": "2026-07-31 1800",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A144",
+    "nome": "NOVO ARIPUANA",
+    "latitude": -8.0911111,
+    "longitude": -60.38055554,
+    "temperatura": 30.8,
+    "data_leitura": "2026-07-31 1600",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A201",
+    "nome": "BELEM",
+    "latitude": -1.41111111,
+    "longitude": -48.43944444,
+    "temperatura": 32.2,
+    "data_leitura": "2026-07-31 1700",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A708",
+    "nome": "FRANCA",
+    "latitude": -20.58444444,
+    "longitude": -47.38249999,
+    "temperatura": 26.7,
+    "data_leitura": "2026-07-31 1800",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A709",
+    "nome": "IVINHEMA",
+    "latitude": -22.30055555,
+    "longitude": -53.82277777,
+    "temperatura": 28.7,
+    "data_leitura": "2026-07-31 1800",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A714",
+    "nome": "ITAPEVA",
+    "latitude": -23.98194443,
+    "longitude": -48.88583333,
+    "temperatura": 21.5,
+    "data_leitura": "2026-07-31 1800",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A402",
+    "nome": "BARREIRAS",
+    "latitude": -12.12472221,
+    "longitude": -45.02694443,
+    "temperatura": 26.2,
+    "data_leitura": "2026-07-15 1200",
+    "situacao": "Pane"
+  },
+  {
+    "codigo": "A832",
+    "nome": "SAO GABRIEL",
+    "latitude": -30.34138888,
+    "longitude": -54.31083333,
+    "temperatura": 19.9,
+    "data_leitura": "2026-07-27 1700",
+    "situacao": "Pane"
+  },
+  {
+    "codigo": "A012",
+    "nome": "LUZIANIA",
+    "latitude": -16.26055555,
+    "longitude": -47.96694443,
+    "temperatura": 28.1,
+    "data_leitura": "2026-07-31 1800",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A884",
+    "nome": "CAMPO BOM",
+    "latitude": -29.67416666,
+    "longitude": -51.06416666,
+    "temperatura": 26.9,
+    "data_leitura": "2026-07-31 1700",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A835",
+    "nome": "MARINGA",
+    "latitude": -23.40527777,
+    "longitude": -51.93277777,
+    "temperatura": 27.0,
+    "data_leitura": "2026-07-31 1700",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A744",
+    "nome": "BRAGANCA PAULISTA",
+    "latitude": -22.94916666,
+    "longitude": -46.5261111,
+    "temperatura": 22.4,
+    "data_leitura": "2026-07-31 1700",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A765",
+    "nome": "BERTIOGA",
+    "latitude": -23.84472221,
+    "longitude": -46.14333333,
+    "temperatura": 22.0,
+    "data_leitura": "2026-07-31 1800",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A244",
+    "nome": "PORTO GRANDE",
+    "latitude": 0.69416666,
+    "longitude": -51.40388888,
+    "temperatura": 24.8,
+    "data_leitura": "2026-07-31 1700",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A878",
+    "nome": "TAVARES - FAROL DE MOSTARDAS",
+    "latitude": -31.24833333,
+    "longitude": -50.90638888,
+    "temperatura": 19.2,
+    "data_leitura": "2026-07-31 1700",
+    "situacao": "Pane"
+  },
+  {
+    "codigo": "A442",
+    "nome": "EUCLIDES DA CUNHA",
+    "latitude": -10.53722221,
+    "longitude": -38.99666666,
+    "temperatura": 25.1,
+    "data_leitura": "2026-07-31 1700",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A002",
+    "nome": "GOIANIA",
+    "latitude": -16.64277777,
+    "longitude": -49.22027777,
+    "temperatura": 31.6,
+    "data_leitura": "2026-07-31 1800",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A209",
+    "nome": "MEDICILANDIA",
+    "latitude": -3.51083333,
+    "longitude": -52.96333333,
+    "temperatura": 27.6,
+    "data_leitura": "2025-10-19 1300",
+    "situacao": "Pane"
+  },
+  {
+    "codigo": "B806",
+    "nome": "COLOMBO",
+    "latitude": -25.322464,
+    "longitude": -49.157733,
+    "temperatura": 19.6,
+    "data_leitura": "2026-07-31 1700",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A227",
+    "nome": "SOURE",
+    "latitude": -0.72777777,
+    "longitude": -48.51583333,
+    "temperatura": 29.4,
+    "data_leitura": "2025-09-07 1400",
+    "situacao": "Pane"
+  },
+  {
+    "codigo": "A538",
+    "nome": "CURVELO",
+    "latitude": -18.74777777,
+    "longitude": -44.45388888,
+    "temperatura": 26.6,
+    "data_leitura": "2026-07-31 1800",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A555",
+    "nome": "IBIRITE (ROLA MOCA)",
+    "latitude": -20.03138888,
+    "longitude": -44.01111111,
+    "temperatura": 27.9,
+    "data_leitura": "2025-11-06 1400",
+    "situacao": "Pane"
+  },
+  {
+    "codigo": "A769",
+    "nome": "CACHOEIRA PAULISTA",
+    "latitude": -22.68888888,
+    "longitude": -45.00555555,
+    "temperatura": 23.9,
+    "data_leitura": "2026-07-31 1700",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A724",
+    "nome": "CORUMBA",
+    "latitude": -18.99666666,
+    "longitude": -57.63749999,
+    "temperatura": 35.3,
+    "data_leitura": "2026-07-31 1800",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A956",
+    "nome": "NOVA XAVANTINA",
+    "latitude": -14.69777777,
+    "longitude": -52.35027777,
+    "temperatura": 37.4,
+    "data_leitura": "2026-07-31 1800",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A952",
+    "nome": "TABAPORA",
+    "latitude": -11.05055555,
+    "longitude": -56.83583333,
+    "temperatura": 34.6,
+    "data_leitura": "2026-07-31 1800",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A937",
+    "nome": "PONTES E LACERDA",
+    "latitude": -15.32527777,
+    "longitude": -59.2336111,
+    "temperatura": 34.5,
+    "data_leitura": "2026-07-31 1800",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A133",
+    "nome": "MANICORE",
+    "latitude": -5.7886111,
+    "longitude": -61.28833333,
+    "temperatura": 25.4,
+    "data_leitura": "2026-07-31 1700",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A022",
+    "nome": "GOIANESIA",
+    "latitude": -15.22027777,
+    "longitude": -48.98999999,
+    "temperatura": 32.6,
+    "data_leitura": "2026-07-31 1800",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A870",
+    "nome": "RANCHO QUEIMADO",
+    "latitude": -27.6786111,
+    "longitude": -49.04194444,
+    "temperatura": 14.9,
+    "data_leitura": "2026-07-31 1800",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A021",
+    "nome": "ARAGUAINA",
+    "latitude": -7.10388888,
+    "longitude": -48.20111111,
+    "temperatura": 33.3,
+    "data_leitura": "2026-07-31 1700",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A047",
+    "nome": "PARANOA (COOPA-DF)",
+    "latitude": -16.01222222,
+    "longitude": -47.5575,
+    "temperatura": 27.3,
+    "data_leitura": "2026-07-31 1800",
+    "situacao": "Operante"
+  },
+  {
+    "codigo": "A861",
+    "nome": "RIO DO CAMPO",
+    "latitude": -26.93749999,
+    "longitude": -50.14555555,
+    "temperatura": 17.7,
+    "data_leitura": "2026-07-31 1800",
+    "situacao": "Operante"
+  }
+]

@@ -8,4 +8,16 @@
   @if (erro) {
     <div class="mapa-status mapa-status--erro">{{ erro }}</div>
   }
+
+  <div class="mapa-controles">
+    <label [class.mapa-controles--desabilitado]="heatmapIndisponivel">
+      <input
+        type="checkbox"
+        [checked]="heatmapAtivo"
+        [disabled]="heatmapIndisponivel"
+        (change)="alternarHeatmap()"
+      />
+      Mapa de calor (temperatura)
+    </label>
+  </div>
 </div>
