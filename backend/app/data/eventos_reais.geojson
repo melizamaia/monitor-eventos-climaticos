@@ -11,7 +11,49 @@
         ]
       },
       "properties": {
-        "id": "cor-rio-2026-07-31-001",
+        "id": "cor-rio-2026-08-01-001",
+        "fonte": "COR-Rio",
+        "tipo": "vento_forte",
+        "severidade": "baixa",
+        "municipio": "Rio de Janeiro",
+        "estado": "RJ",
+        "data_ocorrencia": "2026-08-01T05:42:53",
+        "descricao": "De acordo com o Sistema Alerta Rio, neste sábado (01/08), os ventos estarão moderados  (18,5km/h até 51,9km/h)  com rajadas pontualmente fortes (52km/h até 76km/h) a partir da tarde e as temperaturas apresentarão elevação, com máxima prevista de 31°C. Confira previsão para os próximos dias Entre domingo e terça-feira (2/8 e 4/8), um sistema de alta [&hellip;]",
+        "url": "https://cor.rio/sabado-1-8-sera-de-temperaturas-e-elevadas-e-com-possibilidade-de-vento-forte/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2093727,
+          -22.9110137
+        ]
+      },
+      "properties": {
+        "id": "cor-rio-2026-07-31-002",
+        "fonte": "COR-Rio",
+        "tipo": "vento_forte",
+        "severidade": "baixa",
+        "municipio": "Rio de Janeiro",
+        "estado": "RJ",
+        "data_ocorrencia": "2026-07-31T17:19:14",
+        "descricao": "Segundo o Sistema Alerta Rio, para a noite desta sexta-feira (31/7) a nebulosidade segue variada na cidade do Rio, entretanto, não há previsão de chuva. Os ventos estarão predominantemente moderados (entre 18 km/h a 51,9 km/h). Ao longo do dia, os ventos estiveram fracos a moderados, e as temperaturas estáveis, com mínima registrada de 14,2°C [&hellip;]",
+        "url": "https://cor.rio/sexta-feira-31-7-termina-sem-previsao-de-chuva-e-com-ventos-moderados-confira-os-proximos-dias/"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2093727,
+          -22.9110137
+        ]
+      },
+      "properties": {
+        "id": "cor-rio-2026-07-31-003",
         "fonte": "COR-Rio",
         "tipo": "outro",
         "severidade": "baixa",
@@ -32,9 +74,9 @@
         ]
       },
       "properties": {
-        "id": "cor-rio-2026-07-30-002",
+        "id": "cor-rio-2026-07-30-004",
         "fonte": "COR-Rio",
-        "tipo": "vento_forte",
+        "tipo": "outro",
         "severidade": "baixa",
         "municipio": "Rio de Janeiro",
         "estado": "RJ",
@@ -53,7 +95,7 @@
         ]
       },
       "properties": {
-        "id": "cor-rio-2026-07-30-003",
+        "id": "cor-rio-2026-07-30-005",
         "fonte": "COR-Rio",
         "tipo": "outro",
         "severidade": "baixa",
@@ -74,7 +116,7 @@
         ]
       },
       "properties": {
-        "id": "cor-rio-2026-07-29-004",
+        "id": "cor-rio-2026-07-29-006",
         "fonte": "COR-Rio",
         "tipo": "vento_forte",
         "severidade": "baixa",
@@ -90,12 +132,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -42.5325303,
-          -22.2800004
+          -43.2093727,
+          -22.9110137
         ]
       },
       "properties": {
-        "id": "cor-rio-2026-07-29-005",
+        "id": "cor-rio-2026-07-29-007",
         "fonte": "COR-Rio",
         "tipo": "vento_forte",
         "severidade": "baixa",
@@ -116,7 +158,7 @@
         ]
       },
       "properties": {
-        "id": "cor-rio-2026-07-29-006",
+        "id": "cor-rio-2026-07-29-008",
         "fonte": "COR-Rio",
         "tipo": "outro",
         "severidade": "baixa",
@@ -137,7 +179,7 @@
         ]
       },
       "properties": {
-        "id": "cor-rio-2026-07-27-007",
+        "id": "cor-rio-2026-07-27-009",
         "fonte": "COR-Rio",
         "tipo": "outro",
         "severidade": "baixa",
@@ -158,7 +200,7 @@
         ]
       },
       "properties": {
-        "id": "cor-rio-2026-07-26-008",
+        "id": "cor-rio-2026-07-26-010",
         "fonte": "COR-Rio",
         "tipo": "outro",
         "severidade": "baixa",
@@ -179,7 +221,7 @@
         ]
       },
       "properties": {
-        "id": "cor-rio-2026-07-25-009",
+        "id": "cor-rio-2026-07-25-011",
         "fonte": "COR-Rio",
         "tipo": "outro",
         "severidade": "baixa",
@@ -200,7 +242,7 @@
         ]
       },
       "properties": {
-        "id": "cor-rio-2026-07-25-010",
+        "id": "cor-rio-2026-07-25-012",
         "fonte": "COR-Rio",
         "tipo": "outro",
         "severidade": "baixa",
@@ -221,7 +263,7 @@
         ]
       },
       "properties": {
-        "id": "cor-rio-2026-07-24-011",
+        "id": "cor-rio-2026-07-24-013",
         "fonte": "COR-Rio",
         "tipo": "chuva_intensa",
         "severidade": "baixa",
@@ -242,7 +284,7 @@
         ]
       },
       "properties": {
-        "id": "cor-rio-2026-07-24-012",
+        "id": "cor-rio-2026-07-24-014",
         "fonte": "COR-Rio",
         "tipo": "chuva_intensa",
         "severidade": "baixa",
@@ -263,7 +305,7 @@
         ]
       },
       "properties": {
-        "id": "cor-rio-2026-07-23-013",
+        "id": "cor-rio-2026-07-23-015",
         "fonte": "COR-Rio",
         "tipo": "outro",
         "severidade": "baixa",
@@ -284,7 +326,7 @@
         ]
       },
       "properties": {
-        "id": "cor-rio-2026-07-23-014",
+        "id": "cor-rio-2026-07-23-016",
         "fonte": "COR-Rio",
         "tipo": "chuva_intensa",
         "severidade": "baixa",
@@ -305,7 +347,7 @@
         ]
       },
       "properties": {
-        "id": "cor-rio-2025-11-08-015",
+        "id": "cor-rio-2025-11-08-017",
         "fonte": "COR-Rio",
         "tipo": "chuva_intensa",
         "severidade": "baixa",
@@ -326,7 +368,7 @@
         ]
       },
       "properties": {
-        "id": "cor-rio-2025-04-11-016",
+        "id": "cor-rio-2025-04-11-018",
         "fonte": "COR-Rio",
         "tipo": "chuva_intensa",
         "severidade": "baixa",
@@ -347,7 +389,7 @@
         ]
       },
       "properties": {
-        "id": "cor-rio-2026-05-03-017",
+        "id": "cor-rio-2026-05-03-019",
         "fonte": "COR-Rio",
         "tipo": "outro",
         "severidade": "baixa",
@@ -368,7 +410,7 @@
         ]
       },
       "properties": {
-        "id": "cor-rio-2026-05-02-018",
+        "id": "cor-rio-2026-05-02-020",
         "fonte": "COR-Rio",
         "tipo": "outro",
         "severidade": "baixa",
@@ -389,7 +431,7 @@
         ]
       },
       "properties": {
-        "id": "cor-rio-2026-03-27-019",
+        "id": "cor-rio-2026-03-27-021",
         "fonte": "COR-Rio",
         "tipo": "outro",
         "severidade": "alta",
@@ -410,9 +452,9 @@
         ]
       },
       "properties": {
-        "id": "cor-rio-2026-02-22-020",
+        "id": "cor-rio-2026-02-22-022",
         "fonte": "COR-Rio",
-        "tipo": "chuva_intensa",
+        "tipo": "outro",
         "severidade": "baixa",
         "municipio": "Rio de Janeiro",
         "estado": "RJ",
@@ -431,7 +473,7 @@
         ]
       },
       "properties": {
-        "id": "cor-rio-2026-02-20-021",
+        "id": "cor-rio-2026-02-20-023",
         "fonte": "COR-Rio",
         "tipo": "chuva_intensa",
         "severidade": "baixa",
@@ -452,7 +494,7 @@
         ]
       },
       "properties": {
-        "id": "cor-rio-2026-02-12-022",
+        "id": "cor-rio-2026-02-12-024",
         "fonte": "COR-Rio",
         "tipo": "chuva_intensa",
         "severidade": "baixa",
@@ -473,7 +515,7 @@
         ]
       },
       "properties": {
-        "id": "cor-rio-2026-02-10-023",
+        "id": "cor-rio-2026-02-10-025",
         "fonte": "COR-Rio",
         "tipo": "chuva_intensa",
         "severidade": "baixa",
@@ -494,7 +536,7 @@
         ]
       },
       "properties": {
-        "id": "cor-rio-2026-02-07-024",
+        "id": "cor-rio-2026-02-07-026",
         "fonte": "COR-Rio",
         "tipo": "chuva_intensa",
         "severidade": "baixa",
@@ -515,7 +557,7 @@
         ]
       },
       "properties": {
-        "id": "cor-rio-2026-02-04-025",
+        "id": "cor-rio-2026-02-04-027",
         "fonte": "COR-Rio",
         "tipo": "chuva_intensa",
         "severidade": "baixa",
@@ -536,7 +578,7 @@
         ]
       },
       "properties": {
-        "id": "cor-rio-2026-02-03-026",
+        "id": "cor-rio-2026-02-03-028",
         "fonte": "COR-Rio",
         "tipo": "chuva_intensa",
         "severidade": "baixa",
@@ -557,7 +599,7 @@
         ]
       },
       "properties": {
-        "id": "cor-rio-2026-02-01-027",
+        "id": "cor-rio-2026-02-01-029",
         "fonte": "COR-Rio",
         "tipo": "chuva_intensa",
         "severidade": "baixa",
@@ -578,7 +620,7 @@
         ]
       },
       "properties": {
-        "id": "cor-rio-2026-01-27-028",
+        "id": "cor-rio-2026-01-27-030",
         "fonte": "COR-Rio",
         "tipo": "chuva_intensa",
         "severidade": "baixa",
@@ -599,7 +641,7 @@
         ]
       },
       "properties": {
-        "id": "cor-rio-2026-01-16-029",
+        "id": "cor-rio-2026-01-16-031",
         "fonte": "COR-Rio",
         "tipo": "outro",
         "severidade": "baixa",
@@ -615,12 +657,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -42.5325303,
-          -22.2800004
+          -43.2093727,
+          -22.9110137
         ]
       },
       "properties": {
-        "id": "cor-rio-2026-01-05-030",
+        "id": "cor-rio-2026-01-05-032",
         "fonte": "COR-Rio",
         "tipo": "chuva_intensa",
         "severidade": "baixa",
@@ -641,7 +683,7 @@
         ]
       },
       "properties": {
-        "id": "cor-rio-2026-01-04-031",
+        "id": "cor-rio-2026-01-04-033",
         "fonte": "COR-Rio",
         "tipo": "chuva_intensa",
         "severidade": "baixa",
@@ -662,9 +704,9 @@
         ]
       },
       "properties": {
-        "id": "cor-rio-2025-12-18-032",
+        "id": "cor-rio-2025-12-18-034",
         "fonte": "COR-Rio",
-        "tipo": "chuva_intensa",
+        "tipo": "outro",
         "severidade": "baixa",
         "municipio": "Rio de Janeiro",
         "estado": "RJ",
@@ -683,7 +725,7 @@
         ]
       },
       "properties": {
-        "id": "cor-rio-2025-02-17-033",
+        "id": "cor-rio-2025-02-17-035",
         "fonte": "COR-Rio",
         "tipo": "chuva_intensa",
         "severidade": "baixa",
@@ -704,7 +746,7 @@
         ]
       },
       "properties": {
-        "id": "cor-rio-2025-11-29-034",
+        "id": "cor-rio-2025-11-29-036",
         "fonte": "COR-Rio",
         "tipo": "chuva_intensa",
         "severidade": "baixa",
@@ -725,7 +767,7 @@
         ]
       },
       "properties": {
-        "id": "cor-rio-2025-11-28-035",
+        "id": "cor-rio-2025-11-28-037",
         "fonte": "COR-Rio",
         "tipo": "chuva_intensa",
         "severidade": "baixa",
@@ -746,7 +788,7 @@
         ]
       },
       "properties": {
-        "id": "cor-rio-2025-11-09-036",
+        "id": "cor-rio-2025-11-09-038",
         "fonte": "COR-Rio",
         "tipo": "chuva_intensa",
         "severidade": "baixa",
@@ -767,7 +809,7 @@
         ]
       },
       "properties": {
-        "id": "cor-rio-2025-10-29-037",
+        "id": "cor-rio-2025-10-29-039",
         "fonte": "COR-Rio",
         "tipo": "outro",
         "severidade": "baixa",
@@ -788,7 +830,7 @@
         ]
       },
       "properties": {
-        "id": "cor-rio-2025-07-08-038",
+        "id": "cor-rio-2025-07-08-040",
         "fonte": "COR-Rio",
         "tipo": "outro",
         "severidade": "baixa",
@@ -809,7 +851,7 @@
         ]
       },
       "properties": {
-        "id": "cor-rio-2025-07-06-039",
+        "id": "cor-rio-2025-07-06-041",
         "fonte": "COR-Rio",
         "tipo": "outro",
         "severidade": "baixa",
@@ -830,7 +872,7 @@
         ]
       },
       "properties": {
-        "id": "cor-rio-2025-06-10-040",
+        "id": "cor-rio-2025-06-10-042",
         "fonte": "COR-Rio",
         "tipo": "chuva_intensa",
         "severidade": "baixa",
@@ -851,7 +893,7 @@
         ]
       },
       "properties": {
-        "id": "cor-rio-2025-06-10-041",
+        "id": "cor-rio-2025-06-10-043",
         "fonte": "COR-Rio",
         "tipo": "outro",
         "severidade": "baixa",
@@ -872,7 +914,7 @@
         ]
       },
       "properties": {
-        "id": "cor-rio-2025-04-20-042",
+        "id": "cor-rio-2025-04-20-044",
         "fonte": "COR-Rio",
         "tipo": "chuva_intensa",
         "severidade": "baixa",
@@ -893,7 +935,7 @@
         ]
       },
       "properties": {
-        "id": "cor-rio-2025-04-07-043",
+        "id": "cor-rio-2025-04-07-045",
         "fonte": "COR-Rio",
         "tipo": "outro",
         "severidade": "baixa",
@@ -914,7 +956,7 @@
         ]
       },
       "properties": {
-        "id": "cor-rio-2025-04-04-044",
+        "id": "cor-rio-2025-04-04-046",
         "fonte": "COR-Rio",
         "tipo": "chuva_intensa",
         "severidade": "baixa",
@@ -935,7 +977,28 @@
         ]
       },
       "properties": {
-        "id": "inmet-2026-08-01-045",
+        "id": "inmet-2026-08-02-047",
+        "fonte": "INMET",
+        "tipo": "vento_forte",
+        "severidade": "moderada",
+        "municipio": "Metropolitana do Rio de Janeiro",
+        "estado": "RJ",
+        "data_ocorrencia": "2026-08-02T00:00:00",
+        "descricao": "INMET publica aviso iniciando em: 02/08/2026 00:00. Intensificação dos ventos nas regiões litorâneas, movimentando dunas de areia sobre construções na orla.",
+        "url": "https://apiprevmet3.inmet.gov.br/avisos/rss/55225"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.1806914,
+          -22.9107983
+        ]
+      },
+      "properties": {
+        "id": "inmet-2026-08-01-048",
         "fonte": "INMET",
         "tipo": "vento_forte",
         "severidade": "moderada",
@@ -943,7 +1006,7 @@
         "estado": "RJ",
         "data_ocorrencia": "2026-08-01T00:00:00",
         "descricao": "INMET publica aviso iniciando em: 01/08/2026 00:00. Intensificação dos ventos nas regiões litorâneas, movimentando dunas de areia sobre construções na orla.",
-        "url": "https://apiprevmet3.inmet.gov.br/avisos/rss/55217"
+        "url": "https://apiprevmet3.inmet.gov.br/avisos/rss/55222"
       }
     },
     {
@@ -956,7 +1019,28 @@
         ]
       },
       "properties": {
-        "id": "inmet-2026-08-01-046",
+        "id": "inmet-2026-08-01-049",
+        "fonte": "INMET",
+        "tipo": "vento_forte",
+        "severidade": "moderada",
+        "municipio": "Rio de Janeiro",
+        "estado": "RJ",
+        "data_ocorrencia": "2026-08-01T08:00:00",
+        "descricao": "INMET publica aviso iniciando em: 01/08/2026 08:00. Intensificação dos ventos nas regiões litorâneas, movimentando dunas de areia sobre construções na orla.",
+        "url": "https://apiprevmet3.inmet.gov.br/avisos/rss/55221"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2093727,
+          -22.9110137
+        ]
+      },
+      "properties": {
+        "id": "inmet-2026-08-01-050",
         "fonte": "INMET",
         "tipo": "outro",
         "severidade": "moderada",
@@ -972,33 +1056,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -43.2093727,
-          -22.9110137
-        ]
-      },
-      "properties": {
-        "id": "inmet-2026-08-02-047",
-        "fonte": "INMET",
-        "tipo": "vento_forte",
-        "severidade": "moderada",
-        "municipio": "Rio de Janeiro",
-        "estado": "RJ",
-        "data_ocorrencia": "2026-08-02T00:00:00",
-        "descricao": "INMET publica aviso iniciando em: 02/08/2026 00:00. Intensificação dos ventos nas regiões litorâneas, movimentando dunas de areia sobre construções na orla.",
-        "url": "https://apiprevmet3.inmet.gov.br/avisos/rss/55204"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -46.4871461,
           -23.5476525
         ]
       },
       "properties": {
-        "id": "inmet-2026-08-02-048",
+        "id": "inmet-2026-08-02-051",
         "fonte": "INMET",
         "tipo": "outro",
         "severidade": "moderada",
@@ -1019,7 +1082,7 @@
         ]
       },
       "properties": {
-        "id": "inmet-2026-07-30-049",
+        "id": "inmet-2026-07-30-052",
         "fonte": "INMET",
         "tipo": "outro",
         "severidade": "moderada",
@@ -1040,7 +1103,7 @@
         ]
       },
       "properties": {
-        "id": "inmet-2026-07-29-050",
+        "id": "inmet-2026-07-29-053",
         "fonte": "INMET",
         "tipo": "vento_forte",
         "severidade": "moderada",
@@ -1061,7 +1124,7 @@
         ]
       },
       "properties": {
-        "id": "inmet-2026-07-29-051",
+        "id": "inmet-2026-07-29-054",
         "fonte": "INMET",
         "tipo": "vento_forte",
         "severidade": "alta",
@@ -1077,12 +1140,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -43.1729,
-          -22.9068
+          -46.6333,
+          -23.5505
         ]
       },
       "properties": {
-        "id": "inmet-2026-07-29-052",
+        "id": "inmet-2026-07-29-055",
         "fonte": "INMET",
         "tipo": "chuva_intensa",
         "severidade": "moderada",
@@ -1103,7 +1166,7 @@
         ]
       },
       "properties": {
-        "id": "inmet-2026-07-29-053",
+        "id": "inmet-2026-07-29-056",
         "fonte": "INMET",
         "tipo": "vento_forte",
         "severidade": "alta",
@@ -1119,12 +1182,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -43.1729,
-          -22.9068
+          -46.6333,
+          -23.5505
         ]
       },
       "properties": {
-        "id": "inmet-2026-07-28-054",
+        "id": "inmet-2026-07-28-057",
         "fonte": "INMET",
         "tipo": "chuva_intensa",
         "severidade": "moderada",
@@ -1140,16 +1203,16 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -43.1729,
-          -22.9068
+          -46.6333,
+          -23.5505
         ]
       },
       "properties": {
-        "id": "inmet-2026-07-28-055",
+        "id": "inmet-2026-07-28-058",
         "fonte": "INMET",
         "tipo": "chuva_intensa",
         "severidade": "moderada",
-        "municipio": "Litoral Sul Paulista, Macro Metropolitana Paulista",
+        "municipio": "Litoral Sul Paulista",
         "estado": "SP",
         "data_ocorrencia": "2026-07-28T10:00:00",
         "descricao": "INMET publica aviso iniciando em: 28/07/2026 10:00. Chuva entre 20 e 30 mm/h ou até 50 mm/dia, ventos intensos (40-60 km/h), e queda de granizo. Baixo risco de corte de energia elétrica, estragos em plantações, queda de galhos de árvores e de alagamentos.",
@@ -1166,7 +1229,7 @@
         ]
       },
       "properties": {
-        "id": "inmet-2026-07-29-056",
+        "id": "inmet-2026-07-29-059",
         "fonte": "INMET",
         "tipo": "outro",
         "severidade": "moderada",
@@ -1187,7 +1250,7 @@
         ]
       },
       "properties": {
-        "id": "inmet-2026-07-28-057",
+        "id": "inmet-2026-07-28-060",
         "fonte": "INMET",
         "tipo": "outro",
         "severidade": "moderada",
@@ -1208,7 +1271,7 @@
         ]
       },
       "properties": {
-        "id": "inmet-2026-07-25-058",
+        "id": "inmet-2026-07-25-061",
         "fonte": "INMET",
         "tipo": "chuva_intensa",
         "severidade": "moderada",
@@ -1229,7 +1292,7 @@
         ]
       },
       "properties": {
-        "id": "inmet-2026-07-25-059",
+        "id": "inmet-2026-07-25-062",
         "fonte": "INMET",
         "tipo": "chuva_intensa",
         "severidade": "moderada",
@@ -1250,7 +1313,7 @@
         ]
       },
       "properties": {
-        "id": "inmet-2026-07-24-060",
+        "id": "inmet-2026-07-24-063",
         "fonte": "INMET",
         "tipo": "chuva_intensa",
         "severidade": "moderada",
@@ -1266,12 +1329,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -43.1729,
-          -22.9068
+          -46.6333,
+          -23.5505
         ]
       },
       "properties": {
-        "id": "inmet-2026-07-23-061",
+        "id": "inmet-2026-07-23-064",
         "fonte": "INMET",
         "tipo": "chuva_intensa",
         "severidade": "moderada",
@@ -1287,12 +1350,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -43.1729,
-          -22.9068
+          -46.6333,
+          -23.5505
         ]
       },
       "properties": {
-        "id": "inmet-2026-07-23-062",
+        "id": "inmet-2026-07-23-065",
         "fonte": "INMET",
         "tipo": "chuva_intensa",
         "severidade": "moderada",
@@ -1308,12 +1371,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -43.1729,
-          -22.9068
+          -46.6333,
+          -23.5505
         ]
       },
       "properties": {
-        "id": "inmet-2026-07-22-063",
+        "id": "inmet-2026-07-22-066",
         "fonte": "INMET",
         "tipo": "chuva_intensa",
         "severidade": "alta",
@@ -1334,7 +1397,7 @@
         ]
       },
       "properties": {
-        "id": "inmet-2026-07-22-064",
+        "id": "inmet-2026-07-22-067",
         "fonte": "INMET",
         "tipo": "outro",
         "severidade": "moderada",
@@ -1350,12 +1413,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -43.1729,
-          -22.9068
+          -46.6333,
+          -23.5505
         ]
       },
       "properties": {
-        "id": "inmet-2026-07-22-065",
+        "id": "inmet-2026-07-22-068",
         "fonte": "INMET",
         "tipo": "chuva_intensa",
         "severidade": "moderada",
@@ -1371,33 +1434,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -43.2093727,
-          -22.9110137
-        ]
-      },
-      "properties": {
-        "id": "inmet-2026-07-21-066",
-        "fonte": "INMET",
-        "tipo": "outro",
-        "severidade": "moderada",
-        "municipio": "Rio de Janeiro",
-        "estado": "RJ",
-        "data_ocorrencia": "2026-07-21T12:00:00",
-        "descricao": "INMET publica aviso iniciando em: 21/07/2026 12:00. Umidade relativa do ar variando entre 30% e 20%. Baixo risco de incêndios florestais e à saúde.",
-        "url": "https://apiprevmet3.inmet.gov.br/avisos/rss/55084"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -46.6333824,
           -23.5506507
         ]
       },
       "properties": {
-        "id": "sp-sempre-alerta-2026-07-02-067",
+        "id": "sp-sempre-alerta-2026-07-02-069",
         "fonte": "SP Sempre Alerta",
         "tipo": "chuva_intensa",
         "severidade": "baixa",
@@ -1418,7 +1460,7 @@
         ]
       },
       "properties": {
-        "id": "sp-sempre-alerta-2026-06-15-068",
+        "id": "sp-sempre-alerta-2026-06-15-070",
         "fonte": "SP Sempre Alerta",
         "tipo": "chuva_intensa",
         "severidade": "baixa",
@@ -1439,7 +1481,7 @@
         ]
       },
       "properties": {
-        "id": "sp-sempre-alerta-2026-05-25-069",
+        "id": "sp-sempre-alerta-2026-05-25-071",
         "fonte": "SP Sempre Alerta",
         "tipo": "chuva_intensa",
         "severidade": "baixa",
@@ -1460,7 +1502,7 @@
         ]
       },
       "properties": {
-        "id": "sp-sempre-alerta-2026-05-22-070",
+        "id": "sp-sempre-alerta-2026-05-22-072",
         "fonte": "SP Sempre Alerta",
         "tipo": "chuva_intensa",
         "severidade": "moderada",
@@ -1481,7 +1523,7 @@
         ]
       },
       "properties": {
-        "id": "sp-sempre-alerta-2026-05-16-071",
+        "id": "sp-sempre-alerta-2026-05-16-073",
         "fonte": "SP Sempre Alerta",
         "tipo": "chuva_intensa",
         "severidade": "moderada",
@@ -1502,9 +1544,9 @@
         ]
       },
       "properties": {
-        "id": "sp-sempre-alerta-2026-05-07-072",
+        "id": "sp-sempre-alerta-2026-05-07-074",
         "fonte": "SP Sempre Alerta",
-        "tipo": "chuva_intensa",
+        "tipo": "vento_forte",
         "severidade": "baixa",
         "municipio": "São Paulo",
         "estado": "SP",
@@ -1523,7 +1565,7 @@
         ]
       },
       "properties": {
-        "id": "sp-sempre-alerta-2026-04-25-073",
+        "id": "sp-sempre-alerta-2026-04-25-075",
         "fonte": "SP Sempre Alerta",
         "tipo": "chuva_intensa",
         "severidade": "baixa",
@@ -1539,12 +1581,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -46.6333824,
-          -23.5506507
+          -46.5527464,
+          -23.1378393
         ]
       },
       "properties": {
-        "id": "sp-sempre-alerta-2026-03-20-074",
+        "id": "sp-sempre-alerta-2026-03-20-076",
         "fonte": "SP Sempre Alerta",
         "tipo": "outro",
         "severidade": "baixa",
@@ -1565,7 +1607,7 @@
         ]
       },
       "properties": {
-        "id": "sp-sempre-alerta-2026-03-18-075",
+        "id": "sp-sempre-alerta-2026-03-18-077",
         "fonte": "SP Sempre Alerta",
         "tipo": "chuva_intensa",
         "severidade": "moderada",
@@ -1586,7 +1628,7 @@
         ]
       },
       "properties": {
-        "id": "sp-sempre-alerta-2026-03-16-076",
+        "id": "sp-sempre-alerta-2026-03-16-078",
         "fonte": "SP Sempre Alerta",
         "tipo": "chuva_intensa",
         "severidade": "baixa",
@@ -1607,9 +1649,9 @@
         ]
       },
       "properties": {
-        "id": "sp-sempre-alerta-2026-03-13-077",
+        "id": "sp-sempre-alerta-2026-03-13-079",
         "fonte": "SP Sempre Alerta",
-        "tipo": "outro",
+        "tipo": "chuva_intensa",
         "severidade": "baixa",
         "municipio": "São Paulo",
         "estado": "SP",
@@ -1628,9 +1670,9 @@
         ]
       },
       "properties": {
-        "id": "sp-sempre-alerta-2026-03-10-078",
+        "id": "sp-sempre-alerta-2026-03-10-080",
         "fonte": "SP Sempre Alerta",
-        "tipo": "outro",
+        "tipo": "chuva_intensa",
         "severidade": "baixa",
         "municipio": "São Paulo",
         "estado": "SP",
@@ -1644,12 +1686,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -43.1729,
-          -22.9068
+          -51.4254316,
+          -22.2388976
         ]
       },
       "properties": {
-        "id": "sp-sempre-alerta-2026-02-20-079",
+        "id": "sp-sempre-alerta-2026-02-20-081",
         "fonte": "SP Sempre Alerta",
         "tipo": "chuva_intensa",
         "severidade": "baixa",
@@ -1670,9 +1712,9 @@
         ]
       },
       "properties": {
-        "id": "sp-sempre-alerta-2026-02-13-080",
+        "id": "sp-sempre-alerta-2026-02-13-082",
         "fonte": "SP Sempre Alerta",
-        "tipo": "outro",
+        "tipo": "chuva_intensa",
         "severidade": "baixa",
         "municipio": "São Paulo",
         "estado": "SP",
@@ -1691,7 +1733,7 @@
         ]
       },
       "properties": {
-        "id": "sp-sempre-alerta-2026-02-07-081",
+        "id": "sp-sempre-alerta-2026-02-07-083",
         "fonte": "SP Sempre Alerta",
         "tipo": "chuva_intensa",
         "severidade": "alta",
@@ -1712,9 +1754,9 @@
         ]
       },
       "properties": {
-        "id": "sp-sempre-alerta-2026-02-01-082",
+        "id": "sp-sempre-alerta-2026-02-01-084",
         "fonte": "SP Sempre Alerta",
-        "tipo": "outro",
+        "tipo": "chuva_intensa",
         "severidade": "moderada",
         "municipio": "São Paulo",
         "estado": "SP",
@@ -1733,7 +1775,7 @@
         ]
       },
       "properties": {
-        "id": "sp-sempre-alerta-2026-01-29-083",
+        "id": "sp-sempre-alerta-2026-01-29-085",
         "fonte": "SP Sempre Alerta",
         "tipo": "chuva_intensa",
         "severidade": "baixa",
@@ -1754,9 +1796,9 @@
         ]
       },
       "properties": {
-        "id": "sp-sempre-alerta-2026-01-16-084",
+        "id": "sp-sempre-alerta-2026-01-16-086",
         "fonte": "SP Sempre Alerta",
-        "tipo": "outro",
+        "tipo": "chuva_intensa",
         "severidade": "alta",
         "municipio": "São Paulo",
         "estado": "SP",
@@ -1775,7 +1817,7 @@
         ]
       },
       "properties": {
-        "id": "sp-sempre-alerta-2026-01-14-085",
+        "id": "sp-sempre-alerta-2026-01-14-087",
         "fonte": "SP Sempre Alerta",
         "tipo": "chuva_intensa",
         "severidade": "moderada",
@@ -1796,7 +1838,7 @@
         ]
       },
       "properties": {
-        "id": "g1-2018-02-27-086",
+        "id": "g1-2018-02-27-088",
         "fonte": "G1",
         "tipo": "outro",
         "severidade": "baixa",
@@ -1812,17 +1854,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -43.2093727,
-          -22.9110137
+          -47.4582864,
+          -23.5003451
         ]
       },
       "properties": {
-        "id": "g1-2018-07-22-087",
+        "id": "g1-2018-07-22-089",
         "fonte": "G1",
         "tipo": "outro",
         "severidade": "baixa",
-        "municipio": "Rio de Janeiro",
-        "estado": "RJ",
+        "municipio": "Sorocaba",
+        "estado": "SP",
         "data_ocorrencia": "2018-07-22T19:08:18Z",
         "descricao": "Show do artista trouxe clássicos como Avôhai, Chão de Giz e Sinônimos, além da interpretação de Gita e Medo da Chuva, de Raul Seixas.",
         "url": "https://g1.globo.com/sp/sorocaba-jundiai/noticia/2018/07/22/ze-ramalho-lembra-sucessos-e-invoca-raul-seixas-na-festa-junina-de-sorocaba.ghtml"
@@ -1833,17 +1875,17 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -43.2093727,
-          -22.9110137
+          -49.3804212,
+          -20.8125851
         ]
       },
       "properties": {
-        "id": "g1-2018-07-17-088",
+        "id": "g1-2018-07-17-090",
         "fonte": "G1",
         "tipo": "outro",
         "severidade": "baixa",
-        "municipio": "Rio de Janeiro",
-        "estado": "RJ",
+        "municipio": "São José do Rio Preto",
+        "estado": "SP",
         "data_ocorrencia": "2018-07-17T16:06:59Z",
         "descricao": "No evento são oferecidas mais de 400 vagas de emprego em vários setores. Horário de funcionamento é das 11h às 20h.",
         "url": "https://g1.globo.com/sp/sorocaba-jundiai/concursos-e-emprego/noticia/etec-faz-feira-voltada-para-emprego-e-estagio-em-rio-preto.ghtml"
